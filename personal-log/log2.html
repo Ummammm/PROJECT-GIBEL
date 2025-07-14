@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LOG: CROSSING THE SCORCH STEPPE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/personallogs-entry.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ PERSONAL LOG ENTRY: CROSSING THE SCORCH STEPPE ]</span>
+        <div class="nav-links">
+          <a href="../personallogs.html">[ RETURN TO LOG INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/personallogs-entry.js"></script>
+  <script>
+    const logEntry = `
+┌──────────────────────────────────────────────────────┐
+│ [PERSONAL LOG ENTRY: NMD-PERS.0044-SCORCHSTEPPE]     │
+│ Date: [Stellar Drift ~ Unstable Timestamp]           │
+│ Subject: Crossing the Scorched Steppe                │
+└──────────────────────────────────────────────────────┘
+
+I thought I knew what “hot” meant.
+
+Then I walked the Steppe.
+
+It’s not the kind of heat that bakes you — it *peels* you. Scrapes layer after layer off your skin and memory, like the sun’s trying to see what you’re hiding. No real shade. Just husks of old war machines half-swallowed by sand. Some still twitch.
+
+I followed a rust trail for eight clicks. Heard voices. Not mine. Not friendly. They came from the towers — black stone monoliths that hummed when I got close. My compass spun like it was panicking. Time felt… detached. My boots moved, but I couldn’t swear I was getting anywhere.
+
+Ran into a scavenger caravan — one of those silent types who don’t bother with names or faces. Traded me a filter mask for half my rations. Fair deal. I think.
+
+The sand here cuts deeper than knives. They say the Steppe remembers the war. Still burning from it. Still *fighting* it.
+
+I left with cracked lips, scorched boots, and something whispering in my radio.
+
+Haven’t turned it off since.
+
+– Niemand
+
+
+    `;
+
+    startPersonalLog(logEntry);
+  </script>
+</body>
+</html>

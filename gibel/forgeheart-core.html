@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — NULL CROWN</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/gibel-entry.css" />
+</head>
+
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">GIBEL DEVICE DOSSIER: NULL CROWN</span>
+        <div class="nav-links">
+          <a href="../gibel.html">[ RETURN TO DIRECTORY ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/gibel-entry.js"></script>
+  <script>
+    const crownLog = `
+> ACCESSING GIBEL DEVICE ARCHIVE . . .  
+> DEVICE ID: GBL-005  
+> NAME: THE NULL CROWN  
+> STATUS: UNCLAIMED — ACTIVE  
+> CURRENT LOCATION: RUMORED WITHIN THE ASHEN DUNES OF VIREX  
+> PERMISSION LEVEL: TOP CLEARANCE REQUIRED . . . GRANTED.  
+
+------------------------------------------------------------
+:: LOCATION OF DISCOVERY
+------------------------------------------------------------
+> ZONE: ASHEN DUNES OF VIREX, ON THE EXILED MOON VIREX-XI  
+> NOTES: Buried deep beneath a collapsed palace-sized worm tunnel system.  
+> ENTRY STATUS: Still contested — multiple expeditions vanished.  
+> CURRENT CONTENDERS: House Albeit, Phonecian Outrunners, rogue AI units, independent Omnis.
+
+------------------------------------------------------------
+:: KNOWN CAPABILITIES
+------------------------------------------------------------
+> FUNCTION: NULLIFICATION FIELD & ABSOLUTE SILENCE  
+> EFFECT:
+    - Silences all forms of energy transmission — including psychic, sonic, quantum.
+    - Nullifies active Gibel tech or relics within a short radius.
+    - User becomes a void in existence — memory, records, and digital traces vanish around them.
+
+> RANGE: Radius fluctuates between 3–15 meters based on mental state of user.
+> NOTE: Mental instability causes radius spikes or implosions.
+
+------------------------------------------------------------
+:: RESIDUAL EFFECTS
+------------------------------------------------------------
+> PASSIVE FIELD:
+    - Voices and sounds cannot be recorded around it — only the absence.
+    - Surroundings gradually lose color, heat, and even gravitational consistency.
+    - Some who pursue it forget why they came. Others forget their own name.
+
+> OMNI REJECTION RISK: 86% chance of neurological burnout for non-Omni contact.
+> WIDELY KNOWN AS: “The Helm That Devours You First.”
+
+------------------------------------------------------------
+:: HISTORICAL RECORD
+------------------------------------------------------------
+> LEGEND:
+    - Said to have been worn by the First Traitor of the Ascents — a being who rejected creation itself.
+    - Believed to be guarded by the remnants of that Traitor’s memory, twisted into paradox predators.
+> EVENT LOGS:
+    - Year 7482 A.G.: An elite Albeit strike team enters Dunes. No return. Last recorded phrase: "It's too quiet inside me."
+    - Year 7486 A.G.: Wayferrer drone logs sudden data blackout while scanning the ruins; data corrupts 38% of its memory grid.
+    - Year 7491 A.G.: Genezen detachment deploys null-shields. Finds only boots arranged in a spiral.
+
+------------------------------------------------------------
+> STATUS: ACTIVE BUT LOST  
+> POTENTIAL HOLDER: NONE  
+> GIBEL DEVICE HUNT CLASSIFICATION: "BLACK PRIORITY"  
+------------------------------------------------------------
+
+> FILE END.  
+> NEXT DEVICE? [Y/N]
+
+
+
+
+    `;
+
+    startGibelEntry(crownLog);
+  </script>
+</body>
+
+</html>

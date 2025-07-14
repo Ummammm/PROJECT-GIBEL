@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: Karell Vox</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE_Ω-19.06-DIS]  
+> CLEARANCE: OMNI-ALPHA  
+> USER: VERIFIED  
+> OPENING FILE: KARELL VOX  
+> WARNING: REACTIVE DATA ENTITY DETECTED  
+> PROCEED WITH EMOTIONAL DAMPENERS ENGAGED
+
+████████████████████████████████████████████████████  
+:: ARCHIVAL ENTRY — [KARELL VOX] ::  
+████████████████████████████████████████████████████  
+
+[DESCRIPTION OF THE EVENT:]  
+Karell Vox is not just a planet. It’s a **thinking, remembering, listening** world.  
+
+Initially charted as a lifeless rock orbiting the dead sun *Enris*, Karell Vox was ignored by early explorers due to its absolute silence—no atmosphere, no magnetic field, no seismic activity.  
+But the silence wasn’t natural.  
+It was **deliberate**.  
+
+Around Cycle 7003, a Nex Vox Gateway team crash-landed here during a misaligned jump. Only **one** of the eight survived. When he was recovered a week later, he was mute, eyes burnt black.  
+He carved one sentence into the hull of his escape pod before dying:  
+> “It spoke in *my* voice.”
+
+Since then, unmanned probes returned scrambled audio logs—some playing **direct transcriptions** of the user's own memories… even if that user never visited Karell Vox.
+
+Exploration logs note:
+- The *planet mimics voices* of explorers hours before they speak.  
+- Surface structures **rearrange subtly** when no one is watching.  
+- Memories fade on approach, only to be played back by ambient sounds—wind, dust, static.  
+- A growing number of dead comms satellites orbit the planet, all broadcasting a soft whisper in **every known language**, repeating only one word:  
+> “Remember.”
+
+[LOCATION:]  
+Karell Vox  
+Sector: G-199, Outer Veil Expanse  
+Orbiting the dead star Enris, near Null Drift Corridor  
+
+[CURRENT STATUS:]  
+🛑 **REDACTED – SOVEREIGN INTELLIGENCE ZONE**  
+Locked down by the Pact Council and the Blacklist Registry.  
+All Gate FTL routes to Karell Vox are fragmented or “ghosted.”  
+Ships that attempt arrival often report sudden course correction, fuel loss, or navigational blackouts before disappearing entirely.
+
+Several rogue archaeologists believe Karell Vox may be an **ancient AI construct**, or a dormant **Oldsmen consciousness** trapped in planetary form.  
+Others fear it is a **void-born entity** that consumes memory as sustenance.
+
+[WHAT PEOPLE SAY:]  
+> “The stars forget you as soon as you leave its orbit.” – Unknown scribbled on a recovered drone  
+> “Karell Vox doesn’t *speak*. It makes you *say what it wants*.” – Former Blacklist officer, now missing  
+> “It showed me the day I died. I haven’t lived it yet.” – Journal from a Gate Finder dropout  
+> “Every time I sleep, I see its surface. But I’ve never been there.” – Survivor of the Ikarra-7 orbit loss
+
+████████████████████████████████████████████████████  
+> FILE STATUS: NON-INTERACTIVE  
+> MEMETIC RESIDUE DETECTED — AVOID PHRASE “REMEMBER” WHEN IN SYSTEM  
+> LINKED ENTRIES: NULLESCA, THE ARCHIVE OF STILL VOICES, THE MAW BEYOND LIGHT  
+████████████████████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

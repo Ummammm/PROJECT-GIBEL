@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #ffffff;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Boot Screen Styling */
+#boot-screen {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+#boot-text {
+  color: #ffffff;
+  font-size: 1rem;
+  white-space: pre-wrap;
+}
+
+/* Entry UI */
+#entry-ui {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.entry-box {
+  width: 85%;
+  max-width: 1000px;
+  border: 2px solid white;
+  padding: 30px;
+  background-color: #050505;
+  overflow-y: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left:15rem;
+}
+
+/* Terminal Output */
+.terminal-output {
+  font-size: 1rem;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Return Button */
+.back-button {
+  align-self: flex-start;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #ffffff;
+  color: #000;
+}

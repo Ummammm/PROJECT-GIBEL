@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #ffffff;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 20px;
+}
+
+pre {
+  white-space: pre-wrap;   /* force wrapping */
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.planet-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  padding: 20px;
+  white-space: pre-wrap;         /* redundant here but safe */
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+
+#planet-text {
+  min-height: 300px;
+}
+
+button {
+  margin-top: 20px;
+  background: none;
+  border: 1px solid #ffffff;
+  color: #fdfdfd;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000;
+}

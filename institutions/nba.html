@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: Nexus Brodcast Authority</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+> UOS // NEXUS_BROADCAST_AUTHORITY.LOG - VERIFIED  
+> CLEARANCE CODE: [WAVELINK-CLASS-BETA]  
+> DATA SEQUENCE: REALTIME-TETHER  
+> ACCESSING… █████████████ 100%  
+> ARCHIVE UNLOCKED.
+
+> -------------------------------------
+
+[6] TYPE OF INSTITUTION:  
+**Interstellar Communication Directorate / Surveillance Relay Grid / Meme Governance Bureau**
+
+[6] KNOWN FOR:  
+The **Nexus Broadcast Authority (NBA)** manages and regulates **all legal communications** across the known galaxy.  
+It governs:
+- Holo-news cycles, sub-net chatter, meme-wars, and deepwave music streams  
+- Live feeds from warzones, market reports, and even influencer duels  
+- Broadcast neutrality during faction conflicts, though heavily criticized for “accidental leaks”
+
+Its most famous slogan:  
+**“_If it’s been seen, we’ve streamed it._”**
+
+[6] WHO CAN ACCESS IT:  
+- **Media Guilds**, corporate channel owners, and diplomats with clearance  
+- Pirates and underground groups often **jack NBA relays** for quick exposure  
+- Omnis may receive priority broadcast lanes in war emergencies  
+- Civilians? Only what the NBA **lets** them see.
+
+[6] LOCATION OF THE INSTITUTION:  
+> Primary HQ: **Wavecradle Spire**, a titanic floating array-station tethered to the magnetic fields of **Vostrum Sun**  
+- Covered in dish towers, live-react walls, and anti-telepathic shielding  
+- Also houses thousands of "signal monks" who maintain the **Pulse Algorithms**  
+- The station’s lower levels broadcast unknown frequencies… even NBA says “_we don’t go down there._”
+
+[6] INSTITUTION’S SECRET:  
+- Deep within the Signal Core lies the **First Recording** — a 0.2-second soundbyte of unknown origin  
+- Analysis has shown it predates all known civilization and may have **influenced early sentient evolution**  
+- Rumors say the NBA’s top engineers built a secret device called the **Echo Siphon**, which can manipulate public emotion by micro-tonal pulses woven into broadcast static
+
+> -------------------------------------
+> NEXT INSTITUTION IN QUEUE: [The Forgefront Concord]  
+> BEGIN TRANSFER?
+
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

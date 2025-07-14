@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SANCTUM VIRIDIA</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+>> ACCESSING FACTION NODE: HOUSE GENEZEN  
+> LOCATION: SANCTUM VIRIDIA  
+> STATUS: ARCHIVAL LOG ONLINE  
+> ----------------------------
+
+[1] TERRAIN:  
+A lush, sanctuary-world of emerald jungles, floating gardens, and natural plateaus reinforced with bioengineered roots. Vast biodome temples float in the sky, tethered by living vines. Lakes of crystalline water pulse with soft psionic energy.
+
+[2] WEATHER CONDITIONS:  
+Temperate and calm. Rain falls in controlled rhythms, directed by weather-calming drones. Most of the planet remains in twilight due to an engineered atmospheric filter, maintaining a peaceful, therapeutic light level across the surface.
+
+[3] FLORA & FAUNA:  
+- **Flora**:  
+  - **Seraph Bloom**: Glowing flower with healing properties—core to Genezen medicine.  
+  - **Psymoss**: Mind-reactive lichen that hums when touched. Used for diagnostics.  
+  - **Virelm Trees**: Sentient trees that bond with chosen Genezen healers.  
+
+- **Fauna**:  
+  - **Lucent Koru**: Deer-like creatures with semi-transparent fur. Emit calming psionic waves.  
+  - **Curebirds**: Bioengineered avians that cleanse toxins in the air.  
+  - **Soother Leeches**: Medicinal parasites that regulate blood chemistry when applied with control.
+
+[4] METALS & PRECIOUS ORES:  
+- **Auralyx**: A shimmering alloy that enhances psionic conductivity—used in staves and resonance gear.  
+- **Vitacite**: Mineral that emits bio-friendly radiation, used in temples and healing chambers.  
+- **Neuroquartz**: Crystal that stores mental patterns—central to Genezen memory sanctuaries.
+
+[5] COMMON WEATHER PHENOMENA:  
+- **Psionic Drizzles**: Rain laced with low-level bio-resonance, promoting growth and healing.  
+- **Floating Bloom Events**: Seasonal blossoming of massive airborne flora that drift like islands.  
+- **Pulse Winds**: Gentle gusts that carry neuroactive particles, heightening empathy and awareness temporarily.
+
+> ARCHIVE ENTRY LOCKED.  
+> NEXT NODE: SELECT OR WAITING...
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PROTOCOL: GIBEL — FACTIONS</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/factions.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Main UI -->
+  <div id="main-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">FACTION DIRECTORY INTERFACE</span>
+        <div class="nav-links">
+          <a href="index.html">[ RETURN TO PROTOCOL INDEX ]</a>
+        </div>
+      </div>
+
+      <div class="main-menu">
+        <p>ACCESSING ALL KNOWN GALACTIC FACTIONS...</p>
+        <p>CLICK TO REVEAL ARCHIVED RECORDS.</p>
+
+        <a class="faction-link" href="greathouses.html">[>] 1. GREAT HOUSES.</a>
+        <a class="faction-link" href="minor-faction.html">[>] 2. INDEPENDENT GUILD.</a>
+        <a class="faction-link" href="corporate.html">[>] 3. CORPORATE.</a>
+        <a class="faction-link" href="institutions.html">[>] 4. INSTITUTIONS.</a>
+        <a class="faction-link" href="hubs.html">[>] 5. NEUTRAL HUB.</a>
+
+        <p class="awaiting">Awaiting input......</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/factions.js"></script>
+</body>
+</html>

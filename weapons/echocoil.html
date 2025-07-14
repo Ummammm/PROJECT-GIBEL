@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PROTOCOL: GIBEL — ECHOCOIL RIFLE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/weapons-entry.css" />
+</head>
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display: none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ WEAPON FILE: ECHOCOIL RIFLE ]</span>
+        <div class="nav-links">
+          <a href="../weapons.html">[ RETURN TO ARMORY ]</a>
+        </div>
+      </div>
+
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/weapons-entry.js"></script>
+  <script>
+    const logText = `
+> WEAPON CLASSIFICATION: ECHOCOIL RIFLE
+> ORIGIN: HOUSE ARCANEL (FORGE SECTOR: TYLL'NAH CORE)
+
+> DESCRIPTION:
+The Echocoil Rifle is a semi-organic sniper weapon, fusing Shivana psionics with magnetic induction coils. 
+It fires hyper-accelerated energy projectiles wrapped in a ripple-field—distorting space around the bullet 
+just enough to bypass most armor without kinetic damage. 
+
+> FIRING MODE: Precision Shock Pulse
+> RANGE: Long-distance | Enhanced via Thought-Link
+> CHARGE TIME: 2.4s (psionic stabilization delay)
+
+> SPECIAL TRAIT:
+The user’s neural imprint affects bullet behavior—veteran Shivana snipers can make a shot curve mid-air or 
+phase through thin barriers. When wielded by an Arcanel Highmind, the rifle hums like a whispering choir, 
+each shot guided by thought.
+
+> LIMITATIONS:
+Struggles in close quarters. Vulnerable to EMP disruption or psychic interference. Prolonged use can cause 
+neural feedback loops in non-Shivana users.
+
+> KNOWN USERS:
+- [LYRA VEISS] — Arcanel Outlaw, current wielder.
+- [SERAPHI QUIL] — Exiled Shivana Marksman.
+    `;
+
+    startWeaponEntry(logText);
+  </script>
+</body>
+</html>

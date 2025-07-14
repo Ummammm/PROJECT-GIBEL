@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROTOCOL: GIBEL — ABOUT</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navpages.css">
+</head>
+
+<body>
+    <!-- Boot Screen -->
+    <div id="boot-screen">
+        <pre id="boot-text"></pre>
+    </div>
+
+    <!-- Entry UI -->
+    <div id="entry-ui" style="display:none;">
+        <div class="container">
+            <div class="top-bar">
+                <span class="title">[ I.D ]</span>
+                <div class="nav-links">
+                    <a href="index.html">[ RETURN TO MAIN MENU ]</a>
+                </div>
+            </div>
+            <pre id="entry-content" class="entry-log"></pre>
+        </div>
+    </div>
+
+    <script src="js/navpages.js"></script>
+    <script>
+        const idText = `
+[OPERATIVE PROFILE: "NIEMAND"]
+
+>> Status: Alive  
+>> Clearance: Self-appointed  
+>> Location: Variable (last ping: RHELLAN orbit drift)
+
+Born on a dust-bitten rock no one bothers to chart. Days were dry. Nights colder than guilt. Grew up surrounded by junk tech and half-told tales about distant stars. Dreamed big. Got laughed at. Fixed what i could. Broke what i couldn’t.
+
+Everything changed the day i found a rusted light courier hull buried in a collapsed ravine. Nobody else thought it was worth dragging out. But i did. Spent years trading, wiring, welding, *failing*. Then it lifted. Shook. Flew.
+
+i named it the Pale Fold. She's not pretty, but she listens.
+
+There’s no prophecy behind his journey. No chosen one. Just someone too stubborn to stay put. i wanted to see it all: the cursed, the sacred, the things time forgot to bury. To understand the galaxy by touching its scars.
+
+i'm not a soldier. Not a messiah. Just a man with a ship, a terminal, and a growing pile of notes.
+
+The kind of person history forgets — unless they write first.
+
+>> SHIP: THE PALE FOLD  
+>> Classification: Unknown hybrid courier  
+>> Drive Core: Rebuilt FTL shard duct-taped to mining rig tech  
+>> Systems: Half Shivana scrap. Half 3rd-gen Earth tech. All miracle.  
+>> Crew: One. Comfort: Zero. Notes: Hundreds.
+
+“If it creaks, it flies.”  
+`;
+
+        startPersonalLog(idText);
+    </script>
+
+</html>

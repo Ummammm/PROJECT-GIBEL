@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PROTOCOL: GIBEL — [REDACTED-7]</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/gibel-entry.css" />
+</head>
+
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display: none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">DEVICE ENTRY: [REDACTED]</span>
+        <div class="nav-links">
+          <a href="../gibel.html">[ RETURN TO ARCHIVE ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/gibel-entry.js"></script>
+  <script>
+    const redacted7 = `
+>> BOOTING DEVICE LOG...
+>> FILE HEADER: ████████_CROWN.EXE
+>> STATUS: BLACKOUT SEALED.
+>> OPENING ARCHIVE VIA SHARD KEY...
+
+[>] DESIGNATION : ████████ [ CLASSIFIED BEYOND GIBEL-RANK ]
+
+[>] ORIGINS :
+>>> Anomaly linked to Oldsmen rupture.
+>>> Not built. Not born. Only... *found*.
+
+[>] EFFECTS :
+- Law of causality fails in its presence.
+- Observers report existential bleed.
+- Nonlinear thought streams manifest.
+- Entities report hearing "The Root Signal".
+
+[?] WARNING :
+“This device is *still listening.* It may already know you're reading this.”
+
+[>] KNOWN USERS : NONE (or perhaps... everyone?)
+[>] LAST SIGHTING : BLACK ZONE / EDGE OF LIGHTYEAR QUADRANT.
+[>] THREAT LEVEL : ULTRA-RADIAL ENTITY CLASS - GIBEL
+
+:: END SIGNAL ::
+    `;
+    startGibelEntry(redacted7);
+  </script>
+</body>
+</html>

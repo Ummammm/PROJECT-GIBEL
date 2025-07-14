@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: The Omniphage Institution</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+> UOS // OMNIPHAGE_INSTITUTE.LOG - VERIFIED  
+> CLEARANCE CODE: [RESTRICTED-OMNI_Ψ-8]  
+> DATA SEQUENCE: IMMUTABLE  
+> ACCESSING… █████████ 100%  
+> ARCHIVE UNLOCKED.
+
+> -------------------------------------
+
+[4] TYPE OF INSTITUTION:  
+**Forbidden Research Sanctum / Anomaly Harvest Authority**
+
+[4] KNOWN FOR:  
+The **Omniphage Institute** is whispered across sectors as the place where the universe sends everything it **shouldn’t understand**.  
+Known for:
+- Experimenting on **Gibel-contaminated organisms**, warped Omnis, and dimensional echoes  
+- Reverse-engineering **Ascent relics**, even the broken ones  
+- Housing the **Kleith Nexus** — a living AI powered by paradoxes  
+- Tracking “consumable anomalies”: lifeforms or objects that eat reality
+
+Sometimes referred to as **“The Eaters of What Shouldn’t Be”** by cults, smugglers, and certain Blacklist Registrars.
+
+[4] WHO CAN ACCESS IT:  
+- Only those with the **Psi-8 clearance** (usually suicidal scholars, disgraced Omnis, or synthetic minds)  
+- Most that enter **don’t leave unchanged**—or don’t leave at all  
+- The Institute sometimes **kidnaps** assets under emergency protocols... legally  
+- Factions submit anomalies voluntarily, fearing what happens if they don't
+
+[4] LOCATION OF THE INSTITUTION:  
+> Orbiting the unstable star **Ozyreth-X**, inside a time-looped orbit known as **The Mawlight Spiral**  
+- The Institute itself is built on a **folded space station**—physically exists in **four spatial layers simultaneously**  
+- No outside map pinpoints it reliably. Even its own staff require **neuro-temporal tattoos** to find their way through it
+
+[4] INSTITUTION’S SECRET:  
+- Deep within Sublevel-Null, there’s said to be a **still-living fragment of a Gibel Device**, constantly rewiring the institute around it  
+- Rumors say the Institute once **grew a new universe**, only to collapse it 6 minutes later  
+- One of the “patients” has been classified as a **godseed**, and it’s waking up
+
+> -------------------------------------
+> NEXT INSTITUTION IN QUEUE: [Academy of Eternal Blades]  
+> BEGIN TRANSFER?
+
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

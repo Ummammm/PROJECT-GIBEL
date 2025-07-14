@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neutral Hub: Voxhole</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/hubs-entry.css" />
+</head>
+<body>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="entry-container">
+      <div class="terminal-output" id="entry-content">
+        <!-- Typing content goes here -->
+      </div>
+      <button class="back-button" onclick="window.history.back()">[<] RETURN TO HUB ARCHIVE</button>
+    </div>
+  </div>
+
+  <script src="../js/hubs-entry.js"></script>
+  <script>
+    const hubData = `
+> ACCESSING_HUB_DATABASE // NODE: VOXHOLE  
+> STATUS: LAWLESS ZONE // FREQ JAMMER ACTIVE  
+> LOCAL SECURITY: UNDEFINED | TRUST RATING: 1.7 / 10  
+> SENSORY FILTER RECOMMENDED.
+
+--------------------------------------------------------
+>> [ NEUTRAL HUB LOG ENTRY #04 ] :: VOXHOLE  
+--------------------------------------------------------
+
+[1] TYPE OF HUB:  
+↳ **Black-Market Dive Station + Broadcast Pirate Den**  
+Buried inside the crust of a shattered moon, Voxhole is an underground sprawl of illegal comms tech, anti-censorship towers, slum ports, and sound-sculpted hideouts. It was originally a mining facility, now completely overtaken by smugglers, sonic engineers, and exiled broadcasters.
+
+[2] KNOWN FOR:  
+↳ **"The Unfiltered Voice of the Void."**  
+Every banned signal, outlaw podcast, or rogue transmission in the galaxy has passed through Voxhole at least once. It's the heart of **pirate media**, anti-propaganda efforts, and a haven for whistleblowers, corrupted AIs, war journalists, and underground music collectives.
+
+If it got banned, burned, or erased? Voxhole’s probably still streaming it.
+
+[3] FACTIONS SEEN:  
+↳ The kind of crowd who knows how to vanish:  
+- **Golden Theatre’s sound thieves** running stolen audio auctions  
+- **Wayferrer hackers** hiding inside fractured echo-loops  
+- **Phonecian rebels** using it to drop leak bombs on House leaders  
+- **Blacklist Registry agents** doing "quiet deletions"  
+- **Drifter Bands** making deals over ancient mixtapes  
+- **AI cultists** broadcasting corrupted lullabies
+
+[4] SPECIAL FEATURE:  
+↳ **The DeepMic Vault** – A memory-chamber where voices of long-dead revolutionaries still loop. Anyone entering can “merge” with old broadcasts to gain insight, trauma… or both.
+
+↳ **The Static Throne** – A constantly shifting seat of leadership. Whoever controls the comm-frequency for 24 hours straight becomes “Station Mouth.” Most don’t survive past 12.
+
+↳ **Reverb Labyrinth** – A warren of tunnels that record, amplify, and distort sound. The deeper you go, the harder it is to hear anything clearly—until even your thoughts become static.
+
+[5] VIBE / CONDITIONS:  
+↳ Chaotic, noisy, low-oxygen, full of audio ghosts.  
+Walls thrum with sub-bass. Neon strobes flicker with no rhythm. The air smells like ozone, motor oil, and fear. Messages are graffiti-tagged everywhere, in every language: threats, lyrics, lost coordinates.
+
+You don’t “visit” Voxhole. You **leak into it**. And if you’re lucky, leak back out.
+
+--------------------------------------------------------
+> VOXHOLE NODE ACTIVE  
+> WARNING: LISTENING TO LOCAL CHANNELS MAY CAUSE NEURAL DE-SYNC  
+> NEXT AVAILABLE HUB: LAZARETH HOLLOW [Y/N]?  
+>_
+
+
+    `;
+    startHubEntry(hubData);
+  </script>
+</body>
+</html>

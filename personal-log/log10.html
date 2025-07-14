@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LOG: VAULT E-7 "THE CROOKED ROOM"</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/personallogs-entry.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ PERSONAL LOG ENTRY: VALUTH E-7 "THE CROOKED ROOM"]</span>
+        <div class="nav-links">
+          <a href="../personallogs.html">[ RETURN TO LOG INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/personallogs-entry.js"></script>
+  <script>
+    const logEntry = `
+┌────────────────────────────────────────────────────────────────────────────┐
+│ [PERSONAL LOG ENTRY: NMD-PERS.0252-VLT-CROOK]                              │
+│ Date: Unknown – Local Time Non-Euclidean                                   │
+│ Subject: Vault E-7 “The Crooked Room”                                      │
+└────────────────────────────────────────────────────────────────────────────┘
+
+I didn’t *find* Vault E-7.
+
+I *tripped into it*.
+
+No beacon. No signal. Just a wrong turn down a canyon that shouldn't have existed on Cadriss’s old maps. One second I was mapping mineral veins, the next my ship sensors shorted out. Then came the static — sharp, constant, *whispery.* It guided me down a crack in the rocks, like gravity had ideas of its own.
+
+And then: the door. A circle of rusted metal covered in symbols that hurt to look at. My ship couldn’t translate them — *not because they were foreign, but because they kept changing.* Even my own handwriting glitched when I tried sketching them.
+
+Inside… everything was wrong. Angles bent the *wrong way.* Light sources had no source. My footsteps echoed *before* I made them.
+
+And in the middle of that crooked, mind-numbing space — a chair.
+
+Old, leather-strapped, facing a cracked mirror.
+
+A mirror that didn’t show me.
+
+It showed *versions* of me.
+
+Dead. Broken. Happy. Screaming. Disintegrated. Not alone.
+
+Something moved behind the mirror, just out of sync with time. I swear it was trying to speak, but the words looped and rewound like corrupted data.
+
+I ran.
+
+No shame. No hesitation. I *ran.*
+
+Vault E-7 sealed behind me without a sound, as if it had never been open.
+
+Now, every once in a while, I hear a faint knock in my ship. In rhythm. Like… a pattern. Like a request.
+
+I haven’t slept in a straight line since.
+
+– Niemand
+
+
+    `;
+
+    startPersonalLog(logEntry);
+  </script>
+</body>
+</html>

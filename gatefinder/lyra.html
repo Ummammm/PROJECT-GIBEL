@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LYRA VEISS</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/gatefinder-entry.css" />
+</head>
+
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display: none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">AGENT DOSSIER: LYRA VEISS</span>
+        <div class="nav-links">
+          <a href="../gatefinder.html">[ RETURN TO DIRECTORY ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/gatefinder-entry.js"></script>
+  <script>
+    const lyraLog = `
+>> ENCRYPTED CHANNEL SYNCED...
+>> TRACE FOUND: EXILED HIGH LORD...
+>> PROFILE MATCH: LYRA VEISS...
+>> ENGAGING ALCHEMIC DATA STREAM...
+
+
+[>] NAME : Lyra Veiss
+[>] ALIAS : The Arcanel Outlaw
+[>] ORIGIN : Former High Lord of House Arcanel. Disowned after refusing to support the Arcanel bloodline rituals during the last Concord Conflict.
+
+[>] SPECIES : SHIVANA
+
+[>] PAST LIFE : Once sat on the High Table of House Arcanel, controlling a third of their tech fleets. Accused of using forbidden knowledge (possibly even fusing with Gate tech), she was exiled and marked for death. Survived the attempt on her life, faked her death, and now she’s rolling with the squad.
+
+[>] PERSONALITY : Cold, precise, brutally honest. BUT has big sister energy with the team. She's that person who acts like she doesn’t care—but is first to patch you up.
+
+[>] GIBEL DEVICE : Shard of Continuum – lets her interact with alternate versions of herself across dimensions
+
+[>] POWERS : Reality Manip Code: Uses sigils and glyphs to bend environments—like warping gravity or muting explosions. Bio-Tech Armor: Arcanel nano-suit fused to her nerves. Reactive, intelligent, and sometimes… talks back. Gibel Sight: May or may not be able to see Gibel Devices through certain Gates. She’s not telling.
+
+[>] MOTIVE : She wants to rewrite fate—not just her own, but her people’s. The Shard shows her a world where Arcanel falls.
+
+[>] RELATIONSHIP : Closest to Jarrin; he reminds her of simpler truths. Cautious with Slate—his logic mirrors the more tyrannical versions of herself. Drawn to Nox for reasons she can’t explain (maybe in another timeline, they were lovers... or enemies)
+
+[>] CURRENT ROLE :
+- Team tactician and liaison with rogue Arcanel contacts
+- Manipulation of environments and outcomes
+- Field leadership when chaos breaks out
+
+[>] PERSONAL NOTE :
+"If fate is written, I’m here to scribble all over the margins."
+
+
+End of Log.
+    `;
+    startHouseEntry(lyraLog);
+  </script>
+</body>
+
+</html>

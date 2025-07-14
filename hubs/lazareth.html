@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neutral Hub: Lazareth Hollow</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/hubs-entry.css" />
+</head>
+<body>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="entry-container">
+      <div class="terminal-output" id="entry-content">
+        <!-- Typing content goes here -->
+      </div>
+      <button class="back-button" onclick="window.history.back()">[<] RETURN TO HUB ARCHIVE</button>
+    </div>
+  </div>
+
+  <script src="../js/hubs-entry.js"></script>
+  <script>
+    const hubData = `
+> ACCESSING_HUB_DATABASE // NODE: LAZARETH HOLLOW  
+> STATUS: NEUTRAL SAFE ZONE // MEDICAL ACCESS PRIORITY  
+> LOCAL SECURITY: PASSIVE | TRUST RATING: 8.9 / 10  
+> EMOTIONAL STABILIZERS RECOMMENDED.
+
+--------------------------------------------------------
+>> [ NEUTRAL HUB LOG ENTRY #05 ] :: LAZARETH HOLLOW  
+--------------------------------------------------------
+
+[1] TYPE OF HUB:  
+↳ **Sanctuary & Biorestoration Refuge**  
+Built within the hollowed insides of a dead world’s core, Lazareth Hollow is a quiet, sacred place—part hospital, part monastery, part spiritual limbo. Protected by ancient treaties and psionic wards, no violence is tolerated here. Even rage itself seems to evaporate in the stillness.
+
+[2] KNOWN FOR:  
+↳ **“Where the galaxy goes to breathe.”**  
+Lazareth Hollow is legendary for healing what high-tech medbays can’t:  
+- Mind fractures  
+- Psionic burns  
+- Gibel-induced overload  
+- Quantum soul-displacement  
+- “Void Rot” from dimensional exposure  
+Every patient here is treated as sacred, regardless of origin. Soldiers, Omnis, war criminals, broken AIs… all sleep under the same light.
+
+[3] FACTIONS SEEN:  
+↳ A strange mix of enemies and exiles:  
+- **Genezen missionaries** offer quiet aid  
+- **Arcanel mages** meditating with broken minds  
+- **Golden Theatre performers** recovering from feedback addiction  
+- **Wayferrer agents** hiding from memory collapses  
+- **Titanium Tribunal** units in memory resync mode  
+- **Ex-Band of Thrope killers** seeking atonement, if not forgiveness
+
+[4] SPECIAL FEATURE:  
+↳ **The Stilllake** – A perfectly calm pool of iridescent liquid in the Hollow’s center. It reacts to pain and trauma, glowing in slow pulses. Entering the waters causes visions—some healing, some horrifying, all honest.
+
+↳ **Memory Grotto** – A chamber where your past plays back via bio-echo. Used for therapy or confession. It cannot be faked. Some never leave it.
+
+↳ **The No-Name Cloister** – A zone where one’s identity is stripped away entirely. Used by those who seek rebirth or to escape their legacy. It’s unclear how many reemerge… or who they are when they do.
+
+[5] VIBE / CONDITIONS:  
+↳ Cold, dim, and quiet—like a galaxy holding its breath.  
+Time feels slower here. Every hallway echoes with soft footsteps and muffled voices. There's always a gentle hum, like the sound of breath between sobs. Lights are low and organic. The air tastes of old incense and sterile moss. Even weapons refuse to activate within the Hollow.
+
+You don’t fight here. You **pause**. You **heal**. You **confront yourself**.
+
+--------------------------------------------------------
+> LAZARETH HOLLOW NODE ACTIVE  
+> NOTE: VIOLENCE WILL RESULT IN INSTANT NEURAL SHUTDOWN  
+> NEXT AVAILABLE HUB: THE SCORCHED STEPPE [Y/N]?  
+>_
+
+
+    `;
+    startHubEntry(hubData);
+  </script>
+</body>
+</html>

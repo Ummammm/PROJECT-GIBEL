@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporation File: SHIMOKU LUXE SYSTEM</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/corporate-entry.css">
+</head>
+<body>
+
+<!-- Boot Loader -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content appears here -->
+  </div>
+    <button class="back-button" onclick="window.location.href='../corporate.html'">[<] RETURN TO CORPORATION ARCHIVE</button>
+</div>
+
+<!-- Script: pulls in content + boot logic -->
+<script src="../js/corporate-entry.js"></script>
+<script>
+  const corpData = `
+> INITIALIZING ARCHIVE NODE: SHIMOKU_LUXE_SYS  
+> ACCESS TIER: EXCLUSIVE CLIENTELLE+  
+> SIGNAL INTEGRITY: 100% | LUXTRACaE ENCRYPTION ACTIVE  
+> DECRYPTING COUTURE FILES… DONE_
+
+> ----------------------------
+
+[1] LOCATION:  
+**Shimoku Luxe HQ** sits atop **CRAVACHE-9**, a planet-sized orbital atelier wrapped in gold-filtered clouds and irradiated starlight.  
+From orbit, it appears as a jeweled sphere—half palace, half runway.  
+They maintain **satellite showrooms** on every major pleasure world, royal court, and elite diplomatic vessel across known space.  
+The planet’s surface is mostly uninhabitable—acid mists, glass dunes, and irradiated storms—making the floating arcologies even more exclusive.
+
+[2] MARKET / PRODUCTS:  
+Shimoku dominates the market in:  
+- **Neuro-reactive fashion**  
+- **Adaptive pleasure skins**  
+- **Status-based scent emitters**  
+- **Luxury augmentation couture (bio-integrated jewelry, mood-linked tattoos)**  
+- **Hedonic techwear** for elite bounty hunters, nobles, and AIs with self-esteem issues  
+
+They sell more than just high fashion—they sell **identity**. Shimoku garments bond to your nervous system, adjusting to your desires, mood, and social clout.  
+Everything they produce whispers: “You deserve more.”
+
+[3] HQ LAYOUT:  
+> **THE AURUM VAULT** – A five-tiered spiral palace floating in the upper thermosphere, filled with sculpted air, mind-responsive marble, and liquid mirrors.  
+- **The Atrium of First Looks**: A zero-grav catwalk suspended above shifting clouds—shows happen here every 6 hours.  
+- **The Chroma Forge**: Where materials are brewed, not made—silks grown in starlight, leathers tanned in nebula radiation.  
+- **The Mirror Courts**: Reflective AI chambers that simulate every possible customer outcome to perfect the next trend.  
+- **The Whisper Archive**: Contains neural impressions of every major client and their emotional triggers.  
+- **The Atelier Core**: Only accessible to Shimoku’s creative oracle, known only as “The Seamstress.”
+
+[4] ATMOSPHERE & AESTHETICS:  
+Every hallway shimmers like a perfume ad dream—curves, haze, color shifts based on who’s walking.  
+Soft music plays—always perfectly tuned to whoever’s entering. Air smells like luxury and controlled temptation.  
+Staff wear empathy visors and speak in melodic tones.  
+No surface is purely functional—everything must **seduce**, even door handles.
+
+The entire HQ is designed to overwhelm, intoxicate, and subtly remind you: **You are never enough… until you wear us.**
+
+[5] SECRET & FORBIDDEN AREAS:  
+> **The Unseen Runway** – A quantum-timed show that no one is ever invited to, yet everyone wants to see. Rumored to preview fashion made for **other realities**.  
+> **Fabricorium 7** – Breeds exotic bio-fabrics using DNA from extinct alien fauna. Some materials purr when worn, others scream when cut.  
+> **The Stitched Vault** – Believed to house “retired” clients who tried to break exclusive contracts. Their memories are now “woven into timeless collections.”  
+> **Whisper 0** – A forbidden AI model said to design outfits that **kill** on rejection. Last seen tailoring a dress from antimatter threads.
+
+> TRANSMISSION LUXLOCKED.  
+> SHIMOKU LUXE SYSTEM: “STYLE IS POWER. WE SELL GODHOOD IN FABRIC FORM.”
+
+> CONTINUE TO NEXT MEGACORP NODE?  
+> [>] PHOENEX CORP? [Y/N]
+
+  `;
+  startCorpEntry(corpData);
+</script>
+</body>
+</html>

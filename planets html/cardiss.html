@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CARDISS</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: CADRISS  
+> CLASSIFICATION: MID-RIM WORLD // AQUEOUS CANYON NETWORK  
+> ARCHIVAL INTEGRITY: STABLE // ACCESS LOGGED  
+------------------------------------------------------------
+
+[1] TERRAIN:  
+>> Endless flooded ravines and mist-choked canyons.  
+>> Bioluminescent cliffs tower over labyrinthine waterways and underwater cave systems.  
+>> Submerged ruins of unknown origin lie beneath the waves—some still emit faint energy signatures.
+
+[2] WEATHER CONDITIONS:  
+>> Perpetually overcast with high humidity.  
+>> Frequent drizzle and torrential downpours that alter river flows overnight.  
+>> Thick fog is present year-round, limiting visibility and masking terrain shifts.
+
+[3] FLORA & FAUNA:  
+>> Flora: Glowcap reeds, whisper kelp, and symbiotic “singing moss” that reacts to movement.  
+>> Fauna: Murk eels, canyon striders, and luminescent fincats.  
+>> Apex predator: the **Drowned Wyrm**, a massive serpentine creature believed to guard the oldest ruins.
+
+[4] METALS / PRECIOUS ORES:  
+>> Rich deposits of Hydrosil (used in pressure-sealed tech), Trillium (sound-reactive alloy), and liquid-form Arkenite.  
+>> Occasionally yields “Echo Shards,” strange crystals that produce harmonic frequencies when touched—believed to have proto-AI applications.
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Thunderplumes – massive electrical storms that rise like geysers from flooded ravines.  
+>> Static Rain – ion-charged rainfall that interferes with unshielded tech.  
+>> The “Deep Hums” – unexplained seismic audio pulses that echo through canyon walls. Possibly natural… possibly not.
+
+------------------------------------------------------------  
+> PRIMARY CONTROL: UNCLAIMED // REGIONAL SCRAMBLE ZONE  
+> ECONOMIC ROLE: EXPLORATION, BLACK-MARKET TECH SCAVENGING  
+> CULTURAL SIGNIFICANCE: PILGRIMAGE SITE FOR THE WAYFERRER GUILD  
+> SECURITY FLAG: HIGH – TERRITORIAL BEAST ACTIVITY / ILLEGAL DIGGING ZONES  
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

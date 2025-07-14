@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROTOCOL: GIBEL — ABOUT</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navpages.css">
+</head>
+
+<body>
+    <!-- Boot Screen -->
+    <div id="boot-screen">
+        <pre id="boot-text"></pre>
+    </div>
+
+    <!-- Entry UI -->
+    <div id="entry-ui" style="display:none;">
+        <div class="container">
+            <div class="top-bar">
+                <span class="title">[ ABOUT ]</span>
+                <div class="nav-links">
+                    <a href="index.html">[ RETURN TO MAIN MENU ]</a>
+                </div>
+            </div>
+            <pre id="entry-content" class="entry-log"></pre>
+        </div>
+    </div>
+
+    <script src="js/navpages.js"></script>
+    <script>
+        const aboutText = `
+[ARCHIVE PROTOCOL INITIATED]
+
+>> Entry Authored by: Niemand  
+>> Log Classification: [Personal — Unverified Perspective]
+
+I never meant to keep a record.
+
+But the galaxy does things to you. It folds you in strange directions. I started writing so I wouldn’t forget where I’d been… or what I barely survived.
+
+These archives aren’t official. No government seal. No House endorsement. No polished datastreams. Just notes—scattered, glitchy, honest. What I saw. What I felt. What I *think* might have happened.
+
+Sometimes, it’s logs from the Pale Fold’s onboard recorder. Other times, it’s from places I don’t remember typing.
+
+The entries cover planets, people, machines, corpses, relics. Some things that don’t even *have* names. If you’re reading this, treat everything like a suggestion. Not gospel.
+
+I don’t lie. But memory does strange things when you stare into too many stars for too long.
+
+> This archive exists for wanderers, scavengers, scholars, or the plain curious.  
+> Not everything here will make sense. Some of it might hurt to read.  
+> That’s how you know it’s real.
+`;
+
+        startPersonalLog(aboutText);
+    </script>
+</body>
+
+</html>

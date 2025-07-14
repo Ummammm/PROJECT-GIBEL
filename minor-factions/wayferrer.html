@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAYFERRER — MINOR FACTION DOSSIER</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/minorfaction-entry.css">
+</head>
+
+<body>
+
+    <!-- Boot Screen -->
+    <div id="boot-screen">
+        <pre id="boot-text"></pre>
+    </div>
+
+    <!-- Entry UI -->
+    <div id="entry-ui" style="display:none;">
+        <div class="entry-box">
+            <div class="terminal-output" id="entry-content"></div>
+            <button class="back-button" onclick="window.location.href='../minor-faction.html'">[<] RETURN TO MINOR
+                    FACTIONS</button>
+        </div>
+    </div>
+
+    <script src="../js/minorfaction-entry.js"></script>
+    <script>
+        const minorFactionData = `
+>> INITIALIZING CONNECTION TO FACTION DOSSIER...
+>> DEEP ENCRYPTION DETECTED — CRACKING KEYS...
+>> VALIDATION SEQUENCE PASSED.
+>> ACCESS GRANTED. LOADING FACTION ENTRY...
+  
+WAYFERRER — MINOR FACTION DOSSIER
+
+[>] CAPITAL WORLD : Trivarnis – An impossible-to-navigate planet hidden in a dark nebula, surrounded by misdirection satellites and AI mirages. Constantly shifts terrain, as if alive.
+
+[>] GALACTIC TRAVELS : Specialists in Gate-hopping and Way-threading – a secret method of moving between folds of space that bypasses normal routes. They use dimensional keys and encoded void charts instead of traditional navigation systems. Ships: sleek, cloaked vessels called Whispersails and Driftmoths – silent and nearly invisible to scans.
+
+[>] CIVILIANS : No true “civilians.” Members are all active agents or informants, sworn to secrecy. Ranks: Seekers, Threadwalkers, Archivists, and Lorehands. They recruit prodigies, dissidents, and memory-fractured veterans. Culture based around The Eternal Puzzle – a belief that the universe is a broken code begging to be solved. Rituals: “The Drift” (solo silence missions), “Mindlink Maps” (memory-swapping), and “Gatestorm Trials” (mentally brutal initiation).
+
+[>] ECONOMY & TRADE : Deal only in knowledge, maps, and coordinates to places people shouldn’t go. Trade valuable gate locations, lost technologies, and cryptic prophecies to Houses in exchange for protection, tech, or secrets. Maintain blackmail archives to discourage betrayal. Have an internal currency called Nodal Units—value based on rarity of a truth.
+
+[>] WEAPONS & COMBAT : Avoid direct combat, but are deadly if needed. 
+Use :  Gatefold Blades – phase-shifting knives that cut through matter and light, Chrono-Glyphs – temporary tattoos that manipulate time perception or hide presence, Ghost Flasks – burst tools that make a person undetectable for seconds.
+
+[>] COMMUNICATON & MEDIA : Rely on Echo Threads – encrypted thought-strings passed between agents using mnemonic triggers. Broadcast coded “info storms” hidden in harmless news across galactic networks. Popular among outlaws for their secret libraries, podcasts, and conspiracy data leaks. Maintains the Labyrinth Codex, an ever-updating web of truths, rumors, and cosmic oddities.
+
+[>] LAWS & CRIME : Exist in legal gray zones—neither illegal nor accepted. Often branded as truth pirates, memory thieves, or interdimensional trespassers. They operate under their own laws, enforced by the Threadbinders—agents who erase or exile those who betray the guild. Crimes within: selling fake truths, leading a Gate raid without clearance, or intentionally breaking a forbidden seal.
+
+[>] RUINS & RELICS :Obsessively search for Pre-Gate Relays, Oldsmen Scrap-Code, and forgotten wormholes. Key artifacts: The Dead Compass – a broken artifact that twitches toward still-active Gibel Devices, The Zero Map – reveals places that technically don’t exist, Gatewalker’s Eye – a monocle implant that sees hidden gates and temporal fractures. They believe some “impossible” Gibel-related ruins exist inside collapsed dimensions they call Silent Pockets.
+
+[>] KEY FIGURE :
+
+[>] 1.Kael “Slate” Rho – The Chill Strategist
+[>] 2.Vellis Nym – The Code-Moth
+[>] 3.Prex Luto – The Astral Archivist
+[>] 4.Dray-Merak – The Dealer of Secrets
+[>] 5.Iyael Klyss – The Reality Whisperer
+
+
+
+End of Archive.
+
+
+  `;
+
+        startMinorFactionEntry(minorFactionData);
+    </script>
+</body>
+
+</html>

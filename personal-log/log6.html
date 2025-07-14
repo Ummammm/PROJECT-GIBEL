@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LOG: CAPTURE BY A GOLDEN THEATRE CELL</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/personallogs-entry.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ PERSONAL LOG ENTRY: CAPTURE BY A GOLDEN THEATRE CELL ]</span>
+        <div class="nav-links">
+          <a href="../personallogs.html">[ RETURN TO LOG INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/personallogs-entry.js"></script>
+  <script>
+    const logEntry = `
+┌────────────────────────────────────────────────────────────────────────────┐
+│ [PERSONAL LOG ENTRY: NMD-PERS.0104-GOLDENTHEATRE]                          │
+│ Date: Unknown (Internal chronometer reset post-incident)                   │
+│ Subject: Capture by a Golden Theatre Cell                                  │
+└────────────────────────────────────────────────────────────────────────────┘
+
+You’d think I’d have learned by now — don’t snoop near smuggler routes marked with golden filigree and drama masks. But curiosity has teeth, and mine bit hard.
+
+I was mapping a derelict port near the Zephyros Verge. Empty. Quiet. Too quiet. Then the lights hit — literal stage lights. Spotlights from ceiling drones. Applause from hidden speakers. Theatrics cranked to eleven.
+
+Next thing I know, I'm center stage in some mock trial, wrists bound with shimmering synth-ribbon. My "crime"? Trespassing on sacred ground. Their sacred ground.
+
+The Golden Theatre doesn’t kill you, not right away. They *perform* you. They turn your story into a tragedy, comedy, or — if you’re lucky — experimental abstract art. I was cast as “The Wandering Fool.” Great.
+
+They made me relive moments from my own logs. Twisted, rewritten, exaggerated. Jarrin Fell was there too — played by an actor with six arms and a dramatic stutter. It was almost... impressive.
+
+I escaped thanks to a set malfunction — and a little help from a rogue spotlight AI who took a liking to my “raw emotional authenticity.” Go figure.
+
+Still... part of me wonders if I *did* escape. Or if I’m still trapped in that play, and this log is just the next act.
+
+– Niemand
+
+
+
+    `;
+
+    startPersonalLog(logEntry);
+  </script>
+</body>
+</html>

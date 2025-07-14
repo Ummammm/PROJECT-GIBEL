@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LOG: HOLLOWVALE NINE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/personallogs-entry.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ PERSONAL LOG ENTRY: HOLLOWVALE NINE ]</span>
+        <div class="nav-links">
+          <a href="../personallogs.html">[ RETURN TO LOG INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/personallogs-entry.js"></script>
+  <script>
+    const logEntry = `
+┌────────────────────────────────────────────────────────────────────────────┐
+│ [PERSONAL LOG ENTRY: NMD-PERS.0304-HOLLO-09]                               │
+│ Date: Unknown — Local Gravitational Drift Nominal                         │
+│ Subject: Hollowvale Nine                                                   │
+└────────────────────────────────────────────────────────────────────────────┘
+
+I was told Hollowvale Nine was dead. Not abandoned—**dead**.
+
+The orbiting wrecks confirmed it: shattered cruisers drifting like open caskets, hulls torn by something that didn’t use metal. The planet’s surface was… intact, though. No craters. No signs of battle. Just endless fields of obsidian grass and structures carved from bone-pale stone.
+
+No wind. No weather. No animals.
+
+But **I wasn’t alone.**
+
+I felt it the moment I stepped onto the soil. Not fear—*presence*. Like being watched by something too tired to blink.
+
+The buildings were wrong. No doors, just open arches leading into blackness that swallowed my ship’s light. I marked one with a beacon. It vanished the moment I turned my back. I tried again. Same result.
+
+The most unnerving part? The echoes.
+
+Not from me. From *someone else*. Walking just out of sync. Breathing when I held mine. Once, I heard a low voice say my name—*not from my comms.* It sounded like it was coming from under the ground.
+
+I left in a panic, overriding launch protocol. But here’s the thing:
+
+Before I broke orbit, my scanner picked up a signal.
+
+A pulse. Slow. Repeating. Buried deep inside the crust.
+
+**It’s still sending.**
+
+But no one's there to answer.
+
+— Niemand
+
+
+
+    `;
+
+    startPersonalLog(logEntry);
+  </script>
+</body>
+</html>

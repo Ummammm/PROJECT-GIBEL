@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: The Academy of Eternal Blade</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+> UOS // ACADEMY_OF_ETERNAL_BLADES.LOG - VERIFIED  
+> CLEARANCE CODE: [VIGIL-ACCESS-6H]  
+> DATA SEQUENCE: LEGACY-LINKED  
+> ACCESSING… █████████████ 100%  
+> ARCHIVE UNLOCKED.
+
+> -------------------------------------
+
+[5] TYPE OF INSTITUTION:  
+**Warrior-Monk Academy / Relic Weapon Conservatory / Philosophical Kill-School**
+
+[5] KNOWN FOR:  
+The **Academy of Eternal Blades** is the most elite and secretive combat institution in the galaxy.  
+It trains:
+- **Omnis**, assassins, relic wielders, and psionic duelists  
+- Keepers of ancient fighting styles, including voiddance, mirrorflow, and silence-draw  
+- Users of **Sentient Weapons**, Echosteel, and blades once thought too cursed to exist
+
+They are also known for their brutal rites of passage, including the **Trial of the Mind Split**, where a student must defeat a perfect hallucination of themselves.
+
+[5] WHO CAN ACCESS IT:  
+- **Invitation only**, sent via dreaming messengers or anomalous echoes  
+- Accepting the invitation means renouncing previous allegiance — even to factions or gods  
+- Training takes decades or milliseconds, depending on your path  
+- Dropouts don’t exist; you either **ascend or vanish**
+
+[5] LOCATION OF THE INSTITUTION:  
+> Located on the shattered moon **Dra’khai IV**, within the ruins of a pre-Ascent citadel  
+- Moon is encased in a **time-static veil**, meaning it appears shattered but untouched  
+- Academy halls are stitched together from collapsed timelines  
+- Map rooms bleed into weapon vaults, meditation gardens float inside vacuum gaps
+
+[5] INSTITUTION’S SECRET:  
+- The Academy houses **The Blade Eternal**, a sentient sword rumored to be older than the Ascent  
+- Some claim the sword can **choose the fate of stars**, and that it once struck down an entire planetary system  
+- At its core is **The Forgotten Wing**, sealed and watched by ten silent monks who have never spoken a word in recorded history
+
+> -------------------------------------
+> NEXT INSTITUTION IN QUEUE: [Nexus Broadcast Authority (NBA)]  
+> BEGIN TRANSFER?
+
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

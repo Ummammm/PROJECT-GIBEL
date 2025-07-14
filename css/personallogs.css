@@ -1,0 +1,81 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #ffffff;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Boot screen (before main UI appears) */
+#boot-screen {
+  padding: 60px 30px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Main container (after boot) */
+#main-ui {
+  display: none;
+  padding: 40px 30px;
+}
+
+/* Container wrapper */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Top bar with archive title and nav link */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.nav-links a {
+  font-size: 14px;
+  color:white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Entry list */
+.entry-log {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.entry-log a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.entry-log a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Optional: Blink cursor effect for boot screens */
+.blink {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

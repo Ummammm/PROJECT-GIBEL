@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NAEL'THURA</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: NAEL’THURA  
+> DESIGNATION: CLASS-A ANOMALY WORLD // XENOTERRAFORMED // EXPLORATION LOCKED  
+
+------------------------------------------------------------  
+[1] TERRAIN:  
+>> Organic spires rise like bones across a glasslike obsidian plain.  
+>> Ground pulses faintly underfoot; biomechanical substrate shows semi-sentient response to stimuli.  
+>> Floating isles hover above the surface, tethered by gravitational veins of unknown material.  
+
+[2] WEATHER CONDITIONS:  
+>> Climate is unnaturally still—near-total wind absence and constant ambient hum.  
+>> Sky shimmers with auroral interference, even without magnetosphere presence.  
+>> Sudden temperature fluxes ranging from sub-zero to searing within hours.  
+
+[3] FLORA & FAUNA:  
+>> Flora: Whispervines (telepathic), Hexblooms (emit hallucinogenic spores), Mirrorstalks (refract visibility).  
+>> Fauna: Phase Serpents (appear/disappear mid-strike), Mindlurkers (sapient predators mimicking thoughts), Silver Myriads (swarms of fractal insect-machines).  
+>> All lifeforms show Ascent DNA signatures.  
+
+[4] METALS / PRECIOUS ORES:  
+>> Liquid Resonite veins—used in neural-reactive armor and ships.  
+>> Echoshell deposits — harmonize with thought, used in psychic tech.  
+>> Deep-core hosts unknown compound labeled **NTH-X**, currently unmineable.  
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Psionic Storms — distort memory and sensory input.  
+>> Light Inversions — cast terrain into ‘negative’ vision; only tech calibrated to psionic pulses can see.  
+>> "Dream-Rains" — unexplained shimmering liquid that induces lucid hallucinations.  
+
+------------------------------------------------------------  
+> STATUS: QUARANTINED BY THE TITANIUM TRIBUNAL // "DO NOT WAKE IT"  
+> LAST CONTACT: WAYFERRER SCIENCE CORPS – LOST AFTER ENTRY TO CORE VAULT  
+> ARCHIVE FLAG: PLANET MAY BE A SENTIENT RELIC  
+
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

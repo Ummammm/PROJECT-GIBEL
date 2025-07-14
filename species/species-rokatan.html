@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — SPECIES: ROKATAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/species-entry.css" />
+</head>
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">SPECIES DOSSIER: ROKATAN</span>
+        <div class="nav-links">
+          <a href="../species.html">[ RETURN TO SPECIES INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/species-entry.js"></script>
+  <script>
+    const humanLog = `
+>> INITIALIZING GENETIC MAP...
+>> RETRIEVING CULTURAL ARCHIVES...
+>> AUTHORIZATION: PUBLIC CLASS APPROVED.
+> ACCESSING SPECIES DOSSIER…
+> QUERY: [ 03 ] → ROKATAN
+> USER: Niemand.EXPLORER.LOG
+> STATUS: FILE UNREDACTED
+> DISPLAY MODE: TEXT-ONLY (TERMINAL-COMPATIBLE)
+> ...
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[COMMON NAME].................: Rokatan
+[GALACTIC CODE]...............: SPE-016-BX/ROK
+[ORIGIN WORLD]................: Karrum-Dhaal (Rokatan Forgeworld)
+[STATUS]......................: Major Species (Leads House Schmied)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+> APPEARANCE:
+Stocky, broad-bodied humanoids ranging 4 to 5 feet tall but heavily muscled. Skin tones in earthen or metallic shades (bronze, cobalt, graphite). Facial features are angular, often with ridged brows and hardened plating along the cheeks and jaw. Beards made of braided filaments of hair and metal thread are common among elders.
+
+> HABITAT:
+Industrialized subterranean strongholds, forge-vaults, and mining arcologies. Their cities are carved directly into mountains or asteroids laced with rare ores. Thrive in high-heat, low-light, and high-pressure environments. Known to terraform asteroids into micro-fortresses.
+
+> BIOLOGY:
+Naturally adapted to extreme heat and pressure. High bone density and redundant cardiovascular systems. Possess iron-rich blood and heightened lung efficiency for low-oxygen environments. Digestive systems can break down inorganic minerals for sustenance. Immune systems heavily resistant to pathogens and metal contaminants.
+
+> CULTURE & OCCUPATIONS:
+- Deeply honor-bound and community-focused.
+- Entire society built around craftsmanship, metallurgy, and engineering perfection.
+- Children apprenticed from early age in trades like mechcraft, void-smithing, warforge design.
+- Common roles: Forge-Priests, Mechanists, Alloybinders, Weapon Singers.
+- Value legacy of labor over glory or conquest.
+
+> RELIGION:
+Worship the “Furnace Gods” — divine embodiments of heat, pressure, and endurance. Central to belief is the "Cycle of the Hammer": birth, forging, tempering, and breaking. Life is a forge, and every soul must endure reshaping. Sacred texts are etched into metal and passed through generations.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> NOTES [NIEMAND.LOG]
+"One of 'em handed me a dagger once — said it was cooled in the blood of his grandfather. I didn’t ask if that was literal. These folks don’t make tools, they give them *souls*. Every scratch on their armor means something."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> RETURN TO SPECIES INDEX? [Y/N]
+
+
+    `;
+    startSpeciesEntry(humanLog);
+  </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — NOX</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/gatefinder-entry.css" />
+</head>
+
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display: none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">AGENT DOSSIER: NOX</span>
+        <div class="nav-links">
+          <a href="../gatefinder.html">[ RETURN TO DIRECTORY ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/gatefinder-entry.js"></script>
+  <script>
+    const noxLog = `
+>> SYNCING ASSASSIN'S CACHE…
+>> INITIATING NULL PROTOCOL…
+>> IDENTITY UNMASKED: NOX…
+>> ACCESSING BLACKSTREAM FILES…
+
+
+[>] NAME : Unknown
+[>] ALIAS : Nox
+[>] ORIGIN : Former Band of Thrope operative. Erased from their ledgers. Presumed dead — until now.
+
+[>] SPECIES : Unknown (possibly human-Ampho hybrid?)
+
+[>] PAST LIFE : Nobody knows their real name—not even them. Former Band of Thrope assassin, Nox was conditioned from birth to kill. One day, during a Gate mission, they touched something... ancient. It broke the conditioning, erased their memories, and started a long journey toward rediscovery.
+
+[>] PERSONALITY : Quiet, introspective, but surprisingly goofy when comfortable. They don’t talk much, but when they do—it’s either deep as hell or totally unhinged.
+
+[>] GIBEL DEVICE : Null Crown – grants invisibility to all forms of memory and surveillance
+
+[>] POWERS : Gate Echo: Fragments of Gate energy stuck in them allow brief reality-bending—short-rangae teleport, hallucination projection, time glitching. Shadow Style: Blade skills so smooth they look choreographed. Mimic Reflex: Can mirror another person’s fighting style after clashing blades.
+
+[>] MOTIVE : Trying to find proof they exist. The Null Crown granted freedom—but at the cost of presence.
+
+[>] RELATIONSHIP : Slate remembers them with effort and keeps coded mnemonics to anchor them. Jarrin recognizes their “animal scent,” which helps Lyra feels them like a phantom twin. They share a mutual loneliness.
+
+[>] CURRENT ROLE :
+- Stealth elimination and infiltration
+- Gate recon missions that require zero trace
+- Handles cleanup and threat neutralization
+
+[>] PERSONAL NOTE :
+"Death is quiet. So am I."
+
+
+
+End of Log.
+    `;
+    startHouseEntry(noxLog);
+  </script>
+</body>
+
+</html>

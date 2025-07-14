@@ -1,0 +1,25 @@
+"[Pale Fold Terminal – Booting...]",
+
+"> SYSTEM LOG LOADER INITIALIZING...",
+"> CONNECTION: OFFLINE",
+"> ENCRYPTION: NONE",
+"> LOG AUTHOR: “NIEMAND”",
+"> LOCATION: Unknown (Starmap data corrupted)",
+
+"[DATASET: OBSERVATIONS – SECTOR WIDE PHENOMENA]",
+"[ENTRY COUNT: 127 AND RISING...]",
+
+"> Personal Log Viewer: ACTIVE",
+"> Timestamp Sync: UNSTABLE",
+"> Sensory Feed Patching: ERRATIC",
+"> Memory Integrity: *Fragmented*",
+
+"[NOTE]",
+"These records are drawn from experience, rumor, and things that should not be remembered.",  
+"There are no guarantees of accuracy. Only survival.",
+
+"Proceed at your own risk.",
+
+"> LOADING FIRST LOG...",
+
+"..."

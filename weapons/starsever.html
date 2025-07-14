@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PROTOCOL: GIBEL — STARSEVER</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/weapons-entry.css" />
+</head>
+<body>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ WEAPON PROFILE: STARSEVER ]</span>
+        <div class="nav-links">
+          <a href="../weapons.html">[ RETURN TO ARMORY ]</a>
+        </div>
+      </div>
+
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/weapons-entry.js"></script>
+  <script>
+    const starseverLog = `
+>> BOOTING STARSEVER ARCHIVAL SYSTEM...
+>> VALIDATING BLACK VAULT ACCESS KEYS...
+>> ACCESS GRANTED. LOADING KILL-PROFILE...
+
+[>] DESIGNATION: STARSEVER
+[>] TYPE: Melee-Class | Relic-Grade Energy Blade
+[>] ORIGIN: Believed to be forged in the aftermath of the 2nd Gibel Conflict by a Rokatan Forge-Lord using the blood-coded remains of a fallen Omnis.
+
+[>] DESCRIPTION:
+A blade that pulses with deep violet light, STARSEVER is no ordinary weapon. Each swing leaves a spectral trail — as if slashing across timelines. It resonates in the presence of Gibel Devices and reacts violently to temporal anomalies.
+
+[>] UNIQUE TRAITS:
+— Can phase through non-organic matter briefly.
+— Stores and releases kinetic charge via combat rhythm.
+— Emits sub-sonic screams recorded from forgotten battles.
+
+[>] USERS:
+Carried exclusively by high-clearance Gate Finders or Blacksite Assassins. Rumored to have "chosen" its last three wielders.
+
+[>] WARNING:
+Do not attempt to replicate STARSEVER. All replication trials have resulted in spontaneous neural combustion or memory collapse.
+
+[>] STATUS: Active. Currently bonded to JARRIN FELL.
+
+End of Entry.
+    `;
+
+    startWeaponEntry(starseverLog);
+  </script>
+</body>
+</html>

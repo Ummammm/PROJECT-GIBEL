@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — SPECIES: AMANAT</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/species-entry.css" />
+</head>
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">SPECIES DOSSIER: AMANAT</span>
+        <div class="nav-links">
+          <a href="../species.html">[ RETURN TO SPECIES INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/species-entry.js"></script>
+  <script>
+    const humanLog = `
+>> INITIALIZING GENETIC MAP...
+>> RETRIEVING CULTURAL ARCHIVES...
+>> AUTHORIZATION: PUBLIC CLASS APPROVED.
+> ACCESSING SPECIES DOSSIER…
+> QUERY: [ 05 ] → AMPHO
+> USER: Niemand.EXPLORER.LOG
+> STATUS: FILE UNREDACTED
+> DISPLAY MODE: TEXT-ONLY (TERMINAL-COMPATIBLE)
+> ...
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[COMMON NAME].................: Ampho
+[GALACTIC CODE]...............: SPE-007-AMP/HYD
+[ORIGIN WORLD]................: THALMOR IX (deep-ocean colony), now diaspora across various aquatic exoplanets
+[STATUS]......................: Independent / Nomadic Clans / Territorial Sea-Sovereigns
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+> APPEARANCE:
+Amphibious humanoids with sleek, hydrodynamic frames. Skin varies by subclan—iridescent blues, greens, or pitch-black with bio-luminescent spots. Limbs are long and double-jointed for swimming or ambush. Eyes are fully black, pressure-resistant, and glow faintly in darkness. Gills run along ribcage and neck, with collapsible lungs for surface operations.
+
+> HABITAT:
+Thrive in high-pressure oceanic worlds with deep trenches, volcanic reef systems, or underwater cave networks. Above water, they prefer humid or swamp-like environments. Some clans inhabit orbital tanks or carry mobile aquatic habitats on trading barges.
+
+> BIOLOGY:
+Dual-adapted respiratory system (gills + lungs). Cold-blooded but regulate internal temperature via neural bio-currents. Skeletal structure is semi-flexible, allowing tight-space movement. Fast reflexes, near-silent locomotion underwater. Regenerative capabilities range from rapid wound sealing to limb regrowth (depending on genetic purity).
+
+> CULTURE & OCCUPATIONS:
+- Clans operate under a loose matriarchal caste structure.
+- Culturally favor oral storytelling, tattoos, and symbiotic relationships with native sea-fauna.
+- Common roles: Depth-scouts, Salvagers, Black-Tide Couriers, Coral Engineers, Assassins.
+- Known for smuggling networks and scavenging lost tech from sunken ruins or wrecked stations.
+- Trade in rare algae-based stimulants, aquatic weaponry, and encrypted tide-maps.
+
+> RELIGION:
+Worship the “Trench-Whisper,” a rumored sentient current believed to guide the worthy through life and death. Each clan interprets the Trench differently—some as a whispering tide god, others as the ghostly pulse of a long-dead ancestor race. Ritual drownings (controlled) are part of adulthood rites to “hear the Current.”
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> NOTES [NIEMAND.LOG]
+“They came from the mist at low tide. Quiet, smooth, no weapons visible. But I felt them watching me. One spoke in this slow gurgling voice and offered waterfruit... it was sweet, kinda salty. They laughed when I coughed. Then vanished into the fog like ghosts. Polite ghosts. With knives.”
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> RETURN TO SPECIES INDEX? [Y/N]
+
+
+
+    `;
+    startSpeciesEntry(humanLog);
+  </script>
+</body>
+</html>

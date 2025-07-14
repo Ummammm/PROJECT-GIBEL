@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VOIDCASTER — PROTOCOL: GIBEL</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/weapons-entry.css" />
+</head>
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display: none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ FILE ACCESSED: VOIDCASTER WEAPON LOG ]</span>
+        <div class="nav-links">
+          <a href="../weapons.html">[ RETURN TO ARMORY DIRECTORY ]</a>
+        </div>
+      </div>
+
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/weapons-entry.js"></script>
+  <script>
+    const voidcasterText = 
+`> WEAPON CLASS: NULLSPACE PROJECTOR
+> DESIGNATION: "VOIDCASTER"
+> MANUFACTURER: UNCONFIRMED. BLUEPRINTS TAGGED TO LOST HOUSE EIDOLON.
+
+DESCRIPTION:
+An enigmatic weapon designed to tear open micro-rifts in localized space-time. Each discharge expels a concentrated gravitic anomaly—commonly referred to as a "void bloom"—capable of warping mass, distorting perception, or outright erasing small-scale matter.
+
+> USAGE NOTES:
+Voidcaster requires neural-link calibration. Firing may induce auditory hallucinations, limb tremors, or temporary quantum dislocation of memory.
+
+FIELD QUOTES:
+- "I shot once. The battlefield went silent. The stars were... wrong." — Anonymous Testimonial, Sector 19-C.
+- "This gun whispers. You shouldn't listen." — Former Arcanel Engineer.
+
+WARNING:
+DO NOT store near reactive AI cores. Weapon reacts unpredictably to non-linear cognition. Handle with void-gloves only.
+
+[ STATUS: ONE PROTOTYPE CONFIRMED. CURRENTLY IN POSSESSION OF AGENT: NOX. ]
+
+> END OF FILE`;
+    
+    startWeaponEntry(voidcasterText);
+  </script>
+</body>
+</html>

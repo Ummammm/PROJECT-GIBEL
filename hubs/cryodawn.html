@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neutral Hub: Nex Vox Gate</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/hubs-entry.css" />
+</head>
+<body>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="entry-container">
+      <div class="terminal-output" id="entry-content">
+        <!-- Typing content goes here -->
+      </div>
+      <button class="back-button" onclick="window.history.back()">[<] RETURN TO HUB ARCHIVE</button>
+    </div>
+  </div>
+
+  <script src="../js/hubs-entry.js"></script>
+  <script>
+    const hubData = `
+> ACCESSING_HUB_DATABASE // NODE: NEX_VOX_GATE  
+> STATUS: OMNI-LINK RELAY ZONE // TRANSMISSION INTERFERENCE: HIGH  
+> COSMIC FREQUENCY LOCK ▓▓▓▓░░░░░░ 42% | RELAY CYCLE: UNSTABLE
+
+--------------------------------------------------------
+>> [ NEUTRAL HUB LOG ENTRY #03 ] :: NEX VOX GATE
+--------------------------------------------------------
+
+[1] TYPE OF HUB:  
+↳ **Ancient Galactic Relay + Message Exchange Nexus**  
+Nex Vox Gate is an ancient alien structure turned communications hub. Orbiting a dead binary star system, it's the size of a small moon and built from obsidian alloy and starsteel, laced with whispering tech filaments older than any known race.
+
+It was discovered accidentally, and no one fully understands how it works—but it connects comms, minds, and even dimensional echoes.
+
+[2] KNOWN FOR:  
+↳ **“The Station That Hears the Galaxy.”**  
+It’s the final relay point for deep void messages, psychic transmissions, coded gate pings, and pan-faction broadcasts too sensitive to trace. Governments, rebels, bounty hunters, AI tribes—all use it to listen in or send encrypted pulses.
+
+Some say it also receives messages from the **dead timelines**—fractured universes that no longer exist.
+
+[3] FACTIONS SEEN:  
+↳ You’ll find everyone with something to say—or something to hide:  
+- **Arcanel Tech-Clerics** praying at signal-altars  
+- **Wayferrer Guild** intercepting lost transmission paths  
+- **Golden Theatre fixers** scrubbing audio trails  
+- **Titanium Tribunal relay siphons** living in the station’s walls  
+- **The Blacklist Registry** taps its deeper echo-channels for dead contracts  
+- **Gate Finder operatives** check for Gibel Device pulse data from collapsed sectors
+
+[4] SPECIAL FEATURE:  
+↳ **Echo Chamber Sigma-7**: A soundless void room where messages are “heard” through pure neurological resonance. Only Omnis or high-sensitivity psychics can interpret it—and sometimes even they bleed from the nose trying.
+
+↳ **The Vox Well**: A long-forgotten pit in the station’s core that emits distorted signals from unknown sources. Some say it’s a direct link to whatever built the Gates… or whatever destroyed the Ascent.
+
+[5] VIBE / CONDITIONS:  
+↳ Cold, haunting, and filled with whispers.  
+The lights flicker with no clear pattern. Halls stretch forever or loop back in impossible ways. Audio distortion is constant: echoes of forgotten transmissions, ghost laughter, alien war chants, or your own voice out of sync.
+
+No one stays long. Time feels… **off** here.
+
+Security is handled by sentient drones called **Null-Tongues**—they don’t speak, just gesture, and they only attack when someone tries to breach the sealed lower levels.
+
+--------------------------------------------------------
+> NEX_VOX_GATE NODE STABLE  
+> NEXT AVAILABLE HUB: VOXHOLE [Y/N]?  
+>_
+
+
+    `;
+    startHubEntry(hubData);
+  </script>
+</body>
+</html>

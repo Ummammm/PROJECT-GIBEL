@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PHOENICIANS — MINOR FACTION DOSSIER</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/minorfaction-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="entry-box">
+    <div class="terminal-output" id="entry-content"></div>
+    <button class="back-button" onclick="window.location.href='../minor-faction.html'">[<] RETURN TO MINOR FACTIONS</button>
+  </div>
+</div>
+
+<script src="../js/minorfaction-entry.js"></script>
+<script>
+  const minorFactionData = `
+>> INITIALIZING CONNECTION TO FACTION DOSSIER...
+>> DEEP ENCRYPTION DETECTED — CRACKING KEYS...
+>> VALIDATION SEQUENCE PASSED.
+>> ACCESS GRANTED. LOADING FACTION ENTRY...
+>> Channeling through black market relays...
+  
+PHOENICIANS — MINOR FACTION DOSSIER
+  
+[>] CAPITAL WORLD : Ashyr Prime – A scorched, shattered world once thriving, now cratered and haunted. Phonecian HQ lies beneath the surface, in an endless tunnel system called The Echo Forge.
+
+[>] GALACTIC TRAVELS : Travel with Ghostrunners – sleek, heat-dampening ships made from salvaged tech. Move through Black Echo Lanes, dead communication paths laced with interference to dodge detection. Some units hijack Gates with hacked Omnis to launch “jump raids” behind enemy lines.
+
+[>] CIVILIANS : Mostly made of exiles, deserters, refugees, and ex-nobles who’ve seen the truth behind the system. Culture runs on memorial rites, survival stories, and resistance tattoos etched with memory-tech. Big on oral tradition: Wound Songs, Ash Chants, and Bloodlight Sermons. They don’t worship—they remember. Their version of religion is collective vengeance and honor for the dead.
+
+[>] ECONOMY & TRADE : Currency? They don’t care. They trade in:Loyalty, intel, stolen supplies, and favors owed. Forge black-market alliances with smugglers, Wayferrer outcasts, and even rogue Arcanel priests. Their blacksmiths craft weapons from fallen mechs and ruined House tech—proudly worn, scars and all.
+
+[>] WEAPONS & COMBAT : Weaponry is brutal and cobbled together: railcutters, explosive shivs, voice-trigger mines. Combat style: Echo War – hit-and-run tactics paired with sonic traps and memory attacks. Special units: The Red Choir – vocal disruptors who sing in frequencies that melt tech, Forged Ghosts – body-modded saboteurs living half-in digital space, Ashblades – melee elites wielding fire-veined obsidian.
+
+[>] COMMUNICATON & MEDIA : Broadcasts in ghost frequencies that only resonate near trauma-marked listeners. Use Ash Ribbons – data-encoded cloth strips hidden in ruins and graves. Their main feed: The Emberline – rebel stories, lost names, dead family roll calls, and blacklisted war crimes. Famous for hijacking noble broadcasts and turning them into live war crimes exposés.
+
+[>] LAWS & CRIME : Seen as terrorists by the Houses; heroes by the forgotten. Crimes? Too many. Accused of: House-bombings, Omni kidnappings, Gate corruption, and rebel priest assassinations. They reject external law, governed instead by the Fire Pact: “No mercy for the cruel. No betrayal of the fallen. No peace without truth.” Internal justice: swift, emotional, and handled by Ashbound Circles—elders who survived multiple purges.
+
+[>] RUINS & RELICS : Hunt: Whisper Blades – forged from silent deaths, said to remember every strike. The Dying Archive – a collapsing AI mainframe that holds names of every forgotten rebel. Ascent Cryshards – sound-reactive stones that reveal lies when shattered. Rumor: they briefly held a Gibel Device capable of rewriting memory, but it fractured during battle—its shards now scattered and dangerous.
+
+[>] KEY FIGURE :
+
+[>] 1.Suri Vint – The Red Relay
+[>] 2.Irgan Tatch – Scrap Saint
+[>] 3.Julex Mor – The Architect of Collapse
+[>] 4.Sol Ruun – The Masked Nothing
+[>] 5.Amira Vehl – The Deadlight Poet
+
+
+End of Archive.
+
+
+  `;
+
+  startMinorFactionEntry(minorFactionData);
+</script>
+</body>
+</html>

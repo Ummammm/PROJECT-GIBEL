@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>THERMALAE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: THERMALAE  
+> CLASSIFICATION: CORE-WORLD // VOLCANIC TRADE HUB  
+> ARCHIVAL INTEGRITY: STABLE // OPEN ACCESS GRANTED  
+------------------------------------------------------------
+
+[1] TERRAIN:  
+>> A hyper-volcanic world veined with rivers of magma and jagged obsidian fields.  
+>> Cities are carved into ancient lava tubes or suspended along sheer caldera cliffs.  
+>> Surface terrain constantly shifts due to deep tectonic unrest.
+
+[2] WEATHER CONDITIONS:  
+>> Extremely hot and arid; ambient temperatures often exceed 70°C in exposed regions.  
+>> Frequent sulfuric windstorms and intense ashfall cloud the skies.  
+>> Nights offer little relief—thermal radiation lingers in the atmosphere.
+
+[3] FLORA & FAUNA:  
+>> Flora: Ember thorns, magma orchids, and geothermal mosses cling to vents and cracks.  
+>> Fauna: Lava serpents, ash mantises, and flame-backed caracals.  
+>> Domesticated creatures like **Furnace Hounds** are used for tracking and perimeter defense.  
+
+[4] METALS / PRECIOUS ORES:  
+>> Rich in Scorchium (heat-resistant alloy), Magmite (plasma-grade energy conductor), and Obscenite (dense forge-metal).  
+>> Rare finds include Pyrocrystals—volatile gems storing raw thermal energy.  
+>> Rumors of ancient “Infernum Cores” deep in the mantle persist among rogue miners.
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Emberquakes – seismic events that rupture lava plains and reawaken dormant vents.  
+>> Flame Spirals – towering firestorms caused by atmospheric ignition loops.  
+>> Smog Seasons – months-long periods where visibility drops to zero and breathing is hazardous without filters.
+
+------------------------------------------------------------  
+> PRIMARY CONTROL: HOUSE SCHMIED // TIER-3 INDUSTRIAL DOMINION  
+> ECONOMIC ROLE: GALACTIC WEAPON FORGING, HEAT-BASED MANUFACTURING  
+> CULTURAL SIGNIFICANCE: PILGRIMAGE WORLD FOR THE FORGE-FOLLOWERS  
+> SECURITY FLAG: MEDIUM – MINER DISPUTES / RELIC RAIDERS DETECTED  
+
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neutral Hub: Drifter's Run</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/hubs-entry.css" />
+</head>
+<body>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="entry-container">
+      <div class="terminal-output" id="entry-content">
+        <!-- Typing content goes here -->
+      </div>
+      <button class="back-button" onclick="window.history.back()">[<] RETURN TO HUB ARCHIVE</button>
+    </div>
+  </div>
+
+  <script src="../js/hubs-entry.js"></script>
+  <script>
+    const hubData = `
+> ACCESSING_HUB_DATABASE // NODE: DRIFTER’S RUN  
+> STATUS: NEUTRAL FREEPORT // RUMORED UNSTABLE  
+> LAST OFFICIAL SURVEY: 79 YEARS AGO  
+> NODE VERIFIED BY: MULTIPLE CROSS-FACTION TRAVELERS  
+
+--------------------------------------------------------
+>> [ NEUTRAL HUB LOG ENTRY #07 ] :: DRIFTER’S RUN  
+--------------------------------------------------------
+
+[1] TYPE OF HUB:  
+↳ **Deep-void Waystation / FTL Graveyard / Memory Refuge**  
+Drifter’s Run floats just beyond the edge of most galactic maps—a derelict space hub caught in a quantum current that occasionally shifts its location. It's the final stop for wayfarers heading into unexplored voids or for those looking to vanish.
+
+[2] KNOWN FOR:  
+↳ **"The Place You End Up. Or Disappear Into."**  
+A crossroads for:
+- Retired smugglers
+- Fugitives with fake names
+- Travelers with nowhere else to go
+- Burned-out Omnis needing silence
+- Those seeking the mythical “Last Gate”
+
+Drifter’s Run isn’t on any official star chart anymore. Those who find it either meant to… or were called.
+
+[3] FACTIONS SEEN:  
+↳ It varies—but always fringe. Often:
+- **Wayferrer outcasts** documenting strange signals
+- **Genezen rogue scientists** running end-stage experiments
+- **Golden Theatre agents** filming goodbye reels
+- **Arcanel mystics** mapping soul-echoes
+- **Titanium Tribunal fragments** scanning for lost AI relics
+
+Also home to:
+- Vagabonds
+- Memory-sick AI
+- War deserters
+- Star-cult prophets
+
+[4] SPECIAL FEATURE:  
+↳ **The Run Gate** – A broken and partially-reactivated Oldsmen Gate embedded in the station’s core. It hums, pulses... sometimes whispers. No one knows where it leads. A few brave (or mad) souls step through. None return.
+
+↳ **The Drift Wall** – A massive panel of names, etched with plasma cutters and tears. It's a tradition for every traveler to leave their name—or someone they’ve lost.
+
+↳ **The Black Echo Lounge** – A zero-gravity bar inside a defunct cargo bay where patrons float, drink, and record their final thoughts. All feeds go into a locked core memory bank called *The Vault of Final Wills*.
+
+[5] VIBE / CONDITIONS:  
+↳ Quiet. Haunted. Dreamlike.  
+The station creaks and hums like it’s remembering something. Time feels slower. Conversations are whispered. People here don’t look for new beginnings—they come for closure, or to fade away.
+
+There’s warmth in the silence. Ghosts in the halls. Stars out the windows that no one's ever mapped.
+
+**Drifter’s Run is where stories end—or start again under different names.**
+
+--------------------------------------------------------
+> DRIFTER’S RUN NODE COMPLETE  
+> THIS WAS THE FINAL ENTRY IN: NEUTRAL HUB NETWORK  
+> FILE LOCKED FOR ROAMING ARCHIVISTS ONLY  
+>_
+
+
+    `;
+    startHubEntry(hubData);
+  </script>
+</body>
+</html>

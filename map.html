@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PROTOCOL: GIBEL — MAP ARCHIVE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/map.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ GALACTIC MAP INTERFACE ]</span>
+        <div class="nav-links">
+          <span onclick="showTextMap()">[ TERMINAL MAP ]</span>
+          <span onclick="showImageMap()">[ VISUAL MAP ]</span>
+          <a href="index.html">[ RETURN TO MAIN ]</a>
+        </div>
+      </div>
+
+      <!-- Terminal Text Map -->
+      <div id="terminal-map">
+        <pre class="entry-log" id="entry-content"></pre>
+      </div>
+
+      <!-- Visual Image Map -->
+      <div id="image-map" style="display:none; text-align: center; margin-top: 30px;">
+        <img src="assets/galaxymap4.png" alt="Galaxy Map" class="map-image" />
+      </div>
+    </div>
+  </div>
+
+  <script src="js/map.js"></script>
+  <script>
+  const logEntry = `
+┌─────────────────────────────────────────────────────────────┐
+│             PROTOCOL: GIBEL – STARMAP NAVIGATION            │
+└─────────────────────────────────────────────────────────────┘
+
+[>]  2. NAEL’THURA
+[>]  3. VHARN IX
+[>]  4. RHELLAN
+[>]  5. ZHO-TORR PRIME
+[>]  6. LETHOR’S WAKE
+[>]  7. THERMALAE
+[>]  8. CADRISS
+[>]  9. YSSENTHAR COIL
+[>] 10. OMNITH’S CORE
+[>] 11. VORNHOLD PRIME
+[>] 12. VEL’SHARA
+[>] 13. THARUUN FORGEHEART
+[>] 14. SANCTUM VIRIDIA
+[>] 15. TRIVANIS
+[>] 16. OBSCURON
+[>] 17. VELVETTE SPIRE
+[>] 18. ASHYR PRIME
+[>] 19. TITANIUM TRIBUNAL VESSELS
+[>] 20. VANTHELISS
+
+NOTE: Starmap coordinates vary by observer drift. Do not trust static charts.
+
+  `;
+  startMapLog(logEntry);
+</script>
+</body>
+</html>

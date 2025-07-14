@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LOG: Arrival on RHELLAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/personallogs-entry.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ PERSONAL LOG ENTRY: ARRIVAL ON RHELLAN ]</span>
+        <div class="nav-links">
+          <a href="../personallogs.html">[ RETURN TO LOG INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/personallogs-entry.js"></script>
+  <script>
+    const logEntry = `
+┌──────────────────────────────────────────────────────┐
+│ [PERSONAL LOG ENTRY: NMD-PERS.0021-RHELLAN]          │
+│ Date: [Uncalibrated, Est. Stellar Cycle 03-97]       │
+│ Subject: Arrival on RHELLAN                          │
+└──────────────────────────────────────────────────────┘
+
+They said Rhellan wasn’t made for people like me.
+
+And they were right.
+
+You don’t land on Rhellan — you *leak* into it. The moment I stepped off the ramp, it was like gravity didn’t trust itself. The surface twitched beneath my boots like skin with a memory. Nothing stays still here — not the soil, not the sky, not even your own thoughts if you stare too long into the violet mist.
+
+The locals call it a "living planet," but no one really explained *what* it’s living for.
+
+My visor picked up pulses underground, like the planet breathes. I passed towers made of fused bone and glass — some still whispering. Whole colonies once lived here, vanished overnight. I saw outlines of people burned into stone. No wreckage. Just… residue.
+
+I tried sleeping once — the wind whispered in languages I didn’t know. When I woke up, my recorder was turned on.
+
+I didn’t turn it on.
+
+But I’m still here. I made it out. Not many can say that. Rhellan didn’t want me dead — just remembered.
+
+That’s somehow worse.
+
+– Niemand
+
+
+    `;
+
+    startPersonalLog(logEntry);
+  </script>
+</body>
+</html>

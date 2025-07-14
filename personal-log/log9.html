@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LOG: NAEL'THURA SKIN GARDEN</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/personallogs-entry.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ PERSONAL LOG ENTRY: NAEL'THURA SKIN GARDEN ]</span>
+        <div class="nav-links">
+          <a href="../personallogs.html">[ RETURN TO LOG INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/personallogs-entry.js"></script>
+  <script>
+    const logEntry = `
+┌────────────────────────────────────────────────────────────────────────────┐
+│ [PERSONAL LOG ENTRY: NMD-PERS.0208-NAEL-SKIN]                              │
+│ Date: Unknown Cycle – Chrono drift present                                 │
+│ Subject: Nael’Thura Skin Garden                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+
+I shouldn't have gone in alone.
+
+Nael’Thura was supposed to be uninhabited — "bio-fractured," they said. Whatever that means. I landed in what looked like the husk of a once-beautiful grove. Trees still stood, but their bark had peeled away, revealing smooth, pinkish fibers beneath. Not wood. Not even plant. More like… dermal tissue.
+
+Then the wind blew.
+
+It didn't make a sound, not really. Just a rustle that reminded me of whispers on wet flesh. Every petal, every vine, every fallen leaf looked like something that once belonged *inside* a body. The deeper I walked, the more I saw. Eyes embedded in tree trunks. Smiling lips on flower buds. A pulsing root network that twitched when I stepped too close.
+
+And then I found the statue.
+
+Not made. Grown.
+
+A humanoid figure, maybe Shivana in origin, preserved mid-scream, their skin stretched outwards — into the surrounding flora. Absorbed. A monument to a moment of terror. I backed away. I shouldn't have turned my back, but I did. I swear the garden *sighed.*
+
+I made it back to the ship with a strip of vine wrapped around my boot. It took days before it stopped writhing.
+
+Locals whisper that the garden was born from a failed experiment — biotech merged with trauma, turned loose after a civil war no one admits happened. Some say it's sentient. Lonely, even. Wants to *feel* again. Wants to *be felt.*
+
+Me? I burned my boots.
+
+And I still dream of the statue.
+
+– Niemand
+
+
+    `;
+
+    startPersonalLog(logEntry);
+  </script>
+</body>
+</html>

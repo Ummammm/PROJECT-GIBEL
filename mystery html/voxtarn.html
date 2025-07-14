@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: Voxtarn</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE_X3-SILENT-VANE]  
+> CLEARANCE LEVEL: OMNI-ALPHA  
+> USER: VERIFIED  
+> OPENING FILE: VOXTARN  
+> HARMONIC SCRAMBLE DETECTED  
+> APPLYING NULL-TONE FILTER  
+
+████████████████████████████████████████████████████  
+:: ARCHIVAL ENTRY — [VOXTARN] ::  
+████████████████████████████████████████████████████
+
+[DESCRIPTION OF THE EVENT:]  
+Voxtarn was once a thriving mining city nestled within the fractured mantle of *Icarus Minor*, a geode-laced moon orbiting the red gas giant Enovari. Built inside a massive crystalline cavern, the colony was a marvel of harmonic resonance engineering—its power grid synchronized with the natural vibrations of the quartzine walls.
+
+Then came the *Resonance Collapse*. Without warning, every sound in Voxtarn stopped—machines halted mid-cycle, voices vanished from comms, alarms failed to trigger. Those who were not instantly silenced were driven mad by auditory hallucinations of “reversed singing” and “echoes from futures that never occurred.”
+
+Within hours, Voxtarn was no longer transmitting. Rescue units that attempted entry heard only faint, layered voices echoing impossible words from the crystals, even when comms were disabled. Some reported their own voices being repeated *before* they spoke them.
+
+Most chillingly, recovered audio logs include “phantom broadcasts” of entire conversations that never happened—between people long dead, and some… not yet born.
+
+[LOCATION:]  
+Icarus Minor, Sub-Crystal Mantle Zone 7G  
+Enovari System (Inner Ring of Tharos Drift)
+
+[CURRENT STATUS:]  
+🛑 QUARANTINED SITE  
+— No authorized entry since Incident #VX-03  
+— Area declared “acoustically unbound”  
+— Echoes continue to bleed into nearby stations  
+— Reclassified as *Temporal-Sonic Anomaly*
+
+[WHAT PEOPLE SAY:]
+
+> “Voxtarn doesn’t echo you back—it *asks you why you spoke in the first place*.”  
+– Audio Arcanist Vallin Dreve  
+
+> “My son died there. But his voice still calls me… only from the left speaker.”  
+– Enovari civilian broadcast leak  
+
+> “We listened too deep. We struck the *future* by mistake.”  
+– Final log of Engineer Jorai Venn  
+
+> “It’s not haunted—it’s remembering.”  
+– House Schmied acoustic tech, anonymous report  
+
+████████████████████████████████████████████████████  
+> FILE STATUS: RESONANCE LOCKED  
+> CROSS-REFERENCES: STELLAR WOUND THETA | THE CHOIR OF NULL | THE MAW BEYOND LIGHT  
+████████████████████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

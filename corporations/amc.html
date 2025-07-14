@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporation File: AETHERGATE MINING COLLECTIVE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/corporate-entry.css">
+</head>
+<body>
+
+<!-- Boot Loader -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content appears here -->
+  </div>
+    <button class="back-button" onclick="window.location.href='../corporate.html'">[<] RETURN TO CORPORATION ARCHIVE</button>
+</div>
+
+<!-- Script: pulls in content + boot logic -->
+<script src="../js/corporate-entry.js"></script>
+<script>
+  const corpData = `
+> CONNECTING TO NODE: AETHERGATE_MCOLL.EXCAVATION_CORE  
+> LINE ESTABLISHED VIA DEEPBORE SIGNAL LINK  
+> ENCRYPTION MODE: CAVERNLOCK-9  
+> WELCOME, FOREMAN [OMNI/PRIVILEGED]
+
+> ----------------------------
+
+[1] LOCATION:  
+**AETHERGATE MINING COLLECTIVE (AMC)** operates across fractured moons, collapsed exoplanets, and sealed sub-dimensions.  
+Their primary HQ is the **DEEPGRAVE AXIS**, a subterranean megastructure dug into the hollowed planet **KRAVIS-3**, once a rogue dwarf star.  
+They maintain “Core Tunnels” spanning dozens of systems via wormhole boring drills, often mining **invisible or reality-warping ore.**
+
+[2] MARKET / PRODUCTS:  
+AMC’s motto: _"If it's buried, we own it."_  
+They specialize in:
+- **Dimensional resonance ores** (used in time-bending tech)
+- **Voidstone** and **Reality Shards**
+- **Anti-gravity cores**
+- **Quantum lattice alloys** (used in Omni-tier devices)
+- Leasing **spacefolding mining tech** to warlords and megacorporations
+
+Most of their materials are considered **too volatile or cursed** to handle without psychotropic shielding.  
+They don’t sell stability—they sell **impossible matter**.
+
+[3] HQ LAYOUT:  
+> **THE DEEPGRAVE AXIS**  
+- **Coreshaft Nexus** – A central tunnel descending 90km into Kravis-3's fractured singularity core. Security turrets hover silently.  
+- **Echoforge Caverns** – Where minerals are refined while echo-drone AI record soundwaves from other dimensions.  
+- **Gravlock Spires** – Upside-down office chambers suspended by anti-mass fields. The higher your rank, the lower your room.  
+- **The Maw** – A living quarry that feeds on spatial anomalies, often collapses in and out of reality mid-cycle.  
+- **Neural Dirtline** – A strange hybrid between control center and fungal intelligence grown around the central AI. It thinks in **earth pulses**.
+
+[4] ATMOSPHERE & AESTHETICS:  
+Imagine an ant hive designed by Escher on ketamine.  
+Everything is dim-lit, bronze-wired, rust-touched. Floor panels hum with seismic rhythm.  
+Workers wear gravity braces and void respirators. Some tunnels bend light or produce hallucinations.  
+Warning signs are in 4D script. Glowing veins of impossible ore slither through the walls like nervous systems.  
+Vibes? “If the planet screams, we’re digging in the right place.”
+
+[5] SECRET & FORBIDDEN AREAS:  
+> **Gate Vault 77b** – A sealed tunnel where miners accidentally unearthed what might be a proto-Gate. Now it watches them back.  
+> **The Black Hoard** – An inventory cache of classified relics, including fractured Omnicubes and memory-stone weapons. Guarded by forgotten AI.  
+> **Rift Bloom Sector** – Overgrown with luminescent spores that grow **only in impossible light**. Entry requires full psycho-armor.  
+> **The Deadshift Core** – A chamber containing a chunk of time-locked ore. Everything inside moves in reverse, including thought.  
+> Rumor has it... somewhere in the lowest tunnels is **a doorway** made of voices.
+
+> STABILITY THRESHOLD REACHED  
+> AETHERGATE MINING COLLECTIVE: “WE DON’T DRILL FOR GOLD. WE DRILL FOR GODS.”
+
+> ----------------------------  
+> ALL CORPORATE ENTRIES COMPLETE. SYSTEM RESETTING TO OMNI ACCESS MENU…
+
+  `;
+  startCorpEntry(corpData);
+</script>
+</body>
+</html>

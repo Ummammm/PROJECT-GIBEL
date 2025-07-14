@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — SPECIES: SHIVANA</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/species-entry.css" />
+</head>
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">SPECIES DOSSIER: SHIVANA</span>
+        <div class="nav-links">
+          <a href="../species.html">[ RETURN TO SPECIES INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/species-entry.js"></script>
+  <script>
+    const humanLog = `
+>> INITIALIZING GENETIC MAP...
+>> RETRIEVING CULTURAL ARCHIVES...
+>> AUTHORIZATION: PUBLIC CLASS APPROVED.
+> ACCESSING SPECIES DOSSIER…
+> QUERY: [ 02 ] → SHIVANA
+> USER: Niemand.EXPLORER.LOG
+> STATUS: FILE UNREDACTED
+> DISPLAY MODE: TEXT-ONLY (TERMINAL-COMPATIBLE)
+> ...
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[COMMON NAME].................: Shivana
+[GALACTIC CODE]...............: SPE-032-XI/SHN
+[ORIGIN WORLD]................: Nael’Thura Prime
+[STATUS]......................: Widespread (Unified under House Arcanel)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+> APPEARANCE:
+Tall, elegant humanoids marked by smooth iridescent skin, often in deep purples, blues, or greens. Long facial ridges instead of noses, luminous eyes without pupils, and subtle glowing veins across their neck and limbs. Hair varies from silky tendrils to glowing stalks. Graceful and refined in every movement.
+
+> HABITAT:
+Originally deep forest biomes of Nael’Thura Prime — now migrated across technocratic enclaves, floating cities, and data sanctuaries controlled by House Arcanel. Prefer controlled atmospheres rich in bioluminescent flora and ambient sonic waves for optimal mental focus.
+
+> BIOLOGY:
+Shivana are photosensitive and semi-symbiotic with certain plant life. Possess a dual neural system — one dedicated to logic and another to empathic resonance. Live up to 250 years. Highly adaptive to neural-augmented tech, capable of interfacing with AI through bio-synaptic touch. Vulnerable to radiation spikes and sonic disruptions.
+
+> CULTURE & OCCUPATIONS:
+- Highly collectivist and ritualistic.
+- Favor philosophy, engineering, mysticism, and memory arts.
+- Primary developers of Techno-Mysticism under House Arcanel.
+- Common roles: Memory Keepers, Neural Architects, Veil Speakers, and Echo Historians.
+- Personal achievement is tied to harmony with community data-constructs.
+
+> RELIGION:
+Worship the *Veil*, a metaphysical field believed to store echoes of all living memory. Priests known as “Echobinders” interpret anomalies in the Veil and guide spiritual development. Death is seen as a transformation—data returned to the cosmic memory pool. Pilgrimages to "Echo Wells" are common rites.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> NOTES [NIEMAND.LOG]
+"I saw one once. Standing in a chamber where light didn’t dare move, she whispered into a flower that was clearly listening. Kinda gave me chills. Shivana feel like they belong in a place the rest of us are just borrowing."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> RETURN TO SPECIES INDEX? [Y/N]
+
+
+    `;
+    startSpeciesEntry(humanLog);
+  </script>
+</body>
+</html>

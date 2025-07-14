@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — LOG: SHARED FIRE WITH A ROKATAN BLACKSMITH</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/personallogs-entry.css" />
+</head>
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ PERSONAL LOG ENTRY: SHARED FIRE WITH A ROKATAN BLACKSMITH ]</span>
+        <div class="nav-links">
+          <a href="../personallogs.html">[ RETURN TO LOG INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/personallogs-entry.js"></script>
+  <script>
+    const logEntry = `
+┌────────────────────────────────────────────────────────────────────────────┐
+│ [PERSONAL LOG ENTRY: NMD-PERS.0120-FORGESHARE]                             │
+│ Date: Approx. 5 cycles post-Theta Incident                                 │
+│ Subject: Shared Fire with a Rokatan Blacksmith                             │
+└────────────────────────────────────────────────────────────────────────────┘
+
+You haven’t really *met* a Rokatan until you’ve felt the heat of their forge on your skin, the silence between hammer strikes, and the way they speak through steel more than words.
+
+I’d limped into the outer rim of Thrum’Vok Cradle, one of House Schmied’s minor ringworld enclaves — mostly Rokatan artisans and war-foundries. My ship needed patching. So did I.
+
+I found a forge by following the sound of metal crying. There, a blacksmith named Borrek didn’t ask who I was, or why I looked like I'd just escaped an orbital ghost storm. He just pointed to the fire, then tossed me a pair of tongs.
+
+We didn’t talk much. We *worked*. Hours, maybe days. Shaping a blade with no purpose. I think that was the point. The heat blurred time, and the rhythm of the anvil grounded me better than any medbay ever could.
+
+Eventually, he took the blade and carved a single symbol into its edge — looked like a spiral sun. “Means you bent. Didn’t break,” he finally said.
+
+He let me keep it. Didn’t ask for anything in return. Just nodded when I left, as if we'd both agreed on something neither of us said out loud.
+
+I still have that blade. Haven’t used it. Probably never will.
+
+But it reminds me I’m not the only one trying to shape something out of the ruins.
+
+– Niemand
+
+
+
+    `;
+
+    startPersonalLog(logEntry);
+  </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: The Archivum Eternum</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+[ACCESSING INSTITUTIONAL RECORD_01-ARC-E]  
+> SECURITY CLEARANCE: OMEGA-PRIME  
+> USER VALIDATED...  
+> INITIALIZING HOLO-RECORD...  
+> SUBJECT: THE ARCHIVUM ETERNUM  
+
+████████████████████████████████████████████████████  
+:: INSTITUTION DOSSIER — [THE ARCHIVUM ETERNUM] ::  
+████████████████████████████████████████████████████
+
+[OVERVIEW:]  
+The Archivum Eternum is not just a library—it is a sovereign construct, older than many civilizations, orbiting a darkened neutron star at the edge of charted space. Constructed partially from stardust composites and ancient alien alloys, it is considered a “Cognisphere Sanctuary.”
+
+Within its infinite fractal chambers reside physical and digital archives of nearly every known galactic culture, extinct species, and divergent timeline.  
+
+> INITIATING ACCESS: ARCHIVUM_ETERNUM_CORE.LOG  
+> DECRYPTION PASSPHRASE ACCEPTED: "REMEMBER_OR_BE_REMOVED"  
+> ACCESS LEVEL: [RESTRICTED – OMNI ECHO CLEARANCE]
+
+> -------------------------------------
+
+[1] TYPE OF INSTITUTION:  
+**Universal Knowledge Archive / Reality-anchored Library Construct**
+
+[2] KNOWN FOR:  
+The **Archivum Eternum** is the **oldest surviving databank** in the galaxy, said to predate even the collapse of the Oldsmen era.  
+Known for:
+- Housing **every known truth, forbidden secret, myth, and recorded anomaly**
+- Maintaining **Echo Crystals**: time-stamped psychic records stored in psionically-stable vaults
+- Containing **“The Forgotten Index”**—a catalog of erased civilizations, alternate timelines, and fractured deities  
+- Its Librarians are not mortal, but semi-sentient consciousnesses embedded in walking crystalline shells
+
+[3] WHO CAN ACCESS IT:  
+- Access granted only to:
+  - **Registered Omnis**
+  - **Rank-7 Pact Scholars**
+  - **Amanat Priests in Rite of Retelling**
+  - **Gate Finder operatives with verified Key Imprint**
+- Non-authorized entry causes **neural echo implosion**—a form of psychic death where the mind turns into memory fuel for the library
+
+[4] LOCATION:  
+> **Located in the core of the “Silent Moon”** orbiting **Vharos-Theta**, a black-hole-adjacent dead system.  
+The Silent Moon is uninhabitable and only visible through **quantum-phase triangulation.**  
+The facility is buried **beneath the crust** inside a reality-stable “vault chamber,” guarded by immortal data-constructs and paradox loops.
+
+[5] INSTITUTION’S SECRET:  
+Rumors speak of a **final locked vault** simply titled **“UNWRITTEN.”**  
+This room supposedly:
+- Contains knowledge that never existed but still exerts influence  
+- Can “overwrite” history, identity, and fate  
+- Only opens when someone tries to **forget who they are completely**  
+The Archivum is also suspected to be **sentient**, subtly rewriting memories of its visitors to protect deeper truths.  
+Some say the Archivum didn’t archive reality—**it authored it.**
+
+> -------------------------------------
+> NEXT INSTITUTION IN QUEUE: [Pact Council]  
+> STANDBY FOR NEXT ACCESS PROTOCOL...
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

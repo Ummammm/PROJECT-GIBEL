@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VEL'SHARA</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING FACTION NODE: HOUSE ARCANEL  
+> LOCATION: VEL'SHARA  
+> STATUS: ARCHIVAL LOG ACTIVE  
+> ----------------------------
+
+[1] TERRAIN:  
+Floating crystalline platforms interconnected by leyline bridges. Massive arcology towers rise from arcane-engineered landmasses that orbit a volatile, glowing star. The surface is fractured—more a network of stabilized land-islets than traditional continents. Below: energy-choked void rifts.
+
+[2] WEATHER CONDITIONS:  
+Intense solar flares filtered through Arcanel solar wards. Radiation storms are frequent but controlled. Climate is warm, dry, and ever-charged with static. At twilight, the sky glows violet-gold from the unstable star’s emissions.
+
+[3] FLORA & FAUNA:  
+- **Flora**: Bioluminescent vine-trees, prism reeds, and mana-fed crystal flora used in spell-conduction.  
+- **Fauna**:  
+  - **Phase Lynx**: Semi-teleporting feline guardians.  
+  - **Sundrakes**: Miniature solar wyrms bonded to elite Arcanel magi.  
+  - **Synapse Crows**: Data-harvesting avians with glowing sigil feathers.
+
+[4] METALS & PRECIOUS ORES:  
+- **Aetherite Shards**: Pure magic-conductive crystal, highly unstable outside Arcanel labs.  
+- **Quantiron**: Used in technomagical constructs and powered armor.  
+- **Stellux Dust**: Rare byproduct of rift exposure, used for long-range psychic amplifiers.
+
+[5] COMMON WEATHER PHENOMENA:  
+- **Solar Arcs**: Visible lashes of energy across the skyline, often harvested by tower spires.  
+- **Leybursts**: Sudden mana explosions causing terrain shifts or spontaneous levitation.  
+- **Null Rains**: Occasional rains of liquid static that temporarily short-circuit tech but supercharge spellcasting.
+
+> LOG COMPLETE.  
+> NEXT ENTRY: STANDBY...
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

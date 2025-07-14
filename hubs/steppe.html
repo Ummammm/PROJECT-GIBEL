@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neutral Hub: The Scorched Steppe</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/hubs-entry.css" />
+</head>
+<body>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="entry-container">
+      <div class="terminal-output" id="entry-content">
+        <!-- Typing content goes here -->
+      </div>
+      <button class="back-button" onclick="window.history.back()">[<] RETURN TO HUB ARCHIVE</button>
+    </div>
+  </div>
+
+  <script src="../js/hubs-entry.js"></script>
+  <script>
+    const hubData = `
+> ACCESSING_HUB_DATABASE // NODE: THE SCORCHED STEPPE  
+> STATUS: NEUTRAL TRADE FRONT // DANGER: VERY HIGH  
+> LOCAL SECURITY: NONE | SURVIVAL RATE: 53.7%  
+> HEAT ARMOR RECOMMENDED. TRUST NO ONE.
+
+--------------------------------------------------------
+>> [ NEUTRAL HUB LOG ENTRY #06 ] :: THE SCORCHED STEPPE  
+--------------------------------------------------------
+
+[1] TYPE OF HUB:  
+↳ **Unregulated Trade Wasteland & Duel Grounds**  
+The Scorched Steppe is a neutral zone only by technicality. It’s a superheated expanse of cracked obsidian deserts, magma rivers, and thunder-ash skies—used by mercs, smugglers, and exiled Houses to settle disputes, dump contraband, or test new weapons where no laws can stop them.
+
+[2] KNOWN FOR:  
+↳ **"Trade. Trial. Treachery."**  
+The Steppe is infamous for three things:  
+- Blood contracts and final duels  
+- Illegal weapons testing  
+- Smuggler’s bargaining pits  
+If you need something banned in 12 sectors, or want someone erased without political blowback, this is where you come.
+
+[3] FACTIONS SEEN:  
+↳ Anyone brave, desperate, or mad enough:  
+- **House Albeit** duelists ending bloodlines in honor duels  
+- **Golden Theatre** agents filming executions as “performance art”  
+- **Phonecian** rebels bartering plague-tech for ammo  
+- **Band of Thrope** using it as a live training ground  
+- **Drifters**, **Ex-Omnis**, and **Wayferrer exiles** seeking silence or death
+
+[4] SPECIAL FEATURE:  
+↳ **The Ember Crucible** – A natural arena of volcanic glass, where heat distorts time. Dueling here is legally binding and ends only in surrender or death. Every major faction has left blood in its sands.
+
+↳ **The Molten Bazaar** – A hidden lava-cooled marketplace under a slag-covered cliff. Vendors sell blacklisted cybernetics, synthetic souls, cursed voidtech, and worse. Barter only. Credits melt.
+
+↳ **The Obsidian Graves** – A wasteland of vitrified remains, where glass statues of past duelists still stand—frozen mid-battle, their flesh burned and flash-fused. Some whisper they still dream.
+
+[5] VIBE / CONDITIONS:  
+↳ Hell turned sideways.  
+Ash rains from a choking orange sky. The ground cracks underfoot, pulsing with heat. Visibility is low, tempers are high, and betrayal is expected.  
+
+There’s no law here. No alliances. No gods. Only deals, blood, and fire.
+
+If Lazareth Hollow is where the broken heal…  
+**The Scorched Steppe is where the desperate burn.**
+
+--------------------------------------------------------
+> SCORCHED STEPPE NODE ACTIVE  
+> WARNING: STAY HYDRATED. SHOOT FIRST.  
+> NEXT AVAILABLE HUB: DRIFTER’S RUN [Y/N]?  
+>_
+
+
+    `;
+    startHubEntry(hubData);
+  </script>
+</body>
+</html>

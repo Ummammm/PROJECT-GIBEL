@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: The Pact Council</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+> INITIALIZING INTERLINK PROTOCOL: PACT_CNSL.TERMLNK  
+> CLEARANCE CODE: [GALACTIC-CONCORD-AUTHORIZED]  
+> LINK STABLE... STANDBY...
+
+> -------------------------------------
+
+[2] TYPE OF INSTITUTION:  
+**Supra-Governmental Political Entity / Treaty Arbitration Council**
+
+[2] KNOWN FOR:  
+The **Pact Council** serves as the **closest thing to a unified galactic law**, enforcing high-level treaties, sanctioning wars, and regulating forbidden tech.  
+It is:
+- The **arbiter of inter-faction disputes**
+- The **legal entity that “permits” megacorporations to exist**
+- The body that grants or revokes the **right to form Houses or Factions**
+- Famous for the **Unity Accords**, the only document signed by all major Houses and Corporations post-cataclysm
+
+Each seat is held by a **“Voice,”** usually one per major power, with **one mysterious neutral chair left eternally empty.**
+
+[3] WHO CAN ACCESS IT:  
+- Only **recognized Faction Leaders**, **Omni Diplomats**, or **Certified Galactic Justiciars**
+- All discussions and sessions are **translated in real-time through mind-linked consensus nodes**
+- Civilians can **observe transmissions** under heavy delay (approx. 9 days post-broadcast)
+
+[4] LOCATION:  
+> Stationed aboard the **Judicara Bastion**, a ringworld constructed around the fractured remnants of a neutron star.  
+- The Bastion is held in place by a **gravity lock system** built from Arcanel and Titanium Tribunal tech  
+- Contains multiple “Wings” for each major group, with a central **Neutral Chamber** surrounded by psionic silence fields
+
+[5] INSTITUTION’S SECRET:  
+- Deep within the Judicara Bastion is the **“Room of Second War”**, a hidden courtroom where **unrecorded verdicts** are passed on entities considered too dangerous for history  
+- Some say **several species, entire planets, and at least one Great House** have been “Second War’d”—erased from public memory by official decree  
+- The Neutral Chair? Rumored to belong to the **Ascent Core** itself—or whatever’s left of it
+
+> -------------------------------------
+> NEXT INSTITUTION IN QUEUE: [Vaulted Union]  
+> RUNNING SECURITY SCRUB…
+
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* === FONT + BASE === */
+body {
+  background-color: #000;
+  color: #ffffff;
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* === BOOT SCREEN === */
+#boot-screen {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+#boot-text {
+  white-space: pre-wrap;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* === ENTRY UI === */
+#entry-ui {
+  padding: 2rem 1rem 5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.terminal-output {
+  background-color: #0a0a0a;
+  border: 1px solid #ffffff;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  max-height: 90vh;
+  box-shadow: 0 0 12px #00ffcc33;
+}
+
+/* === RETURN BUTTON === */
+.back-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.25rem;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* === SCROLLBAR (just for aesthetic boost) === */
+.terminal-output::-webkit-scrollbar {
+  width: 6px;
+}
+.terminal-output::-webkit-scrollbar-track {
+  background: #000;
+}
+.terminal-output::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}
+
+/* === MOBILE FIXES === */
+@media (max-width: 600px) {
+  #entry-ui {
+    padding: 1rem 0.5rem 5rem;
+  }
+
+  .terminal-output {
+    font-size: 0.85rem;
+  }
+
+  .back-button {
+    font-size: 0.85rem;
+  }
+}

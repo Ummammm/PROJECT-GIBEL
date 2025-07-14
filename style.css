@@ -1,0 +1,81 @@
+body {
+  background-color: #111;
+  color: #f1f1f1;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Boot Screen */
+#boot-screen {
+  padding: 30px;
+  white-space: pre-wrap;
+  color: rgb(255, 255, 255);
+}
+
+/* Main Menu Styling */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links span {
+  margin-left: 15px;
+  color: #bbb;
+}
+
+.system-meta {
+  margin-bottom: 40px;
+  color: #bbb;
+  letter-spacing: 0.8px;
+}
+
+.main-menu p {
+  margin: 6px 0;
+  color: #ffffff;
+  white-space: pre;
+}
+
+.main-menu p:first-child {
+  color: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+#boot-text::after {
+  content: '█';
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: black;
+  background-color: #ffffff;
+}
+

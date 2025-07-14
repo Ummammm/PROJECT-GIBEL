@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LETHOR'S WAKE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: LETHOR’S WAKE  
+> DESIGNATION: CLASS-X ANOMALY WORLD // MEMORY-LOCKED // RESTRICTED ARCHIVAL LEVELS  
+
+------------------------------------------------------------  
+[1] TERRAIN:  
+>> Primarily oceanic with shattered continental plates floating on abyssal waters.  
+>> Massive calcified bones protrude from the sea—remnants of titanic megafauna or biomechanical constructs.  
+>> Submerged ruin-spires hint at pre-cataclysmic civilizations—some still emit ghost signals.
+
+[2] WEATHER CONDITIONS:  
+>> Perpetual twilight across the planet; unknown why sun exposure is minimal.  
+>> Oceanic storms orbit the equator like clockwork, forming a permanent “Storm Belt.”  
+>> Unexplained auroras flicker underwater and above, reacting to deep-sea vibrations.
+
+[3] FLORA & FAUNA:  
+>> Flora: Bioluminescent kelp forests, glass coral, and skyvine that floats between land masses.  
+>> Fauna: Wraithfish, shell drakes, memory eels.  
+>> Major threat: The **Abyssal Choir**—a hive-mind species of psychic jellyfish rumored to “sing memories” into the minds of intruders.
+
+[4] METALS / PRECIOUS ORES:  
+>> Common: Ebonite (used in soundproofing), Mareglass (liquid crystal harvested from deep reefs).  
+>> Rare: Soulstone fragments—volatile crystals that store fragments of thought or trauma.  
+>> Site of pre-Ascent burial vaults rumored to contain **Ascendant Steel**—material etched with incomprehensible glyphs.
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Dreamfog — a psychic mist that induces hallucinations and forces memory loops.  
+>> Bonequakes — tremors followed by whale-like moans from under the seabed.  
+>> “Red Tides” — bioluminescent plankton flush red before major anomalies or Gate flares.
+
+------------------------------------------------------------  
+> STATUS: OFF-LIMITS TO CIVILIAN TRAFFIC // NAVAL PATROLS INTERMITTENT  
+> CURRENT OCCUPANTS: GATE FINDER PROBES, WAYFERRER CULTS, LOST COLONISTS  
+> ARCHIVE FLAG: OMNI-SENSITIVE ZONE // ECHO-SIGNAL DETECTED  
+
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

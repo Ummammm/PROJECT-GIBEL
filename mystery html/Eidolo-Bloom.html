@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: Eidolon Bloom</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING CLASSIFIED LOG] — FILE: EIDOLON BLOOM 
+Clearance Level: RED VEIL
+Cognitive Hazard Detected: Passive. 
+Recommend Ocular Filter Activation.
+Loading transcript...> 
+EVENT OVERVIEW:
+
+The first signs appeared on the edge of Orphia’s Lash, a dense asteroid cluster known for its mineral wealth. Within weeks, inert rocks began sprouting bizarre crystalline flora—translucent structures that pulsed softly, like they were breathing.
+
+Miners called them *The Bloom*.
+
+At first, the phenomenon was ignored—assumed to be some form of mineral reaction. But then the accidents started. Machinery failed. Crews vanished. When one drone returned with footage, the truth unraveled: people weren’t just dying—they were becoming part of the Bloom.
+
+Crystals had grown into their bodies. Not violently. **Elegantly.**
+
+Victims stood upright, serenely posed, as the formations bloomed from their mouths, eyes, and fingertips. In the footage, they hummed—together—in perfect, unnatural harmony.
+
+---
+
+> LOCATION:
+
+Designated Zone: **Orphia’s Lash Asteroid Belt**  
+Outer Rim — Theta-22 Mining Region  
+[Formerly operated by Eclyne Industrial; now red-zoned by Pact Council decree]
+
+---
+
+> CURRENT STATUS:
+
+**Quarantined. Containment Unstable.**  
+Several attempts to study or destroy the Bloom have failed. Energy weapons seem to be *absorbed*. Samples brought back to labs began spreading crystalline roots through steel and bone.
+
+One bio-arcanist stated:
+> "It’s not flora. It’s not tech. It’s an idea—growing."
+
+All contact with a Stellakon blacksite research ship ceased two months ago. Weeks later, fragments of the ship drifted back to a trade lane, polished clean, covered in singing crystals.
+
+---
+
+> KNOWN RUMORS:
+
+> "The Bloom remembers you. It knows your regrets. It shows you what you want—and then keeps you."  
+– Whispered among smugglers avoiding Orphia’s routes.
+
+> "I saw my daughter. She’s been gone a decade. The Bloom let her talk to me."  
+– Survivor testimony (unverified).
+
+> "They’re learning. Mimicking us through our corpses. Rehearsing."  
+– Recovered audio from AMN probe before it was lost.
+
+> "Don’t stare at the crystals too long. They start... blooming in your thoughts."  
+– Mental Health Advisory, Forgefront Concord
+
+---
+
+> CROSS-REFERENCED FILES:
+
+▸ [x] FILE: Archive of Still Voices  
+▸ [x] FILE: The Glass Sepulcher  
+▸ [ ] FILE: Echo-Hollow X9  
+▸ [ ] FILE: The Spiral Temple of Ograh-Suun
+
+> NOTE: EMPATHIC BLEED DETECTED IN USER PROFILE  
+> Activating auto-buffer. Please rest eyes before proceeding.
+
+> PRESS ANY KEY TO CONTINUE...
+
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

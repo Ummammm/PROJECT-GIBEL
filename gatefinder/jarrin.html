@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROTOCOL: GIBEL — JARRIN FELL</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/gatefinder-entry.css" />
+</head>
+
+<body>
+    <!-- Boot Screen -->
+    <div id="boot-screen">
+        <pre id="boot-text"></pre>
+    </div>
+
+    <!-- Entry UI -->
+    <div id="entry-ui" style="display:none;">
+        <div class="container">
+            <div class="top-bar">
+                <span class="title">AGENT DOSSIER: JARRIN FELL</span>
+                <div class="nav-links">
+                    <a href="../gatefinder.html">[ RETURN TO DIRECTORY ]</a>
+                </div>
+            </div>
+            <pre id="entry-content" class="entry-log"></pre>
+        </div>
+    </div>
+
+    <script src="../js/gatefinder-entry.js"></script>
+    <script>
+        const jarrinLog = `
+>> INITIATING FIELD DOSSIER UPLOAD...
+>> SYNCING BIOLOGICAL SIGNATURES...
+>> ACCESS GRANTED TO AGENT: JARRIN FELL...
+>> PREPARING LOG FILE...
+
+
+[>] NAME : Jarrin Fell
+[>] TITLE : The Scholar of Beasts
+[>] ORIGIN : Former hunter of the Gentlemen Retreat. Now Field Specialist for the Gate Finder Initiative.
+
+[>] SPECIES : Human
+
+[>] PAST LIFE : Former elite of the Gentlemen Retreat, Jarrin was known not just for his impeccable style and exotic creature expertise, but for rewriting the handbook on mythic beasts. Left the Retreat after a “disagreement” involving a rare Rift Hydra, two dead nobles, and a blown-up moon zoo.
+
+[>] PERSONALITY : Refined, witty, effortlessly charming. Think space Sherlock Holmes meets Geralt if he wore silk. He drops random trivia mid-battle and always finishes his tea before acting.
+
+[>] POWERS :Beast Intuition: Can read, track, and even momentarily pacify alien beasts. Trophy Gear: His weapons are built from exotic creature parts—acid-proof cloak, fire-breathing rifle, that kinda vibe. Photographic Combat Memory: After seeing a creature or fighter once, he knows how to counter it next time.
+
+[>] MOTIVE : Redemption. He once hunted for pride. Now he hunts for understanding.
+
+[>] RELATIONSHIP : Protective big brother energy to Lyra. Slightly wary of Nox, but respects their silence. Lowkey beef with Slate over "cold logic."
+
+
+[>] GIBEL DEVICE AFFECTED : Starseed Prism
+The device has granted Jarrin a neural link with wildlife patterns and predator instincts. During activation, his senses are amplified, making him almost beast-like in reflex and spatial awareness.
+
+[>] CURRENT ROLE :
+- Designated Lifeform Analyst and Tracker
+- Specializes in biological threat detection and trap deployment
+- Known to enter berserker states when defending allies
+
+[>] PERSONAL NOTE :
+“They think I'm chasing monsters. Truth is, I’m learning from them.”
+
+
+
+End of Log.
+        `;
+        startHouseEntry(jarrinLog);
+    </script>
+</body>
+
+</html>

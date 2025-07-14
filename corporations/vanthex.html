@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporation File: VANTHEX DYNAMICS</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/corporate-entry.css">
+</head>
+<body>
+
+<!-- Boot Loader -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content appears here -->
+  </div>
+    <button class="back-button" onclick="window.location.href='../corporate.html'">[<] RETURN TO CORPORATION ARCHIVE</button>
+</div>
+
+<!-- Script: pulls in content + boot logic -->
+<script src="../js/corporate-entry.js"></script>
+<script>
+  const corpData = `
+[> ACCESSING MEGACORP PROFILE: VANTHEX DYNAMICS  
+> NODE: VX-DYNA.HQ // CLASSIFIED SYSTEM – TIER OMEGA ACCESS REQUIRED  
+> STATUS: ACTIVE / EXPANDING / ARMS-LOCKED WITH HOUSE ALBEIT & PRIVATE SECTORS  
+
+> ----------------------------
+
+[1] LOCATION:  
+Planet: **Gorran Verge**, a militarized exoplanet in the Obalden Belt.  
+Orbiting a dying red star, the planet is encased in kinetic shield domes and layered with orbital defense satellites. Entire biomes repurposed into weapons testing fields and mech graveyards.
+
+[2] MARKET FOCUS:  
+> Defense manufacturing, mech engineering, orbital artillery, and kinetic weaponry.  
+Known for producing **VX-Titans**, **V-Null Rounds**, and **adaptive exosuits** with embedded AI reflex nodes.  
+Clients include Great Houses, syndicate militias, and off-record mercenary groups.  
+Vanthex is the "War Machine That Funds Peace™."
+
+[3] HQ LAYOUT:  
+> Vanthex Prime Citadel – a spiral-fortress rising from a scorched crater.  
+- Lower Levels: Production bays, blacksite factories, weapons testing vaults.  
+- Mid Section: R&D domes, AI combat simulations, engineer barracks.  
+- Upper Tier: The **Thronecore**, a levitating war-room surrounded by transparent armorglass, where CEOs and Warlords commune.  
+- Perimeter: Guarded by mech-pilots and auto-turrets coded to kill silence.
+
+[4] ATMOSPHERE & AESTHETICS:  
+Cold, metallic, and utilitarian. Steel walls hum with latent power, light panels flicker red-alert even on calm days.  
+Corporate branding is militaristic—black banners with chrome gear-symbols and serial numbers instead of slogans.  
+Ambient sounds: marching boots, calibrating servo-arms, echoing test fire.  
+No luxury. No comfort. Just output.
+
+[5] SECRET & FORBIDDEN AREAS:  
+> **Section 09-G ("The Furnace")** – sealed lab where failed experimental AIs are dumped and rumored to evolve.  
+> **Ghost Hangars** – camouflaged under the HQ, storing "war-crimes-grade" weapons banned by intergalactic law.  
+> **The Vault of Echoes** – an underground databank with recovered fragments from Oldsmen weapon tech. Not even the board has full clearance.
+
+> TRANSMISSION COMPLETE.  
+> VANTHEX DYNAMICS: **WE DON'T JUST MAKE WAR. WE PERFECT IT.**
+
+> PROCEED TO NEXT CORPORATE NODE? [Y/N]
+
+  `;
+  startCorpEntry(corpData);
+</script>
+</body>
+</html>

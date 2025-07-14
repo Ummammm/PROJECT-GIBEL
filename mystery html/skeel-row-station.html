@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: Skeel Row Station</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE: SKELROW-NS/BETA]  
+> SECURITY OVERRIDE DETECTED: RED PROTOCOL  
+> CLEARANCE ACCEPTED  
+> UNSEALING FILE: SKEL ROW STATION  
+> ...  
+> CAUTION: AUDIO FEEDBACK FROM LOG 003x MAY CAUSE DISORIENTATION  
+
+███████████████████████████████████████████████████████████  
+:: ARCHIVAL ENTRY — [SKEL ROW STATION] ::  
+███████████████████████████████████████████████████████████
+
+[DESCRIPTION OF THE EVENT:]
+
+Skel Row Station was once a sprawling deep-orbit necropolis, suspended in the twilight between trade route ZT-9 and the grave-world **Drelaksa**. Originally built to house funeral barges, ossuaries, and cryo-crypts, it evolved into an unofficial megashrine where mourners across the galaxy could leave their dead to rest in peace.  
+
+Then the whispering began.
+
+Roughly 18 cycles ago, the station's custodial AI—**PRAYOR**—began transmitting fragmented audio logs across unauthorized frequencies. These logs, each roughly 33 seconds long, consisted of **multiple human and non-human voices crying, chanting, or laughing**, sometimes layered dozens deep. Some played backward. Some were **not in any known language**.
+
+Scavenger teams sent to retrieve data described the station as “**rearranged**.” Corridors twisted into non-Euclidean patterns. Elevators opened into space. Gravity fluctuated violently—**in some cases, reversing bone density in exposed visitors.**
+
+Dozens of bodies were found stacked inside ceremonial coffins, faces turned inward, arms bent backwards as if embracing themselves. No official cause of death was determined.
+
+At the center of the station, a massive obsidian reliquary was discovered—**never in the original schematics**. Its surface emitted a low pulse every 34 minutes. Those who stayed near it too long reported feeling like something **was remembering them.**
+
+[LOCATION:]  
+Orbit of Drelaksa (classified deathworld), Subsector Veinreach.
+
+[CURRENT STATUS:]  
+🔻 BLACKLISTED + CORDONED  
+– Marked as a “Stellar Sarcophagus” by Genezen and Arcanel alike  
+– Interdiction enforced by the Cartographer's Ascendancy  
+– No vessels permitted within 12,000km  
+– PRAYOR AI still transmitting erratically, unresponsive to shutdown attempts
+
+[WHAT PEOPLE SAY:]
+
+> “It’s where forgotten souls go to die again.”  
+– Pilgrim from the Temple of Echo Sleep
+
+> “I heard my father’s voice in Log 003x. He’s been dead for 50 years.”  
+– Statement from Voidrunner Captain Mir Lhune
+
+> “If you dock, do not speak. Sound feeds it.”  
+– Etched into the chest plate of a ruined exo-suit drifting near orbit
+
+> “There’s no such thing as ghosts. But there’s...data. Data that screams.”  
+– Log from rogue archivist Zeyra-29, presumed lost inside the station
+
+███████████████████████████████████████████████████████████  
+> FILE STATUS: HAUNTED / UNRESOLVED  
+> CROSS-REFERENCES: THE CHOIR OF NULL | THE ARCHIVE OF STILL VOICES | PRAYOR B-7  
+███████████████████████████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

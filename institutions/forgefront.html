@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: The Forgefront Concord</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+> UOS // ARCHIVUM ENTRY — FORGEFRONT CONCORD  
+> ACCESS LEVEL: TINKER-PRIME/RESTRICTED  
+> INDEX STRING: FC-ΔX998-FILE-A  
+
+[7] TYPE OF INSTITUTION:  
+Intergalactic Engineering Council / Multispecies Design Tribunal
+
+[7] KNOWN FOR:  
+Maintains inter-faction tech compatibility, **regulates high-risk invention**, certifies Voidframe Mechs & Warp Architecture.  
+Publishers of the “**Galactic Applied Physics Compendium**” updated every 10 years.
+
+[7] WHO CAN ACCESS IT:  
+- Recognized Thinkers, Architects, Schematic Weavers  
+- Houses with forged tech lineages (especially Schmied, Arcanel)  
+- AI delegates & Titanium Tribunal proxies permitted under truce
+
+[7] LOCATION OF THE INSTITUTION:  
+**The Sigil Crucible**, an orbital forge-dome laced with grav-gyroscopes and lava-cycle energy rings.  
+Half university, half super-laboratory — the walls whisper in schematics.  
+Craftspeople speak of “design visions” occurring mid-dream while inside the Forge.
+
+[7] INSTITUTION’S SECRET:  
+Within the gravity-locked Vault lies a **living blueprint** — a semi-sentient document known only as **Project MIMIR**, thought to be co-authored by an extinct race.  
+Its contents change based on who reads it… and **what they fear**.
+
+> LINK TO NEXT ARCHIVE: [Y/N]?
+
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

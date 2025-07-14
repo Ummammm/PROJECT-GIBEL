@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — SHARD OF CONTINUUM</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/gibel-entry.css" />
+</head>
+
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">GIBEL DEVICE DOSSIER: SHARD OF CONTINUUM</span>
+        <div class="nav-links">
+          <a href="../gibel.html">[ RETURN TO DIRECTORY ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/gibel-entry.js"></script>
+  <script>
+    const crownLog = `
+
+> ACCESSING GIBEL DEVICE ARCHIVE . . .
+> DEVICE ID: GBL-002
+> NAME: SHARD OF CONTINUUM
+> STATUS: ACTIVE
+> CURRENT HOLDER: HOUSE ARCANEL
+> PERMISSION LEVEL: HIGH CLEARANCE REQUIRED . . . GRANTED.
+
+------------------------------------------------------------
+:: LOCATION OF DISCOVERY
+------------------------------------------------------------
+> SITE: AETHER SPIRE, ORBITAL RIFT NODE ABOVE YLL-TAR PRIME
+> NOTES: Recovered by Arcanel Technotheurge Team Z-3 during dimensional resonance event.
+> RETRIEVAL AGENT: HIGH LORD LYRA VEISS (EXILED)
+> ENVIRONMENT: Gravity fractured, chrono-unstable. Time flowed inconsistently across recovery site.
+
+------------------------------------------------------------
+:: KNOWN CAPABILITIES
+------------------------------------------------------------
+> FUNCTION: TIME-WEAVING AND TEMPORAL MANIPULATION
+> EFFECT:
+    - Predicts near-future threads (approx. 6–15 seconds forward).
+    - Temporarily halts or distorts perception of time.
+    - Grants users short bursts of nonlinear mobility ("phase-stepping").
+> RANGE: Personal to squad-level (field-tested)
+
+------------------------------------------------------------
+:: RESIDUAL EFFECTS
+------------------------------------------------------------
+> PASSIVE FIELD:
+    - Proximity induces déjà vu, false memories, and parallel memory layering.
+    - Non-Arcanel users report hallucinations of "unlived lives".
+    - Long-term use causes temporal echo bleed—user may hear/see past or future selves.
+
+> WARNING: Device is *not* stable outside controlled conditions. Arcanel containment prism required.
+
+------------------------------------------------------------
+:: HISTORICAL RECORD
+------------------------------------------------------------
+> RETRIEVAL TIMELINE:
+    - YEAR: 7314 A.G.
+    - EVENT: Yll-Tar Prime Singularity Event
+    - FACTION: House Arcanel secures unstable orbit, initiates retrieval under cover of solar storm.
+> IMPACT:
+    - Technotheurgic advancements increased 600%.
+    - Arcanel’s dominance in predictive warfare established.
+> LEGEND:
+    - Shard reportedly "calls out" to those lost in time.
+    - Lyra Veiss's exile linked to prolonged exposure and unauthorized activation.
+> PUBLIC STATEMENT (HOUSE ARCANEL): “Time does not belong to the bold, but to the precise.”
+
+------------------------------------------------------------
+> FILE END.
+> NEXT DEVICE? [Y/N]
+
+
+
+    `;
+
+    startGibelEntry(crownLog);
+  </script>
+</body>
+
+</html>

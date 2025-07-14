@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: The Maw Beyond Light</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+Accessing Encrypted Entry Log......
+Clearance Level: Omega-Black | Entity Presence: PENDING
+
+> DESCRIPTION OF THE EVENT:
+
+In the edges of the Jotuun Expanse, sensors picked up a spatial fold that shouldn’t exist—a void that consumes **light** itself. Ships passing near reported full blackout even in close solar proximity. One scout vessel broadcast a distress call where the crew repeatedly screamed “We’re being unmade” before the signal cut out.  
+
+The phenomenon is now dubbed *The Maw Beyond Light* — a rift or entity that devours photons, sound, and most terrifyingly… thought itself. All automated drones sent to investigate return blank slates, their memory cores wiped clean.
+
+---
+
+> LOCATION:
+
+Unmapped zone between Gorran Rift and the collapsed dwarf system *Eileth-V*. Exact coordinates are inconsistent, as jump drives tend to “slip” during approach.
+
+---
+
+> CURRENT STATUS:
+
+**Uncontained. Growing.**  
+Astrophysicists from House Arcanel and AMN speculate it's either a sentient singularity or a broken fragment of pre-reality. Several fringe cults have started calling it "The Mouth of the First Silence."
+
+Surveillance rings placed around the area go dark within 48 hours.
+
+---
+
+> WHISPERS & THEORIES:
+
+> “If you stare into it long enough, it starts pulling *you* out of yourself. People near it get real quiet. Like, soul-level quiet.”  
+— Void-miner refugee, now institutionalized.
+
+> “It’s not that it eats light. It’s that it *remembers* what light was.”  
+— Anonymous transmission, likely AI-corrupted.
+
+> “There's a rhythm. Like a song. It vibrates in your bones. You want to join it... even as it forgets what you are.”  
+— Final log of a Golden Theatre smuggler, later found orbiting the void in fetal position.
+
+---
+
+> ACCESSING LINKED FILES...
+
+▸ [x] FILE: Stellar Wound Theta  
+▸ [x] FILE: The Choir of Null  
+▸ [ ] FILE: Nullesca  
+▸ [ ] FILE: The Spiral Temple of Ograh-Suun
+
+> INITIATING CONTAINMENT PROTOCOL ████_██
+
+> PRESS ANY KEY TO OPEN NEXT FILE...
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VHARN - IX</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: VHARN IX  
+> DESIGNATION: CLASS-C FRONTIER COLONY // ABANDONED HABITATION ZONE  
+
+------------------------------------------------------------  
+[1] TERRAIN:  
+>> Windswept savannahs and deep-cut river canyons span the northern hemisphere.  
+>> Southern hemisphere largely mountainous, riddled with ancient bunkers from the First Expansion Era.  
+>> Surface scattered with crumbling biodomes and ruined terraforming pylons.  
+
+[2] WEATHER CONDITIONS:  
+>> Temperate-to-arid across most latitudes.  
+>> High-wind dust seasons known as “Red Months” obscure vision for weeks.  
+>> Thin atmosphere—partial breathability without aid in lowlands only.  
+
+[3] FLORA & FAUNA:  
+>> Flora: Spinebrush, Glassreed, Thornbulbs—resilient and drought-tolerant.  
+>> Fauna: Skyrenders (avian hunters with bladed tails), Barkhorns (herbivorous tank-beasts), Vermen (adaptive mammal-scavengers).  
+>> Many species have mutated due to failed terraforming.  
+
+[4] METALS / PRECIOUS ORES:  
+>> Common: Ferroslate, Tellurium, Gaseous Xenite (used in ship shielding).  
+>> Rare: Dust Opals—used in cloaking tech, now mined only by black market syndicates.  
+>> Deep-core layers believed to contain relic caches from Oldsmen expeditionary fleets.  
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Red Dust Cyclones — massive electrostatic storms during the Red Months.  
+>> Gravity Flux Zones — unstable fields near failed terraformer cores; cause tech to behave unpredictably.  
+>> Dry Lightning Clusters — frequent in canyon zones, often frying unshielded drones.  
+
+------------------------------------------------------------  
+> STATUS: OFFICIALLY ABANDONED — UNOFFICIAL SETTLER PRESENCE CONFIRMED  
+> CURRENT OCCUPANTS: SCAVENGERS, OUTLAWS, BLACKSITE RESEARCH TEAMS  
+> ARCHIVE FLAG: POTENTIAL OLD MEN CACHE UNDER GLASS MESA [LOCKED]
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

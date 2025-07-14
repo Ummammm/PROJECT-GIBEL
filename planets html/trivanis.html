@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TRIVARIS</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING FACTION NODE: THE WAYFERRER GUILD  
+> LOCATION: TRIVARNIS  
+> STATUS: ARCHIVAL LOG ONLINE  
+> ----------------------------
+
+[1] TERRAIN:  
+A chaotic, illusion-warped planet cloaked in dark nebula dust. The surface constantly shifts: desert becomes swamp, mountains flatten overnight, and cities rearrange their geometry. Only those attuned to its AI-pulse can navigate it. Hidden vaults and observatories cling to the landscape like mirages.
+
+[2] WEATHER CONDITIONS:  
+Unstable by design. The planet’s own terra-AI alters weather patterns in response to intrusions. A day may begin in arid heat and shift to magnetic snow or gravity inversions by dusk. No two weather cycles are the same.
+
+[3] FLORA & FAUNA:  
+- **Flora**:  
+  - **Paradox Vines**: Plants that grow *backward*—leaves unfurl into buds, roots reach toward the sky. Used in energy-harvesting tech.  
+  - **Mistcap Fungi**: Produce hallucinations and memory bleed when inhaled. Often harvested for psychic training.  
+  - **Mirrorbark Trees**: Silvery bark reflects not the physical world but alternate timelines.
+
+- **Fauna**:  
+  - **Shadow Drifters**: Semi-ethereal fox-like creatures that phase in and out of reality. Believed to guide or mislead travelers.  
+  - **Glim Hounds**: Pack predators that attack through mirrored dimensions.  
+  - **Vaultbeetles**: Insect species that only emerge when a hidden cache is near.
+
+[4] METALS & PRECIOUS ORES:  
+- **Phasegold**: A mutable alloy that shifts form depending on dimensional frequency. Crucial for Gatefinder tools.  
+- **Eclipsium**: Rare crystal that absorbs light, used in cloaking tech and stealth modules.  
+- **Tesserite**: Hyperdense mineral used in portable wormhole stabilizers.
+
+[5] COMMON WEATHER PHENOMENA:  
+- **Fog of Echoes**: A thick mist that causes brief auditory hallucinations—often distant voices or alternate versions of oneself.  
+- **Reality Shears**: Sudden bursts of dimensional overlap that fracture local space temporarily.  
+- **Aurora Drift**: Luminous veils of energy that dance through the sky, altering gravity and thought patterns for hours.
+
+> ARCHIVE ENTRY STABILIZED.  
+> CAUTION: LOCATION COORDINATES SHIFT EVERY 36 HOURS.  
+> NEXT NODE: SELECT OR WAITING...
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: The Choir of Null</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+
+> Clearance Level: EBONY-TIER / CONCEPTUAL THREAT CLASS: “SONG-TYPE ANOMALY”
+> Mental Hazard Risk: Elevated — Use of Auditory Dampeners and Dream-Suppression Protocols advised
+> Decrypting file...
+
+> EVENT OVERVIEW:
+
+The first reports came from deep-space salvage crews near **Sector N-0X**, a cold, unnavigable region unofficially known as the **"Dead Laplace"**—a gravitational deadzone thought to be devoid of life, matter, or signal.
+
+But then… a *song* was heard.
+
+Not broadcast. Not transmitted. **Heard.** Simultaneously. Across different ships, species, even AI.
+
+Each described it differently—a lullaby, a requiem, a plea—but always in perfect harmony. The melody had no detectable source. Audio logs never captured it. Yet those who heard it… remembered every note.
+
+And then they changed.
+
+Some wandered into airlocks mid-chorus. Others began humming the melody obsessively, their speech turning into choral verses. Neural scans showed cortical erosion replaced by harmonic resonance patterns—brains *rewriting themselves as instruments*.
+
+---
+
+> LOCATION:
+
+**Unmarked Sector N-0X ("Dead Laplace")**  
+Border of mapped voidspace between Galdrin Reach and the Outer Silence  
+Recent expansion of the anomaly suggests spread into adjacent warp routes.
+
+NOTE: All coordinates associated with the Choir are now redacted from public starmaps.
+
+---
+
+> CURRENT STATUS:
+
+**Containment: Impossible. Spread classified as “Cognitive-Acoustic Contagion.”**
+
+Attempts to jam, mute, or firewall the anomaly fail; in fact, suppression seems to intensify the melody’s psychological grip. AI exposed to the Choir become inert—frozen mid-process as if "listening."
+
+The Pact Council currently denies the Choir’s existence, though multiple House Arcanel and Titanium Tribunal probes have gone dark near the region.
+
+Genezen monks claim the melody matches ancient "Universal Lamentation" scriptures predating the Collapse.
+
+---
+
+> KNOWN RUMORS:
+
+> "I heard it. It knew my name. And then... it sang the names of everyone I’ve ever lost."  
+– Last transmission from long-haul pilot **Brinna Voss**, now missing.
+
+> "The Choir doesn’t want to hurt you. It wants you to join the harmony. It wants you to stop screaming."  
+– Scribbled on a bulkhead wall of abandoned ship *Steller’s Grief.*
+
+> "It’s not a song you hear. It’s a song you **become.**"  
+– Titanium Tribunal AI [Designation: ORAX-3.1] before voluntary shutdown.
+
+> "They say there's no such thing as silence anymore. Just softer parts of the Choir."  
+– Drifter saying.
+
+---
+
+> CROSS-REFERENCED FILES:
+
+▸ [x] FILE: The Maw Beyond Light  
+▸ [x] FILE: The Archive of Still Voices  
+▸ [x] FILE: Nullesca  
+▸ [ ] FILE: Skel Row Station  
+▸ [ ] FILE: Vault E-7 “The Crooked Room”
+
+> TRACE SIGNAL: ∞∞∞∞∞∞∞∞∞∞∞∞  
+> ANOMALY SIGNATURE CANNOT BE PURGED  
+> THE CHOIR LISTENS
+
+> PRESS ANY KEY TO CONTINUE...
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

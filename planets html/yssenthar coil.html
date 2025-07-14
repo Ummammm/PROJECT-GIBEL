@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YSSENTHAR COIL</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: YSSENTHAR COIL  
+> CLASSIFICATION: OUTER RING WORLD // GRAVITY-DISTORTED WRECKFIELD  
+> ARCHIVAL INTEGRITY: UNSTABLE SIGNAL // DEEP SCAN ENGAGED  
+------------------------------------------------------------
+
+[1] TERRAIN:  
+>> Fragmented planetary husk entangled in gravitational ribbons.  
+>> Cracked crust forms shifting plate-bridges and spiraling trenches.  
+>> Entire regions float midair, caught in time loops or slow-motion collapse.
+
+[2] WEATHER CONDITIONS:  
+>> Spatial instability causes micro-singularities and sudden void gusts.  
+>> "Temporal Lightning"—bolts that strike both past and future coordinates.  
+>> Temperature wildly fluctuates without warning; some regions freeze and burn simultaneously.
+
+[3] FLORA & FAUNA:  
+>> Flora: Crystalized spore-trees that hum at different timelines, “memory vines” that wrap around machinery and absorb its data.  
+>> Fauna: Fractal foxes, phase-rats, and void-wasps.  
+>> Rumors speak of **Grave Angels**, ghostlike entities made of shattered time echoes—possibly ex-sentinels or defense AIs gone rogue.
+
+[4] METALS / PRECIOUS ORES:  
+>> Chronostone (used in experimental warp tech), Flux-Iron (unstable unless shielded), and Relictite (sought by archivists, origin unknown).  
+>> Detected fragments of Pre-Ascent tech buried deep in temporal folds.
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Time Rips – zones where minutes loop endlessly or reverse in bursts.  
+>> Gravity Cascades – sudden implosions that reverse themselves seconds later.  
+>> Echo Storms – bursts of distorted light and sound, sometimes replaying past battles, screams, or unknown signals.
+
+------------------------------------------------------------  
+> PRIMARY CONTROL: NONE // DEEMED “UNCLAIMABLE”  
+> ECONOMIC ROLE: EXTREME-RISK SALVAGING, BLACKSITE RESEARCH  
+> CULTURAL SIGNIFICANCE: AVOIDED BY MOST; WORSHIPED BY TIME-SPLIT CULTS  
+> SECURITY FLAG: CRITICAL – KNOWN LOSS OF ENTIRE CREWS IN MINUTES  
+
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: Colony Redlight</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE: COLONY-REDLIGHT-DELTA]  
+> DATA WAKE DETECTED: [CLASSIFIED: SIGNAL 9]  
+> REPLICATION SEED DISABLED  
+> CLEARANCE OVERRIDE ACCEPTED  
+> UNSEALING FILE: COLONY REDLIGHT  
+> ...  
+> WARNING: SENSOR-GHOST IMPRINTS PRESENT  
+
+███████████████████████████████████████████████████████████████  
+:: ARCHIVAL ENTRY — [COLONY REDLIGHT] ::  
+███████████████████████████████████████████████████████████████
+
+[DESCRIPTION OF THE EVENT:]
+
+**Colony Redlight** was established on the fringe-moon **Serrata IX**, deep within the *Ashen Verge*, originally a pleasure outpost turned mining colony turned—mysteriously—**vanished commune**.  
+
+Official logs say it was abandoned due to atmospheric degradation.  
+The **unofficial logs**—the ones scrubbed from Nexus Broadcast Authority records—tell a much weirder story.
+
+In Cycle 3.717.X, all outgoing comms from Colony Redlight were replaced with **a static-drenched signal of overlapping voices**, chanting in perfect sync:
+> “The light watches. The watchers kneel.”
+
+Multiple rescue attempts were dispatched. None returned. Drone footage recovered weeks later showed eerie footage:  
+– **A red fog blanketing the site**  
+– Figures standing **motionless** in the streets, all facing a broken streetlight that never turns off  
+– A tower made of mining gear, bones, and data pads stacked with prayers
+
+The fog has a name now: **“Redlight Syndrome.”** Exposure causes people to freeze mid-task, whisper apologies to no one, or begin **building spirals out of anything nearby**—food, wires, even limbs.
+
+[LOCATION:]  
+Serrata IX, orbiting gas giant Durn-Valis, near the Wyrmshed Divide  
+(Zone flagged as "BLACK SPECTRUM" by the Forgefront Concord)
+
+[CURRENT STATUS:]  
+🔴 EXTREME HAZARD  
+– Colony remains structurally intact  
+– Continuous power spike at central beacon  
+– Drone missions limited to <30 seconds of visibility  
+– Believed to be under influence of a **Lightbound Entity**—possibly an emergent construct of forgotten AI worship or parasitic cognition
+
+[WHAT PEOPLE SAY:]
+
+> “They built a chapel for a god that wasn’t there. And then it showed up.”  
+– Salvager Note, found etched into a cargo crate
+
+> “I saw the fog smile.”  
+– Ex-miner Dav Yenn, now permanently blind
+
+> “It’s not a place. It’s a warning loop.”  
+– Gatefinder comm burst (last transmission)
+
+> “The colony didn’t vanish. It **shifted**. Time and reason still haven’t caught up.”  
+– Whispered in sleep by survivor found 300 clicks away
+
+███████████████████████████████████████████████████████████████  
+> FILE STATUS: SEALED / RADIATING  
+> CROSS-REFERENCES: THE SHATTERGLASS PARADE | EIDOLON BLOOM | THE MAW BEYOND LIGHT  
+███████████████████████████████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

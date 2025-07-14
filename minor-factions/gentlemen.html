@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GENTLEMEN RETREAT— MINOR FACTION DOSSIER</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/minorfaction-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="entry-box">
+    <div class="terminal-output" id="entry-content"></div>
+    <button class="back-button" onclick="window.location.href='../minorfaction.html'">[<] RETURN TO MINOR FACTIONS</button>
+  </div>
+</div>
+
+<script src="../js/minorfaction-entry.js"></script>
+<script>
+  const minorFactionData = `
+>> INITIALIZING CONNECTION TO FACTION DOSSIER...
+>> DEEP ENCRYPTION DETECTED — CRACKING KEYS...
+>> VALIDATION SEQUENCE PASSED.
+>> ACCESS GRANTED. LOADING FACTION ENTRY...
+>> Scent signature locked. Refining hunt log...
+
+GENTLEMEN RETREAT— MINOR FACTION DOSSIER
+
+[>] CAPITAL WORLD : Vanthellis – A luxurious, terraformed jungle paradise with bio-sculpted mansions, predator gardens, and crystal opera domes. Reserved for the elite few who survive long enough to enjoy the spoils.
+
+[>] GALACTIC TRAVELS :Travel in Huntsloops – sleek luxury ships built for speed, style, and storage of exotic cargo (often alive).Some use Rift Cannons to temporarily punch through reality and reach rare regions before others. Private Starways: exclusive lanes only accessible with tokenized coordinates sold at aristocrat auctions.
+
+[>] CIVILIANS : Not a state, but a private club with elite members from every species and House. Members are called The Retired (ironic), and new hopefuls are The Aspirants. Culture based on: Honor duels, rare collection, exotic hunt, and poetic death. Big on fashion – capes, high collars, nano-furs, and symbiotic accessories that drink your enemy’s tears. Events: The Crimson Hunt, The Gentle Gala, The Masque of Predators. Language: elegant, layered in euphemism and subtle mockery. They never say “kill,” they say “retire with flair.”
+
+[>] ECONOMY & TRADE : Trade in trophies, exotic weapons, blacklisted fauna, and unique deaths. Host biological bidding wars for rare creatures, mutations, and even cursed AI. Invest in gladiator arenas, beast pitting, and extreme fashion lines. Import rare wines, psychic silk, atmospheres from dead stars (yes, really).
+
+[>] WEAPONS & COMBAT : Combat is flamboyant, precise, and performative. Aurablades that change color based on your mood. Sentient rifles that whisper style critiques mid-fight. Pulse canes, decency grenades (flashy but harmless to anyone with taste), and duel-only knives. Styles: The Final Flourish, The Waltz of Blades, Beast-Breaker Form.
+
+[>] COMMUNICATON & MEDIA : News is shared via “The Whispered Gazette”, a telepathic invitation-only newsletter with shimmering fonts. Shows include: “Death with Dignity” (a reality show), “Taste of the Hunt” (culinary meets combat), and “Dueling with the Stars”. Gossip is currency, scandals are stock.
+
+[>] LAWS & CRIME : Outside the law. Many are war criminals, ex-royals, or rich enough to make war irrelevant. Their only law: “One Must Never Be Boring.” Internal crimes: Unapproved kill: punished by The Undueling (a ritual loss of honor). Disrespecting a trophy? Banishment to Maître Noir without tools. Blacklisted by many Houses, but tolerated for their resources and intelligence network.
+
+[>] RUINS & RELICS : Hunt Ascent artifacts for sport. Most don't care what they do—just that they’re rare. Rumors say one Gibel Device is locked in a beast's spine, mutated into a living rift-hound on Redveil Expanse. Known to house the Horn of Remembrance, which forces those who hear it to relive their greatest failure until they conquer it in dream-combat. Artifacts are usually kept in absurdly theatrical vaults, guarded by bio-engineered creatures bred from extinct species.
+
+[>] KEY FIGURE :
+
+[>] 1.Vairon DeVance – “The First Toast”
+[>] 2.Dame Kirelle Varn – “The Widow of Skins”
+[>] 3.Osric Phane – “The Beast Whispering Bastard”
+[>] 4.Haldrik "Hal" Murr – “The Masked Auctioneer”
+[>] 5.Tiqa Rensalli – “The Last Dancer of Virex”
+
+
+End of Archive.
+
+
+  `;
+
+  startMinorFactionEntry(minorFactionData);
+</script>
+</body>
+</html>

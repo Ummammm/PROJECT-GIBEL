@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporation File: STELLAKON</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/corporate-entry.css">
+</head>
+<body>
+
+<!-- Boot Loader -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content appears here -->
+  </div>
+    <button class="back-button" onclick="window.location.href='../corporate.html'">[<] RETURN TO CORPORATION ARCHIVE</button>
+</div>
+
+<!-- Script: pulls in content + boot logic -->
+<script src="../js/corporate-entry.js"></script>
+<script>
+  const corpData = `
+> ACCESSING MEGACORP PROFILE: STELLAKON  
+> NODE: STK.Ω1-NEXUS // CODE: [BLACKLUX PROTOCOL ENGAGED]  
+> STATUS: ACTIVE / COSMIC-LEDGER SYNCHRONIZED / CLEARANCE: INTERSTELLAR CLASS  
+
+> ----------------------------
+
+[1] LOCATION:  
+Headquartered on **Neumara Array**, a massive orbital arcology surrounding the binary star system of **Kyr Vantae**.  
+Surrounded by vault satellites, data prisons, and shifting security nebulae. Entry is only possible via Stellakon-certified FTL lanes.  
+
+[2] MARKET FOCUS:  
+> Quantum finance, deep-space crypto markets, blackhole energy brokerage, and astral debt systems.  
+Core products/services include:  
+- **VoidTokens** (black energy-backed currency used in the outer rim)  
+- **Spectral Credit Leases** (debt contracts bound by soul-signature)  
+- **Darkstream Derivatives** (time-loop trading models)  
+- **Eclipse Bonds** (gravitational energy futures)
+
+Stellakon is also the unofficial central bank for more than 40 minor factions and several major Houses—yes, they probably own half of your air supply.
+
+[3] HQ LAYOUT:  
+> **The Neumara Array**  
+- Core Spire: A crystalline tower that pulses with dark matter currents—its peak physically pierces into higher dimensional space.  
+- Data Labyrinth: A sentient blockchain chamber where decisions are “voted on” by thousands of embedded AIs and precog-market ghosts.  
+- Stellar Floor: Luxury chambers for high-net worth clients, complete with anti-time lounges and void spas.  
+- The Ledger Vault: A digital-black shrine holding the Primordial Balance Sheet—a living record of every transaction since the Ascent.
+
+[4] ATMOSPHERE & AESTHETICS:  
+Black-on-black aesthetics with prismatic flares. Gravity is warped subtly to reflect status: execs float, interns sink.  
+Lighting pulses in sync with nearby stellar emissions.  
+Ambient sound: the low hum of transaction approvals, energy coils, and encrypted chants.  
+Dress code: Vanta-silk robes, mirrored helmets, neural tap rings.
+
+[5] SECRET & FORBIDDEN AREAS:  
+> **The Mirror Pit** – a sub-dimensional vault used for reality-bending audits. Time doesn’t move the same inside.  
+> **Cradle of Debts** – ancient debtors encoded into neural stone, forever whispering lost market tips.  
+> **Omnivault** – rumored containment zone holding unstable “Omni-backed” contracts that were banned after the Gibel Reckonings.
+
+> TRANSMISSION COMPLETE.  
+> STELLAKON: **“EVERYTHING HAS VALUE. EVEN YOU.”**  
+
+> PROCEED TO NEXT CORPORATE NODE? [Y/N]
+
+  `;
+  startCorpEntry(corpData);
+</script>
+</body>
+</html>

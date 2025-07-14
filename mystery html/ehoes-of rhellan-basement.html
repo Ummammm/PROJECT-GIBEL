@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: Echoes of Rhellan's Basement</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE_Ω-66.6-F]  
+> SECURITY OVERRIDE GRANTED  
+> OPENING FILE: Echoes of Rhellan’s Basement  
+> LOADING AUDIO FILTERS…  
+> :: HEADPHONES RECOMMENDED ::
+
+█████████████████████████████████████  
+:: ARCHIVAL ENTRY — [ECHOES OF RHELLAN’S BASEMENT] ::  
+█████████████████████████████████████
+
+[DESCRIPTION OF THE EVENT:]  
+Rhellan was once a thriving world—until its capital city, **Vaen-Sur**, experienced a **total auditory blackout**. No speech. No footfalls. No sound of any kind.  
+
+It started in the **underground chambers** of the city’s **first parliament building**, now referred to as *“The Basement.”* Engineers investigating a strange **subharmonic hum** went missing, and the ones who came back? They could only **communicate through humming**—no words, just haunting harmonic tones.
+
+The tone got into their heads. Into the walls. Then into the city.  
+Now, the entire district is considered acoustically cursed.  
+No devices work within. **Recordings return only static.**  
+People who step inside report hearing "versions of themselves whispering secrets they never told anyone."
+
+[LOCATION:]  
+Planet: **RHELLAN**  
+Region: Sub-surface government district of **Vaen-Sur Prime**  
+Status: Locked down by local militia; officially listed as a "failed excavation"
+
+[CURRENT STATUS:]  
+🔇 **Permanent Audio Lockdown**  
+Access strictly forbidden by House Genezen due to psychic contamination risks.  
+They built an echo-dampening dome over the area, but the hum leaks through—**especially during eclipses**.
+
+Researchers from the **Omniphage Institute** believe the Basement connects to an **undiscovered pocket reality**, possibly a Gibel-adjacent phenomenon.  
+Locals just call it "The Mouth Below."
+
+[WHAT PEOPLE SAY:]  
+> "I walked down the steps… and heard my *future funeral*. In my own voice." – Field tech, institutionalized  
+> "The hum told me what I did. What I would do. And what I should never do." – Confessor transcript, redacted  
+> "Rhellan ain’t haunted. It’s *listening.* That’s worse." – Old scavenger from Thermalae
+
+█████████████████████████████████████  
+> FILE STATUS: UNDER REVIEW  
+> AUDIO PLAYBACK LOCKED TO OMNI CLASS  
+> CROSS-REF: 'THE CHOIR OF NULL' // 'VAULT E-7'  
+█████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

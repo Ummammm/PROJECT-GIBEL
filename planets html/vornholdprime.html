@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VORNHOLD PRIME</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING FACTION NODE: HOUSE ALBEIT
+> LOCATION: VORNHOLD PRIME
+> STATUS: ARCHIVAL LOG ACTIVE
+> ----------------------------
+
+[1] TERRAIN:
+Fortress-grade basalt cliffs, ridgelines carved into defensive emplacements. Endless plains of crushed stone and impact-hardened training fields. Mountains repurposed into citadel bunkers and automated watch-towers. Entire landscapes sculpted for warfare, not aesthetics.
+
+[2] WEATHER CONDITIONS:
+Cold, dry climate year-round. Average temp: -12°C to 5°C. Wind-chill across elevated ridges. Seasonal hailstorms known as “Iron Rain” (shrapnel-like ice formations) occur during orbit shift cycles.
+
+[3] FLORA & FAUNA:
+Minimal natural flora; only bio-hardened moss and trench grass survive. Fauna includes:
+- **Stralhounds**: Pack-beasts used for blood-tracking drills.
+- **Ironmaws**: Semi-domesticated reptiles used in arena trials.
+- Native wildlife is either extinct or weaponized.
+
+[4] METALS & PRECIOUS ORES:
+High-yield deposits of:
+- **Ferrocore**: Reinforced alloy base used for armor production.
+- **Obsidax**: Volcanic glass-metal hybrid for bladed weapons.
+- Trace amounts of **Aetherium**, mined under martial lockdown.
+
+[5] COMMON WEATHER PHENOMENA:
+- **Iron Rain**: Spiked hail resembling shrapnel.
+- **Skyrip Gales**: Horizontal windstorms strong enough to displace armored transports.
+- **Aurora Pulse**: Rare, blue-hued skyburst from magnetic field clashes—used as ceremonial omen before high-ranking duels.
+
+> LOG COMPLETE.
+> NEXT ENTRY: STANDBY...
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

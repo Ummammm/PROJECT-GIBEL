@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: The Glas Sepulcher</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE: SEP-X001]  
+> SECURITY PROTOCOL: OBSIDIAN KEY  
+> USER SIGNATURE: CONFIRMED  
+> DECRYPTING...  
+> OPENING FILE: THE GLASS SEPULCHER  
+> ...ERROR IN LIGHT REFLECTION MODE_// OVERRIDE ACCEPTED  
+
+████████████████████████████████████████████████████  
+:: ARCHIVAL ENTRY — [THE GLASS SEPULCHER] ::  
+████████████████████████████████████████████████████
+
+[DESCRIPTION OF THE EVENT:]  
+Deep within the shattered crust of **Planet Sel-Narah IV**, half-buried in irradiated salt plains and scorched obsidian ridges, lies a vast crystalline structure known only as *The Glass Sepulcher*.
+
+The building is not made from any known mineral. Its jagged towers, translucent walls, and floating chambers seem to shimmer with internal reflections—like light trying to escape a memory.
+
+It is silent inside. No life. No temperature. No dust. Time, seemingly, refuses to flow within its walls.
+
+But the deeper one ventures, the louder the reflections get.
+
+Explorers report seeing warped versions of themselves roaming ahead in the glass, making choices they haven’t yet made—conversations that haven’t happened, regrets they never voiced. The Sepulcher *shows futures*, or at least… *possibilities*.
+
+Some return from it changed—disoriented, eyes glowing faintly, obsessed with decisions they claim they “already made.” Others vanish entirely, their last comms filled with the sound of breaking glass and repeated phrases like:
+
+**“I saw what I became.”**  
+**“There were too many of me.”**  
+**“She remembered me wrong.”**
+
+According to whispers, at the Sepulcher's core is a suspended figure—shimmering, perfectly still. Not alive. Not dead. Locked mid-scream. Theories range from an ancient Omni to a trapped god, or even the *first soul* ever broken by the Gibel Devices.
+
+[LOCATION:]  
+Dead Zone Orbit of Sel-Narah IV  
+Coordinates classified by the Gatefinder Guild  
+Off-limits by Pact Council decree
+
+[CURRENT STATUS:]  
+☠️ DEEMED A CLASS OMEGA SITE  
+– Officially quarantined  
+– Infiltrated multiple times by rogue mystics, fringe prophets, and a few daring smugglers  
+– Unmapped corridors constantly shift layout
+
+[WHAT PEOPLE SAY:]
+
+> “The Glass Sepulcher doesn’t trap you. It lets you leave... *but not as you were.*”  
+– Shivana Seer, House Arcanel (exiled)
+
+> “It showed me my wife. Alive. Smiling. We never met in this life.”  
+– Log fragment from scavenger ‘Trellin Graves’
+
+> “Every step you take inside, something of you is left behind. And something else takes its place.”  
+– Redacted voice recording, found near a dead comms beacon
+
+> “If reflections can scream, then yes—I heard them scream.”  
+– Gatefinder Nox
+
+████████████████████████████████████████████████████  
+> FILE STATUS: ACTIVE TEMPORAL PARADOX SITE  
+> CROSS-REFERENCES: VEIL OF ECHOES | SHARD OF CONTINUUM | NULL CROWN  
+████████████████████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

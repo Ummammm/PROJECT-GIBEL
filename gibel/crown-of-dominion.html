@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — CROWN OF DOMINION</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/gibel-entry.css" />
+</head>
+
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">GIBEL DEVICE DOSSIER: CROWN OF DOMINION</span>
+        <div class="nav-links">
+          <a href="../gibel.html">[ RETURN TO DIRECTORY ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/gibel-entry.js"></script>
+  <script>
+    const crownLog = `
+
+> ACCESSING GIBEL DEVICE ARCHIVE . . .
+> DEVICE ID: GBL-001
+> NAME: CROWN OF DOMINION
+> STATUS: ACTIVE
+> CURRENT HOLDER: HOUSE ALBEIT
+> PERMISSION LEVEL: HIGH CLEARANCE REQUIRED . . . GRANTED.
+
+------------------------------------------------------------
+:: LOCATION OF DISCOVERY
+------------------------------------------------------------
+> SITE: SABLE CRADLE VAULTS, EARTH RUIN ZONE-13
+> NOTES: Excavated during Ashes Reclamation War.
+> LEAD RETRIEVAL AGENT: KAERON VASH (TITLE: IRON HEIR)
+> DESCRIPTION: Recovered from sealed chamber beneath Old Earth’s final military complex. Surrounding architecture suggests Oldsmen origin.
+
+------------------------------------------------------------
+:: KNOWN CAPABILITIES
+------------------------------------------------------------
+> FUNCTION: REALITY-BENDING AUTHORITY PROJECTION
+> EFFECT:
+    - Forces loyalty within defined radius.
+    - Amplifies leadership instincts.
+    - Psychically imprints commands on sentients.
+> RANGE: Up to 1 planetary hemisphere (confirmed)
+> NOTES: Voice projection manifests as “divine command” to weaker minds.
+
+------------------------------------------------------------
+:: RESIDUAL EFFECTS
+------------------------------------------------------------
+> PASSIVE FIELD:
+    - Indoctrination-like effects on nearby civilians.
+    - Enhanced group cohesion among troops.
+    - Long-term exposure results in psychological dependency on Crown-bearer.
+> CAUTION: Prolonged contact with object linked to loss of independent thought in non-bearers.
+
+------------------------------------------------------------
+:: HISTORICAL RECORD
+------------------------------------------------------------
+> RETRIEVAL TIMELINE:
+    - YEAR: 7281 A.G.
+    - EVENT: Ashes Reclamation War
+    - FACTION: House Albeit initiates crusade to claim Earth Relics.
+> IMPACT:
+    - Immediate unification of fractured warbands.
+    - Rise of modern Albeit Empire.
+> LEGEND:
+    - “The Crown chooses its wearer.”
+    - Tactical brilliance attributed to psychic whispering.
+    - Allegations of subconscious rewriting of oaths and allegiances.
+> PUBLIC STATEMENT (HOUSE ALBEIT): “What you call control, we call peace.”
+
+------------------------------------------------------------
+> FILE END.
+> NEXT DEVICE? [Y/N]
+
+
+    `;
+
+    startGibelEntry(crownLog);
+  </script>
+</body>
+
+</html>

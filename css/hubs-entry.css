@@ -1,0 +1,45 @@
+body {
+  background-color: #000;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#boot-screen {
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+.entry-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+.terminal-output {
+  white-space: pre-wrap;
+  line-height: 1.5;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.back-button {
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #ffffff;
+  color: #000;
+}

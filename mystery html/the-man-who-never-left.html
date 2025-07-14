@@ -1,0 +1,74 @@
+3<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: The Man Who Never Left</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE_Ψ-77.3-C]  
+> DECRYPTION KEY VERIFIED  
+> OPENING FILE: The Man Who Never Left  
+> STANDBY...
+
+█████████████████████████████████████  
+:: ARCHIVAL ENTRY — [THE MAN WHO NEVER LEFT] ::  
+█████████████████████████████████████
+
+[DESCRIPTION OF THE EVENT:]  
+They say on the fractured station of **Virell Station Delta**, there’s a maintenance corridor deep in the lower decks that **never stops pinging a life sign**. The tag is always the same: **ID#8927-K – Jonas Merev**, listed as “**cleaning crew**.”  
+
+Problem is… Jonas died **eighty-three years ago**. Logged. Buried. Cremated. All of it.  
+Yet every cycle, at exactly 03:33 Virell time, a blurred figure can be seen walking the corridor, mop in hand, pausing by **a wall that isn’t on any blueprint**.  
+
+He never responds. He never turns.  
+Security teams sent to investigate?  
+Every single one comes back with no memory of going in.  
+One came back with a *different birthday*.
+
+[LOCATION:]  
+Site: **Virell Station Delta**  
+Orbiting: **Broken Moon Halress**, outer rim  
+Current Owner: Formerly ECLYNE INDUSTRIAL, now decommissioned and considered haunted by five different cultures
+
+[CURRENT STATUS:]  
+🔒 **Quarantined Sector**  
+Station logs auto-purge all recordings after 03:34.  
+Rosettax AI flagged the lifeform as both organic and "multi-temporal."  
+The Pact Council has issued a “Soft Redaction Protocol,” preventing commercial salvage crews from accessing the lower levels.
+
+Some whisper that Jonas isn’t a ghost… but **a temporal echo**, or something far worse that **took his name**.
+
+[WHAT PEOPLE SAY:]  
+> "He always mops. Always. Even if the floor’s gone." – Ex-security officer  
+> "We left that station for a reason. But it didn’t leave us." – Eclyne Maintenance AI Fragment  
+> "There’s an airlock that only opens when he's near. Don’t look through it. Just… don’t." – Survivor log, wiped from database
+
+█████████████████████████████████████  
+> FILE STATUS: ACTIVE  
+> ACCESS LEVEL: OMICRON-DELTA-7  
+> ADDENDUM: Refer to "CHOIR OF NULL" for cross-symbology  
+█████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

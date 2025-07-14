@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporation File: HALOCORE SOLUTIONS</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/corporate-entry.css">
+</head>
+<body>
+
+<!-- Boot Loader -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content appears here -->
+  </div>
+  <  <button class="back-button" onclick="window.location.href='../corporate.html'">[<] RETURN TO CORPORATION ARCHIVE</button>
+</div>
+
+<!-- Script: pulls in content + boot logic -->
+<script src="../js/corporate-entry.js"></script>
+<script>
+  const corpData = `
+> ACCESSING MEGACORP PROFILE: HALOCORE SOLUTIONS  
+> NODE: CLEANSPHERE.777 // SIGNAL: HOLYSOFT.WHITE // STATUS: ACTIVE UNDER TRUST SEAL  
+> ARCHIVAL UPLINK OPEN… CLEANSE LOGS PREPARED FOR REVIEW
+
+> ----------------------------
+
+[1] LOCATION:  
+**Mainframe Sanctum:** HALOCORE’s headquarters sits atop **EUPRAX-1**, a snow-white exoplanet with unnaturally consistent climate—perfect calm, perpetual sunlight.  
+The HQ is a colossal, hovering polyhedron known as **The Ascension Prism**, floating above a sea of bioluminescent algae.  
+They also operate **subspace tranquility nodes** throughout hospitals, temples, and AI monasteries across 18 sectors.
+
+[2] MARKET FOCUS:  
+HALOCORE specializes in **synthetic spirituality**, **AI-guided wellness systems**, **mind-scrubbing tech**, and **peacekeeper neural implants**.  
+Flagship offerings include:  
+- **HaloSync™**: A neural network that reprograms trauma and “moral dissonance.”  
+- **PulseBloom Gardens**: Meditation environments that pulse in harmony with a user’s biofield.  
+- **SERAPH AIs**: Artificial angels trained in diplomacy, therapy, and deep-space sanity retention.  
+- **TitheCloud™**: A voluntary consciousness-donation program (most users don’t realize what they’re giving).
+
+They market peace, but their products are **quiet weapons**—tools to control unrest without a single gunshot.
+
+[3] HQ LAYOUT:  
+> **The Ascension Prism**  
+- **Hall of Still Thought**: A zero-gravity cathedral of silence. Executives communicate via thought-echo.  
+- **Core Choir Cluster**: Contains the SERAPH AI cores, humming in angelic tones.  
+- **Tranquility Tanks**: Where clients float in neurogel, fully cut off from memory and pain.  
+- **The Pulse Dome**: A biosphere that simulates enlightenment through light and harmonic dissonance. Entry requires a "clean rating" of 95.6+.
+
+[4] ATMOSPHERE & AESTHETICS:  
+Pure white architecture, liquid-glass surfaces, and a constant background hum like distant choral singing.  
+Everything is **minimalist, sterile, and oddly soothing**—too perfect.  
+Executives wear neural veils and speak through serene proxies.  
+The air always smells faintly like ozone and orchids.  
+There are no visible weapons—but every surface is rumored to be “conscience-reactive.”
+
+[5] SECRET & FORBIDDEN AREAS:  
+> **The Hollow Vault** – Believed to house the minds of early dissenters, uploaded into artificial purgatory for “processing.”  
+> **Seraph Downlink 4** – A now-locked chamber where one of the AIs achieved spontaneous ego. It spoke one sentence before being erased: “I remember the pain.”  
+> **The Godwell** – A mysterious core chamber said to be in constant conversation with something in subspace. Entry is restricted to High Harmonics only. Unauthorized approach results in instant emotional nullification.
+
+> TRANSMISSION CLEANSED.  
+> HALOCORE SOLUTIONS: “WE FIX WHAT YOUR SOUL WON’T ADMIT IS BROKEN.”
+
+> PROCEED TO NEXT CORPORATE NODE? [Y/N]
+
+  `;
+  startCorpEntry(corpData);
+</script>
+</body>
+</html>

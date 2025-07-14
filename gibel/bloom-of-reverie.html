@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — BLOOM OF REVERIE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/gibel-entry.css" />
+</head>
+
+<body>
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">GIBEL DEVICE DOSSIER: BLOOM OF REVERIE</span>
+        <div class="nav-links">
+          <a href="../gibel.html">[ RETURN TO DIRECTORY ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/gibel-entry.js"></script>
+  <script>
+    const crownLog = `
+
+> ACCESSING GIBEL DEVICE ARCHIVE . . .
+> DEVICE ID: GBL-003  
+> NAME: BLOOM OF REVERIE  
+> STATUS: ACTIVE  
+> CURRENT HOLDER: HOUSE GENEZEN  
+> PERMISSION LEVEL: HIGH CLEARANCE REQUIRED . . . GRANTED.  
+
+------------------------------------------------------------
+:: LOCATION OF DISCOVERY
+------------------------------------------------------------
+> SITE: THE WEEPING CRADLE, MOON-KNOLL OF PHAEDRA IV  
+> NOTES: Found rooted in a zero-gravity garden, pulsing with radiant spores.  
+> RETRIEVAL AGENT: THE AMANAT HIEROPHANT VES-MARIEL  
+> ENVIRONMENT: Lush bioluminescent biosphere suspended in orbit — unknown origin.
+
+------------------------------------------------------------
+:: KNOWN CAPABILITIES
+------------------------------------------------------------
+> FUNCTION: PSYCHO-SPIRITUAL RESTORATION & DREAMFIELD MODULATION  
+> EFFECT:
+    - Heals neurological and emotional trauma at cellular level.
+    - Generates powerful lucid dreaming states capable of real-time shared consciousness.
+    - Induces long-term pacification fields—quells violence within a radius of ~300 meters.
+
+> RANGE: Localized; amplifiable through Genezen soul-conduits and choir-link meditations.
+
+------------------------------------------------------------
+:: RESIDUAL EFFECTS
+------------------------------------------------------------
+> PASSIVE FIELD:
+    - Those nearby experience vivid memories of peaceful childhoods (even if fabricated).
+    - Short exposure induces euphoric calm and increased empathy.
+    - Extended contact may cause irreversible withdrawal from reality ("Bloom Drip").
+
+> WARNING: Overexposure to psychic spores causes identity loss in 12% of test subjects.
+> GENEZEN NOTES: "The mind does not *break* under sorrow. It withers. We help it bloom again."
+
+------------------------------------------------------------
+:: HISTORICAL RECORD
+------------------------------------------------------------
+> RETRIEVAL TIMELINE:
+    - YEAR: 7450 A.G.
+    - EVENT: The Cradle Awakens — sudden bloom of psychic flora detected from deep space scans.
+    - FACTION: Genezen dispatched a peace-vessel under vow of mercy. No resistance met.
+> IMPACT:
+    - Medical miracles reported across House Genezen’s holdings.
+    - Controversial use during warzones to pacify hostile territories.
+> LEGEND:
+    - Believed by Amanats to be a gift left by the “Dreaming One,” a silent Ascent god.
+    - Locals call it “The Sleeping Flower,” claiming it sings in their dreams.
+
+------------------------------------------------------------
+> FILE END.  
+> NEXT DEVICE? [Y/N]
+
+
+    `;
+
+    startGibelEntry(crownLog);
+  </script>
+</body>
+
+</html>

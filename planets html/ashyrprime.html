@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASHYR PRIME</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING FACTION NODE: PHONECIANS  
+> LOCATION: ASHYR PRIME  
+> STATUS: ARCHIVAL NODE FOUND – DEEP BURIAL MODE ACTIVE  
+> ----------------------------
+
+[1] TERRAIN:  
+Ashyr Prime is a devastated world, its surface fractured into cratered wastelands, lava-choked ravines, and hollowed-out continents. Once a thriving industrial hub, it now resembles a scarred tomb. The terrain is mostly subterranean—spanning endless tunnels, old mining shafts, and buried war bunkers collectively known as *The Echo Forge*, where the Phonecians dwell like ghosts.
+
+[2] WEATHER CONDITIONS:  
+Surface weather is hostile and volatile. Acidic storms, black ash rain, and electromagnetic interference plague the upper crust. The sky glows permanently red from the fractured atmosphere, and occasional quakes collapse ancient spires and reveal new tunnels. Underground, it’s eerily calm—silent save for the hum of ancient machines and the breath of buried reactors.
+
+[3] FLORA & FAUNA:  
+- **Flora**:  
+  - **Ash Vines**: Mutated plants growing in the cracks, feeding off radiation and corpse minerals.  
+  - **Lumen Spores**: Bio-luminescent moss used as both light source and weak fuel. Grows in damp corners of The Forge.  
+  - **Cradleweed**: Rare, hardy medical plant preserved by Phonecian alchemists. Can purge most toxins or kill instantly, depending on how it's distilled.
+
+- **Fauna**:  
+  - **Ember Rats**: Scavenging rodents with fire-resistant skin, often used for tunnel scouting.  
+  - **Tunneling Gnashers**: Blind, armored beasts that navigate through seismic vibrations. Difficult to tame—often weaponized.  
+  - **Mirage Flies**: Insects that mimic whispers and light, used for distraction or terror tactics.
+
+[4] METALS & PRECIOUS ORES:  
+- **Ferrum-Etherite**: A reactive ore once used for advanced ship hulls and sonic weaponry. Now unstable, but still hunted for.  
+- **Cryosteel Veins**: Found only in sub-zero ravines deep underground—used for rare frost-based armor plating.  
+- **Memory Shards**: Fragments of pre-disaster databanks crystallized under pressure. Each contains partial AI records or forgotten war plans.
+
+[5] COMMON WEATHER PHENOMENA:  
+- **Ash Rains**: Dense black particulate that clogs lungs and filters. Survivors wear full-face respirators above ground.  
+- **Red Quakes**: Mini seismic shocks that rupture the crust, usually followed by underground tunnel collapses.  
+- **Ghostlight Flickers**: Blue-green lights that blink across the surface like will-o’-the-wisps. Often caused by malfunctioning sat-relays or rumored specters.
+
+> ARCHIVE LOCKED.  
+> THE ECHO FORGE SPEAKS IN SILENCE.  
+> IF YOU HEAR WHISPERS — YOU’RE ALREADY TOO LATE.
+
+> NEXT NODE: >> ?
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

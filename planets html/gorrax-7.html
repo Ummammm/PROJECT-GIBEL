@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GORRAX-7</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: GORRAX-7  
+> DESIGNATION: CLASS-D RED ZONE // FACTIONALLY DISPUTED  
+
+------------------------------------------------------------  
+[1] TERRAIN:  
+>> Volcanic badlands dominate the surface, split by jagged obsidian ridges and scorched plateaus.  
+>> Subsurface caverns weave beneath the crust, some still glowing from tectonic activity.  
+>> Ancient mining colonies litter the land, half-buried in ash and rust.  
+
+[2] WEATHER CONDITIONS:  
+>> High atmospheric pressure; sulfuric winds reach lethal velocities.  
+>> Air toxicity near-surface requires sealed gear for extended exposure.  
+>> Radiation storms occur weekly due to unstable magnetic field.  
+
+[3] FLORA & FAUNA:  
+>> Flora: Burnshrooms (bioluminescent fungi), Scorchroot (heat-fed vines), Ash Coral.  
+>> Fauna: Charbeasts (lava-adapted quadrupeds), Embercrawlers (insectoid scavengers), Voidhawks (ash-dwelling predators).  
+>> Indigenous life displays extreme thermal and radiation tolerance.  
+
+[4] METALS / PRECIOUS ORES:  
+>> High concentrations of Magnerite, Vulkar Alloy, and Trace Omnithium.  
+>> Ancient Ascent-era mining vaults suspected but unconfirmed.  
+>> Rare crystal: Hellion Shards — unstable energy conductors used in prototype weapons.  
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Fire Rains — atmospheric ignition events caused by ionized ash.  
+>> Tremor Surges — localized tectonic quakes disrupting surface infrastructure.  
+>> Plasma Cyclones — rare, violet-colored vortexes that drain shielded power sources.  
+
+------------------------------------------------------------  
+> STATUS: MINING RESTRICTED UNDER GENEZEN PROTOCOL 71-A.  
+> LAST FACTIONAL CLAIM: SHMIED, REDACTED AFTER INCIDENT-Σ-22.  
+> ARCHIVE FLAG: POTENTIAL GIBEL DEVICE INTERFERENCE ZONE.  
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

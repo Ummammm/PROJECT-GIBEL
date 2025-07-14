@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>THARUUN FOPGEHEART</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+>> ACCESSING FACTION NODE: HOUSE SCHMEID  
+> LOCATION: THARUUN FORGEHEART  
+> STATUS: ARCHIVAL LOG ONLINE  
+> ----------------------------
+
+[1] TERRAIN:  
+Jagged basalt mountain ranges scarred by industrial strip-mines and magma canals. Towering foundry-cities are built vertically into volcanoes or carved into tectonic shelves. The world’s crust is constantly in flux, with rivers of lava threading through dense smog valleys.
+
+[2] WEATHER CONDITIONS:  
+Extreme heat. Day and night cycles are barely noticeable due to the planet’s thick atmosphere and ever-present volcanic glow. Acid storms are common, and ash-fall can last for weeks. Most inhabitants live in reinforced habitats or subterranean bunkers.
+
+[3] FLORA & FAUNA:  
+- **Flora**: Sparse. Pyro-moss and firebloom flowers grow near vents. Metal-absorbing fungi are farmed for rare alloys.  
+- **Fauna**:  
+  - **Molten Hounds**: Lava-dwelling reptilian predators used as forge guardians.  
+  - **Slag Beetles**: Insects that consume waste ore and excrete refined metals.  
+  - **Fume Serpents**: Ash-colored serpents that nest in exhaust vents, heat-resistant and often worshipped by lower caste smiths.
+
+[4] METALS & PRECIOUS ORES:  
+- **Ferronyx**: Ultra-durable alloy native to Tharuun’s deep core, central to Schmied weaponry.  
+- **Voltherium**: Conductive mineral essential to plasma-based tools and mech plating.  
+- **Brimlite**: Rare glowing mineral formed only during tectonic ruptures, used in reactor cores.
+
+[5] COMMON WEATHER PHENOMENA:  
+- **Ash Cyclones**: Spinning columns of superheated soot and debris—deadly and unpredictable.  
+- **Forge Storms**: Electromagnetic eruptions caused by subterranean quakes, often followed by metal “rain.”  
+- **Core Pulses**: Planet-wide tremors from molten core surges, briefly powering all industrial systems with surplus energy.
+
+> ARCHIVE ENTRY LOCKED.  
+> NEXT NODE: SELECT OR WAITING...
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

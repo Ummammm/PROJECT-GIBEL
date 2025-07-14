@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHARDCASTER — PROTOCOL: GIBEL</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/weapons-entry.css" />
+</head>
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display: none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">[ FILE ACCESSED: SHARDCASTER WEAPON LOG ]</span>
+        <div class="nav-links">
+          <a href="../weapons.html">[ RETURN TO ARMORY DIRECTORY ]</a>
+        </div>
+      </div>
+
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/weapons-entry.js"></script>
+  <script>
+    const shardcasterText = 
+`> WEAPON CLASS: SPLINTER-CATALYTIC RIFLE
+> DESIGNATION: "SHARDCASTER"
+> ORIGIN: HOUSE ARCANEL BLACKVAULTS — UNLICENSED
+
+DESCRIPTION:
+The Shardcaster weaponizes crystalline matter suspended in psionic flux. Each shot fires a burst of razor-edged shard projectiles encoded with kinetic memory, capable of seeking weak points in both armor and force-fields.
+
+> TECH CORE:
+Utilizes a rune-scribed channel chamber lined with rare Shivana mirrorstone. Shots fragment mid-air, creating directional scatter patterns that can be mentally guided by trained wielders.
+
+> WARNING:
+Non-Arcanel users report intense migraines, eye bleeding, and hallucinations involving fractal geometry. Not compatible with HUD systems.
+
+FIELD QUOTES:
+- "Felt like I was painting death across the battlefield—one prism at a time." — Shivana Adept-Scout, Echelon 3.
+- "It sings when you pull the trigger. Not a song you'll forget." — Ex-smuggler turned Genezen test subject.
+
+[ STATUS: RESTRICTED. SEEN IN USE BY SUBJECT: LYRA VEISS. ]
+
+> END OF FILE`;
+    
+    startWeaponEntry(shardcasterText);
+  </script>
+</body>
+</html>

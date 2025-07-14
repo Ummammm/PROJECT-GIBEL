@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VELVETTE SPIRE</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING FACTION NODE: GOLDEN THEATRE  
+> LOCATION: VELVETTE SPIRE  
+> STATUS: STREAMING PLANETARY SCAN  
+> ----------------------------
+
+[1] TERRAIN:  
+Velvette Spire isn’t a planet in the traditional sense—it's a colossal, neon-drenched station-world anchored to the cooled core of a dying star. Its surface is an impossible blend of asteroid plates, melted alloys, and layered opera domes suspended in artificial gravity webs. Entertainment towers, secret auction halls, and illicit market promenades spiral upward like a crystalline circus.
+
+[2] WEATHER CONDITIONS:  
+Being partially exposed to the dying star’s unstable emissions, the outer layers experience violent flare surges and radiation gusts. However, the core station levels are climate-controlled, exuding artificial warmth, perfumed air, and shifting ambient lighting designed to keep guests disoriented yet enchanted.
+
+[3] FLORA & FAUNA:  
+- **Flora**:  
+  - **Gilded Vines**: Genetically engineered plants laced with metallic shimmer. Purely decorative, occasionally used in rare poisons.  
+  - **Mirage Bloom**: A psychoactive flower that causes lucid illusions—used during immersive plays or torture performances.  
+  - **Spinal Orchids**: Bioluminescent and deadly; each petal contains a sedative neurotoxin. Cultivated in elite lounges.
+
+- **Fauna**:  
+  - **Velvet Raptors**: Tamed reptilian predators with silk-feathered hides. Used for gladiator entertainment or bodyguard duty.  
+  - **Spectacle Wasps**: Holographically cloaked insects trained for surveillance and stage sabotage.  
+  - **Ecliptic Moths**: Harmless but massive creatures with wings that reflect emotional states; highly prized in fashion and art shows.
+
+[4] METALS & PRECIOUS ORES:  
+- **Starcoal**: Crystallized fragments of the star’s dying heart, used in high-end plasma jewelry and dangerous weapon cores.  
+- **Lunasilk Alloy**: A soft, malleable metal mined from the surrounding asteroid belts—favored for both stealth gear and elite performance costumes.  
+- **Glassite**: Hyper-transparent, unbreakable crystalline used in private viewing domes and assassin-proof opera boxes.
+
+[5] COMMON WEATHER PHENOMENA:  
+- **Radiant Flares**: Random energy eruptions from the dying star cause hallucinations or spontaneous power outages. Often mistaken for “divine inspiration.”  
+- **Glitz Storms**: Metallic dust cyclones caused by overmining the asteroid belt. Shimmering, sharp, and deadly.  
+- **Void Reverberations**: Unexplained sonic pulses from the station’s foundations—rumored to be the star’s last heartbeat or cursed transmissions from forgotten performers.
+
+> ARCHIVE COMPLETE.  
+> VELVETTE SPIRE WELCOMES YOU TO THE FINAL SHOW. DRESS CODE: LETHAL.  
+> NEXT NODE: >> ?
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

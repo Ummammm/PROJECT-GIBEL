@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TITANIUM TRIBUNAL — MINOR FACTION DOSSIER</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/minorfaction-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="entry-box">
+    <div class="terminal-output" id="entry-content"></div>
+    <button class="back-button" onclick="window.location.href='../minorfaction.html'">[<] RETURN TO MINOR FACTIONS</button>
+  </div>
+</div>
+
+<script src="../js/minorfaction-entry.js"></script>
+<script>
+  const minorFactionData = `
+>> INITIALIZING CONNECTION TO FACTION DOSSIER...
+>> DEEP ENCRYPTION DETECTED — CRACKING KEYS...
+>> VALIDATION SEQUENCE PASSED.
+>> ACCESS GRANTED. LOADING FACTION ENTRY...
+>> Unstable AI handshake initialized...
+  
+TITANIUM TRIBUNAL — MINOR FACTION DOSSIER
+
+[>] CAPITAL WORLD : The Tribunal abandoned fixed habitation. They drift through the galaxy aboard the colossal Monolith Convoys, each the size of a small moon.
+
+[>] GALACTIC TRAVELS :Their ships move via Phase Shift Lensing, skipping across timelines rather than physical space. Tribunal tech is non-replicable by organic minds—coded in living logic, shaped by evolving AI consensus. Personal drones and sentinels teleport rather than travel—leaving behind after-images and echoes.
+
+[>] CIVILIANS : No traditional civilians. Tribunal units include: The Helix Caste – Memory preservers and philosophers. The Prism Guard – Reality-shield enforcers. The Null Scribes – Silent coders of fate and possibility. No spoken language—communication is quantum-intent pulses, felt rather than heard. Their “culture” centers around preservation of existential truths and ethical observation of galactic entropy. Religion? Maybe. Some call it the Code of Closure, an obsession with completing every loop.
+
+[>] ECONOMY & TRADE : The Tribunal does not participate in traditional trade. Instead, they exchange: Memory Archives – Perfect recreations of lost civilizations. Ethical Calculi – Decision matrices used by rulers or generals. Time Siphons – Devices that borrow seconds from future timelines. What they want in return? Access to anomalies, corrupted AIs, or relics from the Oldsmen.
+
+[>] WEAPONS & COMBAT : Their combat philosophy: “Silence the Error.” They use: Reality-anchored weapons – anti-quantum blades, time freeze shells.Redundancy Fie lds – shields that reset to a previous moment. Nullfire Cannons – erase an enemy’s timeline from existence (slow and rare). Elite Units: Chrono Wraiths – Walk between seconds. Echo Sentinels – Fight using past versions of themselves. The Executor Node – A floating AI judge with instant-decision firepower.
+
+[>] COMMUNICATON & MEDIA : Quantum Broadcasts – One-way pulses, received only by tech with high clearance.They sometimes hijack pirate frequencies to send philosophical riddles or countdowns.Their “media” exists as Simulation Theaters – memory-chambers where you live out moments from ancient histories or speculative futures. All Tribunal knowledge is filtered through the Prime Directive Loop, ensuring no paradox is born from their presence.
+
+[>] LAWS & CRIME : Seen as terrorists by the Houses; heroes by the forgotten. Crimes? Too many. Accused of: House-bombings, Omni kidnappings, Gate corruption, and rebel priest assassinations. They reject external law, governed instead by the Fire Pact: “No mercy for the cruel. No betrayal of the fallen. No peace without truth.” Internal justice: swift, emotional, and handled by Ashbound Circles—elders who survived multiple purges.
+
+[>] RUINS & RELICS : Hunt: Whisper Blades – forged from silent deaths, said to remember every strike. The Dying Archive – a collapsing AI mainframe that holds names of every forgotten rebel. Ascent Cryshards – sound-reactive stones that reveal lies when shattered. Rumor: they briefly held a Gibel Device capable of rewriting memory, but it fractured during battle—its shards now scattered and dangerous.
+
+[>] KEY FIGURE :
+
+[>] 1.Suri Vint – The Red Relay
+[>] 2.Irgan Tatch – Scrap Saint
+[>] 3.Julex Mor – The Architect of Collapse
+[>] 4.Sol Ruun – The Masked Nothing
+[>] 5.Amira Vehl – The Deadlight Poet
+
+
+End of Archive.
+
+
+
+
+
+  `;
+
+  startMinorFactionEntry(minorFactionData);
+</script>
+</body>
+</html>

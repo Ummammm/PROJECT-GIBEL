@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neutral Hub: Orris Drift</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/hubs-entry.css" />
+</head>
+<body>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <!-- Entry UI -->
+  <div id="entry-ui" style="display:none;">
+    <div class="entry-container">
+      <div class="terminal-output" id="entry-content">
+        <!-- Typing content goes here -->
+      </div>
+      <button class="back-button" onclick="window.history.back()">[<] RETURN TO HUB ARCHIVE</button>
+    </div>
+  </div>
+
+  <script src="../js/hubs-entry.js"></script>
+  <script>
+    const hubData = `
+> ACCESSING_HUB_DATABASE // NODE: ORRIS_DRIFT  
+> STATUS: DECLASSIFIED (CIVILIAN + GREYMARKET)  
+> STABILIZATION RING ONLINE ▓▓▓▓▓▓▓▓▓▓▓▓ 100%
+
+--------------------------------------------------------
+>> [ NEUTRAL HUB LOG ENTRY #01 ] :: ORRIS DRIFT
+--------------------------------------------------------
+
+[1] TYPE OF HUB:  
+↳ **Drifting Asteroid Freeport**  
+A loosely-governed repair and trade station anchored across a chain of fused asteroids, retrofitted with modular docking bays, signal reflectors, and living capsules welded to old mining scaffolds. Entire chunks of the hub orbit independently, connected by maglev shuttles and blinking jump-bridges.
+
+[2] KNOWN FOR:  
+↳ **“The Last Honest Stop Before Trouble.”**  
+Orris Drift serves as a grey-zone pit stop where merchants, mercs, smugglers, and scouts catch their breath between major jumps. It's renowned for fast mechanical services, high-value part-swaps, and a whisper network that trades info like currency.  
+> No IDs. No questions. Just pay in credits or favors.
+
+[3] FACTIONS SEEN:  
+↳ A crossroads for the galaxy’s bold and shady:  
+- **Wayferrer Guilds** downloading directional ghost data  
+- **Golden Theatre reps** scouting talent or hocking "liberated" artifacts  
+- **Gate Finders** rerouting away from scanners  
+- **Band of Thrope** watchers cloaked in shadows  
+- **Titanium Tribunal** float-processors requesting ancient tech access  
+- Even the occasional **Albeit detachment**, unofficially present in disguise
+
+[4] SPECIAL FEATURE:  
+↳ **The Modular Drift Grid**: A zero-grav, drone-assisted maintenance web that magnetically unfolds to service any ship class. AI-welders and patch bots operate with eerie precision.  
+↳ **Trade Orchard**: A bizarre half-bazaar, half-auction system where barter is prioritized over credits. Anything from lost star maps to alien pets can be traded here, often anonymously via holo-intermediaries.
+
+[5] VIBE / CONDITIONS:  
+↳ Gritty but strangely homey.  
+Inside, the lighting flickers between warm amber and electric cyan. Floors hum with aging stabilizer tech. The scent of ion grease, ozone, and offworld spice blend into an oddly comforting musk.  
+Vendors yell deals over crackling intercoms. Faded propaganda posters decorate walls, long outdated.  
+There’s a chill—not from cold, but from the absence of law. But to most drifters, that’s just how they like it.
+
+--------------------------------------------------------
+> ORRIS_DRIFT NODE STABLE  
+> NEXT AVAILABLE HUB: CRYODAWN_BAZAAR [Y/N]?  
+>_
+
+    `;
+    startHubEntry(hubData);
+  </script>
+</body>
+</html>

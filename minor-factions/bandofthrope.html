@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BAND OF THROPE— MINOR FACTION DOSSIER</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/minorfaction-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="entry-box">
+    <div class="terminal-output" id="entry-content"></div>
+    <button class="back-button" onclick="window.location.href='../minor-faction.html'">[<] RETURN TO MINOR FACTIONS</button>
+  </div>
+</div>
+
+<script src="../js/minorfaction-entry.js"></script>
+<script>
+  const minorFactionData = `
+>> INITIALIZING CONNECTION TO FACTION DOSSIER...
+>> DEEP ENCRYPTION DETECTED — CRACKING KEYS...
+>> VALIDATION SEQUENCE PASSED.
+>> ACCESS GRANTED. LOADING FACTION ENTRY...
+>> Warning: Assassin protocol traces detected.
+  
+BAND OF THROPE— MINOR FACTION DOSSIER
+
+[>] CAPITAL WORLD : Obscuron – A rogue planet with no sun, floating in deep space cloaked in quantum fog. The only light comes from bioluminescent fungus and artificial moons. Everything is hidden—training temples, weapon forges, and archives of past kills.
+
+[>] GALACTIC TRAVELS : They use Veilships – near-invisible, radar-jamming vessels equipped with grav-silencers. Known for “Shadowstepping”: limited, gate-adjacent teleportation using mini-wormhole tears. Thrope operatives can port across short distances during missions thanks to neural-anchored beacons.
+
+[>] CIVILIANS : No civilians. Everyone is either: Initiate, Operative, Handler, or Ghost-Lord (elders who survived 100+ missions). Family is replaced by Bloodbands—chosen kin bonded through oath and survival. Training begins in early youth through the Trial of Silence: a full year of sensory deprivation and stealth-based survival. Culture values: precision, adaptability, and ritualistic detachment. Some operatives tattoo memories of their kills onto their skin (in binary).
+
+[>] ECONOMY & TRADE : Economy is entirely contract-based. High-paying jobs from Houses, criminal empires, even some rogue Omnis. Black market dealings: stealth tech, neurotoxins, corrupted memories, identity wipes. Secret auction world: Thorneveil, where forbidden contracts are bid on using memories, years of life, or favor-debts.
+
+[>] WEAPONS & COMBAT : Combat is an artform. Style: "The Thrope Way", which includes: Neural chainblades, silent echo-darts, pulsewire garrotes, Chrono-Slow grenades – distort time in a small radius for precision attacks. Elite types: Veilcutters – specialize in killing while invisible, Pulse Wraiths – emotional assassins who kill through psychic feedback, Null Blades – experts in anti-Omni combat.
+
+[>] COMMUNICATON & MEDIA : Use Mindlock Slates – psychic one-way comms that erase after one thought. All records are analog or memory-based—no digital footprint. Media is forbidden except for Kill Archives—reviewed only by elders and trainees. Music and story only exist in the form of Whisper Opera—performed during post-mission ceremonies in the dark.
+
+[>] LAWS & CRIME : Considered illegal in nearly every system. No extradition possible—Thrope members erase their identity from every galactic registry. Known crimes: Assassinations of high leaders, mind-fracturing of witnesses, deletion of planetary memories. Internal justice: The Erasure – when a member betrays the creed, their existence is removed from all records, even memory archives
+
+[>] RUINS & RELICS : The Black Echo Blade – a weapon that silences sound and thought on impact. Ascent’s Mask – grants emotion-nullifying presence, allowing complete stealth from telepaths. The Pulse Mirror – an ancient Thrope relic that reflects not appearance, but intention.
+
+[>] KEY FIGURE :
+
+[>] 1.Maer Vox – “The Punctuated Silence”
+[>] 2.Ryzeh “Blue” Vatrell – “The Laughing Scar”
+[>] 3.Ryzeh “Blue” Vatrell – “The Laughing Scar”
+[>] 4.Kor Yeno – “Contract Zero”
+[>] 5.Vetha Krynn – “The Sandhook”
+
+
+
+End of Archive.
+
+
+  `;
+
+  startMinorFactionEntry(minorFactionData);
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GOLDEN THEATRE — MINOR FACTION DOSSIER</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/minorfaction-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="entry-box">
+    <div class="terminal-output" id="entry-content"></div>
+    <button class="back-button" onclick="window.location.href='../minor-faction.html'">[<] RETURN TO MINOR FACTIONS</button>
+  </div>
+</div>
+
+<script src="../js/minorfaction-entry.js"></script>
+<script>
+  const minorFactionData = `
+>> INITIALIZING CONNECTION TO FACTION DOSSIER...
+>> DEEP ENCRYPTION DETECTED — CRACKING KEYS...
+>> VALIDATION SEQUENCE PASSED.
+>> ACCESS GRANTED. LOADING FACTION ENTRY...
+>> Parsing encrypted show scripts...
+  
+GOLDEN THEATRE — MINOR FACTION DOSSIER
+  
+[>] CAPITAL WORLD : Velvette Spire – A neon-drenched planet-station built atop a dying star’s cooled core. Floating stages, asteroid casinos, and veiled auction houses orbit it.
+
+[>] GALACTIC TRAVELS : Travel in Disguiser Vessels – luxury liner-looking ships that can morph into freighters, stage ships, or war skiffs. Use Jester Gates—their own hacked micro-Gate tech that’s dangerous but fast. Travel through Storyline Paths – mapped chaos zones where unpredictability shields them from sensors.
+
+[>] CIVILIANS : Everyone’s a performer—even smugglers, hackers, and assassins have stage names. Castes: The Leads (faction heads), The Chorus (support crew, con artists), The Stagehands (tech, medics), The Critics (internal enforcers, spies). They believe in The Grand Script—life is performance; only the memorable are immortal. Religion is rare, but superstition is huge: lucky masks, forbidden encore rules, and cursed spotlight zones.
+
+[>] ECONOMY & TRADE : Trade in: Illicit memories, forbidden films, identity forgeries, lost song drives. Exclusive performances that can rewrite emotion, cause rebellion, or trigger mass hypnosis. Their currency is “Applause”—a social token system measured by your story impact. Their auctions are legendary: one Gibel shard was once traded for a cursed opera.
+
+[>] WEAPONS & COMBAT :Flashy, performative, and unpredictable. Weapons include: Pyro-scarves, Joke Bombs (actually brutal), and Voice Knives—blades activated by pitch and tone. Some wield Emo Rigs that alter nearby feelings to manipulate combat flow. Combat art: The Final Act – a dramatic mix of capoeira, dance, and misdirection. Elite units: The Curtainblades, Encore Killers, and Laughless Ones (mimes with no mercy).
+
+[>] COMMUNICATON & MEDIA : Their broadcasts are illegal but beloved—The Vox Masque, Murder Mimes Weekly, and The Underground Laugh Track. Messaging is done via coded performances—a dance or joke might deliver a full intel drop. Every major system has a hidden Jester Node tuned to Golden Theatre frequencies. They infiltrate other factions’ media to embed subliminal ads, rebellion triggers, or ridicule campaigns.
+
+[>] LAWS & CRIME : Considered non-aligned anarchists—too unpredictable to destroy, too useful to ignore. Common accusations: reality manipulation, performance-based coups, and cultural sabotage. Internal justice handled by “The Final Rehearsal”—a last-chance trial held onstage, often fatal. Known to “vanish” key enemies during live shows, replacing them with actor doppelgängers.
+
+[>] RUINS & RELICS : Seek: Laughing Masks of the Oldsmen – believed to contain persona fragments and reality-altering voiceprints. The Cursed Setpiece – a massive prop rumored to replay a lost moment in galactic history. Stage Zero – a shifting ruin where stories rewrite themselves daily; possibly an Ascent artifact. Some claim the Theatre once stole part of a Gibel Device and used it to trap a rebellion in eternal encore.
+
+[>] KEY FIGURE :
+
+[>] 1.Madam Skive – The Director
+[>] 2.Tass Bellin – The Trickflame
+[>] 3.Ziriya Amah – The Dove of Ash
+[>] 4.Milo “Scripter” Vett – The Score Forger
+[>] 5.Corvein Rusk – The Stage Butcher
+
+
+End of Archive.
+
+
+  `;
+
+  startMinorFactionEntry(minorFactionData);
+</script>
+</body>
+</html>

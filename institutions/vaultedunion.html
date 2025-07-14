@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: The Vaulted Union</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+> UOS // VAULTED_UNION.LOG - VERIFIED  
+> CLEARANCE CODE: [BUREAU-OF-STABILIZATION: RED SIGIL]  
+> PROCESSING… █████████ 99.4%  
+> READY.
+
+> -------------------------------------
+
+[3] TYPE OF INSTITUTION:  
+**Interstellar Economic & Relic Custodial Trust**
+
+[3] KNOWN FOR:  
+The **Vaulted Union** acts as the **universal escrow**, **ancient artifact banker**, and **galactic relic registrar**.  
+It’s basically where:
+- Lost tech, cursed devices, and priceless cultural artifacts are “secured”  
+- Megacorps store their **non-liquid assets**  
+- Factions **pawn war trophies**, ancient heirlooms, and even **entire moons**  
+- Omnis are **forced** to register any discovered Gibel fragments
+
+Best known for the **99-Lock Vaults**, multidimensional storage cells resistant to time, space, entropy, and gods.
+
+[3] WHO CAN ACCESS IT:  
+- **Accredited representatives** from recognized factions or megacorps  
+- **Omnis** (if accompanied by a custodian)  
+- Rogue entries are **absorbed**, cataloged, and stored—even if they're alive  
+- Civilian access? Never. Not even posthumously.
+
+[4] LOCATION:  
+> Located on **Vaultpoint Ceres**, an **artificial hollowed moon** surrounded by rotating shield matrices  
+- Hidden in the **Dreknal Fold**, a sector where ships glitch out of time without guidance  
+- All vault entries are protected by **memory-triggered passphrases** and **reality-tethered sigils**
+
+[5] INSTITUTION’S SECRET:  
+- Deep within Vault 0—the **Origin Vault**—it’s rumored the Union holds the **first Gibel Device ever activated**  
+- Some say the Vaulted Union isn’t **just** storing relics... it’s **feeding off their energy**, stockpiling for a moment when neutrality no longer profits  
+- The Custodians? Not fully human. Not fully machine. Not fully... here.
+
+> -------------------------------------
+> NEXT INSTITUTION IN QUEUE: [Omniphage Institute]  
+> INITIATE DECRYPTION?
+
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

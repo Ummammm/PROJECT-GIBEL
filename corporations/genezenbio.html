@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporation File: GENEZEN BIOSTRUCTURE INC</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="../css/corporate-entry.css">
+</head>
+<body>
+
+<!-- Boot Loader -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content appears here -->
+  </div>
+    <button class="back-button" onclick="window.location.href='../corporate.html'">[<] RETURN TO CORPORATION ARCHIVE</button>
+</div>
+
+<!-- Script: pulls in content + boot logic -->
+<script src="../js/corporate-entry.js"></script>
+<script>
+  const corpData = `
+> ACCESSING MEGACORP PROFILE: GENEZEN BIOSTRUCTURES INC.  
+> NODE: GENEZEN.NEXUS // ASCENSION CLEARANCE GRANTED  
+> STATUS: OPERATING / ENLIGHTENMENT IN PROGRESS / SYNCED WITH HOUSE GENEZEN  
+
+> ----------------------------
+
+[1] LOCATION:  
+Planet: **Sanctum Viridia**, in the Viridian Bloom System.  
+A lush world interwoven with floating biodomes, meditation monoliths, and vast gene-cradle valleys. Entire landmasses are living bio-organisms, grown rather than built.  
+
+[2] MARKET FOCUS:  
+> Biomodification, psionic enhancement, regenerative organics, and consciousness-linked medtech.  
+Products include:  
+- **NeuroSpine Bloomkits™** (instant neural re-growth)  
+- **EgoSync Pods** (dream therapy & mind-state cloning)  
+- **Living Prosthetics** (limbs that bond emotionally to users)  
+- **PlasmaPurge Vials** (curative nanoplasma targeting corrupted DNA)  
+
+Clients range from frontier med-stations to elite Highborn enclaves—plus a few shadow markets with strange payment terms.
+
+[3] HQ LAYOUT:  
+> **The Verdant Choir** – not a building, but a living megastructure.  
+- Root Level: Sprawling biolabs encased in translucent membranes. Each lab "sings" at a unique frequency for optimal cell growth.  
+- Bloom Level: Psionic chamber gardens where executives commune in trance states to align decisions.  
+- Canopy Nexus: Floating neural relay towers suspended by anti-grav spores. The Nexus glows with pulses of collective thought.  
+- Sacred Core: A temple-core housing the **GENE-CORE** — a bio-AI partially grown from Amanat DNA.
+
+[4] ATMOSPHERE & AESTHETICS:  
+Clean, harmonious, and eerily serene. Air is hyper-oxygenated and laced with calming pheromones.  
+Architecture flows like plant growth—no hard edges, just elegant curves and photoreactive membranes.  
+Staff dress in pale synthsilk robes, eyes often glowing with faint psionic light.  
+Background hum of deep breathing, rhythmic heartbeats, and choirlike data tones.  
+
+[5] SECRET & FORBIDDEN AREAS:  
+> **Chamber 11-Veil** – hidden biopod facility where “unnatural” Omni modifications are tested.  
+> **Samsara Loop** – a restricted lab where failed consciousness transfers are kept in permanent suspended recursion.  
+> **The Garden of Reclamation** – an overgrown quarantine zone said to house bio-experiments that developed... sentience.  
+
+> TRANSMISSION COMPLETE.  
+> GENEZEN BIOSTRUCTURES INC.: **TO HEAL THE BODY. TO LIBERATE THE MIND. TO ASCEND THE FLESH.**
+
+> PROCEED TO NEXT CORPORATE NODE? [Y/N]
+
+  `;
+  startCorpEntry(corpData);
+</script>
+</body>
+</html>

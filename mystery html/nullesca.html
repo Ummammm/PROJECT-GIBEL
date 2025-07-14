@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery File: Nullesca</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/mystery-entry.css">
+</head>
+<body>
+
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed output will go here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO MYSTERY ARCHIVE</button>
+</div>
+
+<script src="../js/mystery-entry.js"></script>
+<script>
+  const mysteryData = `
+[ACCESSING ARCHIVE NODE_X3-SILENT-VANE]  
+> CLEARANCE LEVEL: OMNI-ALPHA  
+> USER: VERIFIED  
+> OPENING FILE: NULLESCA  
+> WARNING: LINGUISTIC REALITY DISTORTION DETECTED  
+> NULLFILTER PROTOCOL ONLINE  
+
+████████████████████████████████████████████████████  
+:: ARCHIVAL ENTRY — [NULLESCA] ::  
+████████████████████████████████████████████████████
+
+[DESCRIPTION OF THE EVENT:]  
+Nullesca is not a place in the traditional sense—it is a *region* of language collapse, a spectral lattice of void syntax woven across deep space between three derelict star systems. It was first recorded when an interstellar freighter, *The Kin Whisper*, transmitted logs written entirely in an impossible dialect—symbols not of any known linguistic structure.
+
+Translation AIs that attempted to process Nullesca’s language suffered irreversible data corruption. Human linguists who viewed the scripts experienced violent hallucinations, and in some cases, became catatonic—muttering long-dead languages in reverse.
+
+Nullesca appears as a shimmering veil in space, a mirage of "unwords" that resist observation. Ships entering its radius report the slow erosion of meaning—crew forget names, numbers, commands. Some logs suggest time itself speaks within Nullesca.
+
+Its core anomaly is believed to be a linguistic singularity—a theoretical “Lexevent Horizon”—where meaning is pulled in and disassembled at a quantum level. No signal, sound, or memory escapes unaltered.
+
+[LOCATION:]  
+The Tri-Silent Band (between abandoned systems: Velmoor-Tau, Quarieth IX, and Drem Axis)  
+Classified Zone: NUL-SCA-X
+
+[CURRENT STATUS:]  
+⚠️ BLACK ZONE  
+— No safe traversal routes  
+— Empathic navigators refuse to chart it  
+— Four research vessels missing  
+— Two House Arcanel Oracles lost cognitive function  
+— Language-based AIs banned from proximity
+
+[WHAT PEOPLE SAY:]
+
+> “It speaks in what we almost understand. That’s the danger.”  
+– Dr. Halveor Aenn, Semiotic Cryptographer  
+
+> “My mother’s voice came from the static… but she was asking me to forget her.”  
+– Survivor of the *Kin Whisper*  
+
+> “I saw my own name backwards. It hurt to read it.”  
+– Driftchild scribbled note  
+
+> “It’s not that we can’t describe it. It’s that the attempt *unwrites* the describer.”  
+– Nullsoul Cult Manifesto Fragment  
+
+████████████████████████████████████████████████████  
+> FILE STATUS: SEMANTICALLY UNSTABLE  
+> RELATED ENTRIES: THE CHOIR OF NULL | THE ARCHIVE OF STILL VOICES | VAULT E-7  
+████████████████████████████████████████████████████
+
+  `;
+  startMysteryEntry(mysteryData);
+</script>
+</body>
+</html>

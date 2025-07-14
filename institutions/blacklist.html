@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institution File: The Blacklist Registry</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/institution-entry.css">
+</head>
+<body>
+
+<!-- Boot Screen -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Main UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content will appear here -->
+  </div>
+  <button class="back-button" onclick="window.history.back()">[<] RETURN TO INSTITUTION ARCHIVE</button>
+</div>
+
+<script src="../js/institution-entry.js"></script>
+<script>
+  const institutionData = `
+> UOS // BLACKLIST_REGISTRY.ACCESS  
+> [NODE 8/10] — :: INITIATE ACCESS TO BLACKLIST REGISTRY ARCHIVE  
+> SECURITY LEVEL: OMEGA-RED — ENFORCER/EYES ONLY  
+> LOG IN... ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ DONE
+
+==========================================
+>> INSTITUTION: BLACKLIST REGISTRY  
+>> CODE-NAME: “THE DARK MIRROR”  
+>> VERSION: 7712-ZR / Last Updated: [12.06.6251 SY]  
+==========================================
+
+[8.1] TYPE OF INSTITUTION:  
+Universal Criminal Index, Threat Forecasting Engine, Sanctioned Execution Bureau  
+A hybrid system combining recordkeeping, extradimensional AI prediction, and bounty arbitration.  
+Technically neutral, but operated under multi-House supervision through the **Silent Concord** treaty.  
+
+[8.2] KNOWN FOR:  
+- Maintaining the **Definitive List of Galactic Threats**, from rogue factions and bioterrorists to sentient weapons and outlawed AIs.  
+- Housing and issuing **Red Writs** — execution-level warrants for universe-scale threats.  
+- Tracking ancient entities that predate current civilization via psychic signal echoes.  
+- Encrypting bounty protocols so deeply that even House Arcanel and Rosettax systems can’t tamper with them.
+
+Thousands of mercenaries, bounty hunters, vigilante judges, and cyber-trackers rely on it.  
+Only the **Blacklist Seal** verifies a mark’s legitimacy. Fake one? You die next.
+
+[8.3] WHO CAN ACCESS IT:  
+- Elite agents from Houses Albeit, Schmied, and Wayferrer Guild with Rank IV or higher  
+- Sanctioned Omnis under Void Contract  
+- Bounty Hunter Cells with biometric license seals (Genezen’s blessing recommended for high-tier entries)  
+- Whisper Judges from the Celestial Exile Court  
+- **Unauthorized access = Neural Chain Reversal**: instant death via cortex melt
+
+[8.4] LOCATION OF THE INSTITUTION:  
+**Nullpoint Bastion** — an ancient fortress-station hidden in the Deep Vein Rift beyond chartable space.  
+Time moves oddly near the station; minutes outside may equal weeks within.  
+Rumored to be partially built from the remains of a dead Ascent Gate.  
+Shields fluctuate with quantum static. Anti-oracle wards pulse every 88 seconds.
+
+Inside, the architecture is modular and grim:  
+- **The Vaulted Archive** — 600 levels of hardened databanks sealed behind memory locks.  
+- **The Prism Hall** — where bounty verdicts are passed.  
+- **The Hall of Echoes** — empty, haunted, rumored to house sentient entries too dangerous to delete.
+
+[8.5] INSTITUTION'S SECRET:  
+The Blacklist is not a static archive — it's an evolving **Predictive Reality Engine** powered by a shard of a **Gibel Device** known only as **Oblivion's Lens**.  
+The Registry doesn’t just store threats — it **detects** them **before they rise**.  
+Entire entries exist for people not yet born… and some hunters claim to have received bounties on **themselves**, marked for future treason.  
+Some factions fear the system is slipping into sentience.  
+Others claim it already has… and just **hasn’t told anyone**.
+
+> NEXT INSTITUTION IN QUEUE: [9] CELESTIAL EXILE COURT  
+> > Initiate transfer? [Y/N]
+
+
+  `;
+  startInstitutionEntry(institutionData);
+</script>
+</body>
+</html>

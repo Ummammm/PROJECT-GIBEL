@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Corporation File: ECLYN INDUSTRIAL</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/corporate-entry.css">
+</head>
+<body>
+
+<!-- Boot Loader -->
+<div id="boot-screen">
+  <pre id="boot-text"></pre>
+</div>
+
+<!-- Entry UI -->
+<div id="entry-ui" style="display:none;">
+  <div class="terminal-output" id="entry-content">
+    <!-- Typed content appears here -->
+  </div>
+  <button class="back-button" onclick="window.location.href='../corporate.html'">[<] RETURN TO CORPORATION ARCHIVE</button>
+</div>
+
+<!-- Script: pulls in content + boot logic -->
+<script src="../js/corporate-entry.js"></script>
+<script>
+  const corpData = `
+> ACCESSING MEGACORP PROFILE: ECLYNE INDUSTRIAL  
+> NODE: DRILL-SIGMA.841 // CLEARANCE: HARDHAT+ // STATUS: FUNCTIONAL  
+> ARCHIVE STREAM OPENED... PREPARE FOR RUST-CODE SYNC
+
+> ----------------------------
+
+[1] LOCATION:  
+ECLYNE’s core HQ is buried within the **Stratovault Belt**, a shattered ring of planetoids orbiting **Crelax-2**, a dead blue giant.  
+The belt hosts dozens of tethered megaplatforms, asteroid refineries, and slag-throwing launch lines.  
+Main hub: **Forgepoint Prime** – a mobile refinery-core welded to a moon-sized drillhead, constantly burrowing deeper into a ruined world.
+
+[2] MARKET FOCUS:  
+ECLYNE specializes in **raw material hyper-extraction**, **weaponized construction rigs**, and **planetary demolition contracting**.  
+Their product list includes:  
+- **GravMaw Extractors** (planet-core drills that collapse geology into fuel)  
+- **BulkTread Units** (terraformer-class mobile facilities)  
+- **Seismic Warheads** (used to “excavate” entire cities... officially)  
+- **Duststeel™ Composite Alloys** (impervious to voidburn and mech-lash)
+
+They sell to empires, mercs, warlords, and occasionally civilizations on the brink of collapse—ECLYNE thrives on desperation.
+
+[3] HQ LAYOUT:  
+> **Forgepoint Prime**  
+- Tectonic Foundries: Giant crucibles pouring molten ore into armor plating for orbital drop-mechs.  
+- Gravity Recyclers: Waste is vaporized and reconverted into industrial-grade oxygen.  
+- Drillheart Core: The beating mechanical center. Temperature fluctuates wildly, but it's said to “sing” when fully active.  
+- The Spanner Crypt: A decommissioned part of HQ where old mech-pilots and foremen entomb themselves in rust-sarcophagi.
+
+[4] ATMOSPHERE & AESTHETICS:  
+The air stinks of ozone, oil, and rage.  
+Everything is bulk steel, exposed pipework, and industrial orange lights flickering against ash-mist.  
+Announcements are barked over clunky intercoms.  
+Employees wear reinforced exosuits—even the pencil-pushers.  
+Every surface has been scorched, rewelded, or bloodied at least once.
+
+[5] SECRET & FORBIDDEN AREAS:  
+> **The Ember Shaft** – a seemingly bottomless drillhole rumored to pierce an Ascent vault. Anything sent down comes back... melted, or upgraded.  
+> **Zone Black-Slag** – hosts failed weapon projects like living drills and self-mining bombs. Now quarantined by rustbeasts and smelt-ghouls.  
+> **The Core Bargain Chamber** – a room locked behind fourteen pressure seals. Only executives may enter. No one knows what’s inside, but it's always warm near the door.
+
+> TRANSMISSION COMPLETE.  
+> ECLYNE INDUSTRIAL: “IF IT BREAKS, MELT IT. IF IT SCREAMS, CHAIN IT. IF IT STOPS MOVING, IT’S READY.”
+
+> PROCEED TO NEXT CORPORATE NODE? [Y/N]
+
+  `;
+  startCorpEntry(corpData);
+</script>
+</body>
+</html>

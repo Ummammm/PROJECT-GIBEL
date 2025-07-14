@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZHO-TORR PRIME</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: ZHO-TORR PRIME  
+> DESIGNATION: CLASS-B INDUSTRIAL WORLD // FORMER HOUSE SCHMIED FORGING REALM
+
+------------------------------------------------------------  
+[1] TERRAIN:  
+>> Mountainous and jagged, riddled with deep mining trenches and artificial plateaus.  
+>> Cracked plains of obsidian-like stone, sculpted by constant tectonic churn.  
+>> Mega-forges embedded directly into canyon walls—visible from orbit due to heat plumes.
+
+[2] WEATHER CONDITIONS:  
+>> Harsh and unstable; sky often choked by ash and metallic particulate.  
+>> Acid rain storms frequent, especially near decommissioned fusion smelters.  
+>> Lightning discharges common due to magnetic anomalies in the upper atmosphere.
+
+[3] FLORA & FAUNA:  
+>> Flora: Sparse and adapted to radiation—blister-shrubs, ironroot, plasma fungi (luminescent spores).  
+>> Fauna: Scorch-wasps, burrowing flamehogs, and thermal drakes—reptilian creatures living near active magma vents.  
+>> Deepforge Leviathans—rumored to exist in planetary core shafts. Rarely surface.
+
+[4] METALS / PRECIOUS ORES:  
+>> Common: Ferrulium, Vulcanite, Scrapite (usable waste alloy).  
+>> Rare: Coreite — hyper-dense alloy used in spaceframe skeletons and Void Gate anchor tech.  
+>> Old tunnels still hide proto-metals created in failed experiments—some unstable, others priceless.
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Black Thunder — magnetic lightning storms without rain; can fry exposed tech.  
+>> Forge Winds — dry, superheated gales that sweep across mining zones.  
+>> Emberfall — ash-and-slag precipitation after mass forge events; smothers surface and causes short-term blinding.
+
+------------------------------------------------------------  
+> STATUS: PARTIALLY OPERATIONAL — OCCUPIED BY FORGE-GUILDS, SCRAPPER CLANS  
+> CURRENT OCCUPANTS: RENEGADE SCHMIED CRAFTERS, TITANIUM TRIBUNAL SURVEYORS, INDEPENDENT MINING HOUSES  
+> ARCHIVE FLAG: HIGH LIKELIHOOD OF OLD ASHCODE TECHNOLOGY [MONITORING ACTIVE]
+
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>

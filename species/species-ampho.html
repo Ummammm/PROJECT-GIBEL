@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROTOCOL: GIBEL — SPECIES: HUMAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/species-entry.css" />
+</head>
+<body>
+  <div id="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="entry-ui" style="display:none;">
+    <div class="container">
+      <div class="top-bar">
+        <span class="title">SPECIES DOSSIER: HOMO SAPIENS</span>
+        <div class="nav-links">
+          <a href="../species.html">[ RETURN TO SPECIES INDEX ]</a>
+        </div>
+      </div>
+      <pre id="entry-content" class="entry-log"></pre>
+    </div>
+  </div>
+
+  <script src="../js/species-entry.js"></script>
+  <script>
+    const humanLog = `
+>> INITIALIZING GENETIC MAP...
+>> RETRIEVING CULTURAL ARCHIVES...
+>> AUTHORIZATION: PUBLIC CLASS APPROVED.
+>> ACCESS GRANTED — HUMAN SPECIES DATA ACTIVATED.
+> ACCESSING SPECIES DOSSIER…
+> ENTRY [001]: HUMAN
+
+───────────────────────────────────────────────
+| DESIGNATION    : HOMO SAPIENS                |
+| COMMON NAMES   : HUMANS, TERRANS, EARTHBORN  |
+| ORIGIN         : EARTH (SOL-3)               |
+───────────────────────────────────────────────
+
+[>] APPEARANCE
+Bipedal, soft-skinned beings with a wide range of pigmentation (pale to deep brown), hair types, and eye colors. Average adult height: 1.6–2.0 meters. Body often modified with implants, tattoos, or tech-augments depending on cultural norms and wealth level.
+
+[>] HABITAT
+Extremely adaptable. Found on terraformed worlds, orbital habitats, dust moons, and space stations. Can survive in both high-gravity megacities and low-atmo backwaters. Capable of modifying ecosystems to suit their biological needs.
+
+[>] BIOLOGY
+Warm-blooded omnivores. High reproductive rate. Average natural lifespan: ~90 years; augmented lifespan: up to 150+. Susceptible to radiation, disease, and extreme environments without protection—but fast to adapt via biotech and cybernetic solutions.
+
+[>] CULTURE & OCCUPATIONS
+Highly diverse. From monarchies to anarcho-collectives. Many humans are freelancers, scavengers, warriors, or settlers. House Albeit serves as the most disciplined, war-bred example—while fringe dwellers may lean toward piracy, smuggling, or invention.
+
+‣ COMMON ROLES: Mercenaries, Diplomats, Traders, Researchers, Shipwrights, Drifters.
+
+[>] RELIGION
+Fragmented belief systems. Legacy religions from Earth still exist, but new creeds have formed post-collapse. Popular examples include:
+  - The Solar Creed (worship of the stars as divine order)
+  - The Path of Singularity (techno-transcendence)
+  - Regional beliefs (ancestor worship, data-spirits, machine pantheons)
+
+> NOTES:
+"Jack-of-all-trades, master of survival. You’ll find a human wherever there’s air, trouble, or profit."  
+— Niemand, Field Log
+
+    `;
+    startSpeciesEntry(humanLog);
+  </script>
+</body>
+</html>

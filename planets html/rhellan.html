@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RHELLAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/planet-entry.css" />
+</head>
+<body>
+  <div class="planet-container">
+    <pre id="planet-text"></pre>
+    <button onclick="window.location.href='../planet.html'">[ RETURN TO MENU ]</button>
+  </div>
+
+  <script src="../js/planet-entry.js"></script>
+  <script>
+    const text = `
+> ACCESSING PLANETARY ARCHIVE...  
+> NODE: RHELLAN  
+> DESIGNATION: CLASS-A CORE-WORLD // FORMER HOUSE GENEZEN MEDICAL CITADEL  
+
+------------------------------------------------------------  
+[1] TERRAIN:  
+>> Lush and fertile, defined by rolling hills, crystalline lakes, and sprawling bio-integrated architecture.  
+>> Underground catacombs span the entire equator, originally used for stasis crypts and viral vaults.  
+>> The "White Forest"—a dense grove of ivory-leafed trees—spreads across the north pole, considered sacred.
+
+[2] WEATHER CONDITIONS:  
+>> Mild and stable; engineered by House Genezen's climate cores.  
+>> Occasional warm mists known to carry trace healing spores.  
+>> Rare bio-tempest events caused by malfunctioning terra-biome stabilizers.
+
+[3] FLORA & FAUNA:  
+>> Flora: Bioluminescent mosses, Emberbloom trees, Sapgrass (used in medical serums).  
+>> Fauna: Seraphores (gliding herbivores), Meduskin (photosynthetic skin-beasts once used in therapy), and Ghost Elk.  
+>> Some fauna rumored to be bio-synthetic hybrids left from Genezen experiments.
+
+[4] METALS / PRECIOUS ORES:  
+>> Common: Silicryte, Bioquartz.  
+>> Rare: Vitae Crystals — used to stabilize organic cybernetic links and Omni spinal threads.  
+>> Vaults deep underground contain blacklisted bio-samples and forbidden gene stock.
+
+[5] COMMON WEATHER PHENOMENA:  
+>> Mending Rain — soft, golden-hued rain with minor regenerative properties (mostly neutralized now).  
+>> Fog of Whispers — localized psychic fog that causes emotional hallucinations; tied to old psychic trauma networks.  
+>> Static Bloom — brief surges of energy blooming across plantlife, typically before magnetic stormfronts.
+
+------------------------------------------------------------  
+> STATUS: LOCKED TO OUTSIDERS — SANCTIONED BY GENEZEN HIGH CLERICATE  
+> CURRENT OCCUPANTS: HEALING CULTS, ROGUE BIOENGINEERS, PILGRIM FACTIONS  
+> ARCHIVE FLAG: GIBEL DEVICE INTERACTION SUSPECTED [OMNI-LOCKED]
+
+
+
+[END OF FILE]
+`;
+    typeText("planet-text", text, 10); // adjust speed here
+  </script>
+</body>
+</html>
