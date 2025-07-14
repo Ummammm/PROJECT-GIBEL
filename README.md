@@ -61,6 +61,13 @@ The archive is his gift — or maybe his apology — to future explorers.
 Live at:  
 **[https://your-username.github.io/PROJECT-GIBEL/](https://github.com/Ummammm/PROJECT-GIBEL)**
 
+💡 License
+Feel free to fork, remix, or build on this. This archive was made to be expanded.
+
+If someone finds this terminal a thousand years from now...
+Tell them we tried to remember.
+— Neimand
+
 To run locally:
 
 ```bash
@@ -68,12 +75,6 @@ git clone https://github.com/your-username/PROJECT-GIBEL.git
 cd protocol-gibel
 open index.html
 
-💡 License
-Feel free to fork, remix, or build on this. This archive was made to be expanded.
-
-If someone finds this terminal a thousand years from now...
-Tell them we tried to remember.
-— Neimand
 
 
 
