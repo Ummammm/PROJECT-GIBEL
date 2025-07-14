@@ -64,9 +64,7 @@ Live at:
 💡 License
 Feel free to fork, remix, or build on this. This archive was made to be expanded.
 
-> If someone finds this terminal a thousand years from now...
-> Tell them we tried to remember.
-> — Neimand
+> "If someone finds this terminal a thousand years from now... Tell them we tried to remember." — Neimand
 
 To run locally:
 
